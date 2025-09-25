@@ -1,0 +1,29 @@
+{
+    "nodeLocation": "QTH",
+    "hidden": false,
+    "sysop": "SysOP",
+    "qth": [
+        {
+            "name": "QTH",
+            "pos": {
+                "lat": "47.20920",
+                "long": "9.59110",
+                "loc": "JNxxxx"
+            },
+            "rx": {
+                "K": {
+                    "name": "???",
+                    "freq": 145.050,
+                    "sqlType": "CTCSS RX/TX 85.4Hz"
+                }
+            },
+            "tx": {
+                "K": {
+                    "name": "",
+                    "freq": 145.650,
+                    "pwr": "?W"
+                }
+            }
+        }
+    ]
+}
