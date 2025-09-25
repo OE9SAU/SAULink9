@@ -13,7 +13,7 @@ It's ideal for amateur radio operators who want to flexibly utilize their repeat
 
 🔹 Echolink integration included
 
-🔹 Universally applicable – also suitable for other SVXLink networks such as FM radio
+🔹 Universally applicable – also suitable for other SVXLink networks such as fm-funknetz
 
 🔹 Open source & community-driven – can be further developed together
 
