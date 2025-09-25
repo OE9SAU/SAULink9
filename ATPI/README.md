@@ -1,4 +1,4 @@
-# Interface for SAULink9 Node's or any other hamradio applications
+# SAULink9 ATPI
 
 This project based on a CM108 soundchip provides an Audio and PTT (Push-to-Talk) interface to connect a transceiver (TRX) with SVXLink.
 Mainly it acts as a bridge between SAULink9 nodes and external radio hardware for any SVXLink network or any other applications.
@@ -31,6 +31,7 @@ v2.0: shorter version without 1:1 transformer
 v1.1: like v1.0 footprint D1 changed to SOD-123
 
 v1.0: with 1:1 transformer -> Audio level to low
+
 
 ### Note
 all versions must be ordered in 1.2mm PCB thickness
