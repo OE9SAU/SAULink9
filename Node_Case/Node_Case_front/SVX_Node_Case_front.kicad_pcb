@@ -1016,7 +1016,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED_0805_2012Metric"
+		(property "Value" "LED_0805_BLUE"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -1043,7 +1043,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BLUE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1564,7 +1564,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "6f5dc822-39c8-4b07-a236-ed698723db10")
@@ -2301,7 +2301,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED_0805_2012Metric"
+		(property "Value" "LED_0805_RED"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -2328,7 +2328,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RED"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2719,7 +2719,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED_0805_2012Metric"
+		(property "Value" "LED_0805_RED"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -2746,7 +2746,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RED"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2939,7 +2939,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED_0805_2012Metric"
+		(property "Value" "LED_0805_GREEN"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -2966,7 +2966,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GREEN"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
