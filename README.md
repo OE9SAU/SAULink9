@@ -1,23 +1,24 @@
-# SAULink9 – das DIY-SVXLink-Interface für Deinen analogen TRX
+# SAULink9 – the DIY SVXLink interface for your analog TRX
 
-SAULink9 ist ein DIY-Projekt, das analoge Funkgeräte ins SVXLink Austria-Netzwerk einbindet. 
-Ideal für Funkamateure, die ihre vorhandenen Geräte, Repeater oder ähnliches flexibel nutzen möchten – ganz ohne teure proprietäre Lösungen.
+SAULink9 is a DIY project that integrates analog radios into the SVXLink Austria network. 
+It's ideal for amateur radio operators who want to flexibly utilize their existing devices, repeaters, or similar devices – without expensive proprietary solutions.
 
 ## Highlights
 
-🔹 Kompatibel mit vielen analogen TRX-Geräten
+🔹 Compatible with many analog TRX devices
 
-🔹 DIY & flexibel – einfach aufzubauen und an eigene Bedürfnisse anzupassen
+🔹 DIY & flexible – easy to set up and adapt to your needs
 
-🔹 Direkte Verbindung zum [SVXLink Austria Reflektor OE9XFP](http://oe9xvi.dyndns.org:46197) (Rechtsklick → „Link in neuem Tab öffnen“)
+🔹 Direct connection to the [SVXLink Austria Reflektor OE9XFP](http://oe9xvi.dyndns.org:46197) (Rechtsklick → „Link in neuem Tab öffnen“)
 
-🔹 Echolink-Integration inklusive
+🔹 Echolink integration included
 
-🔹 Universell einsetzbar – auch für andere SVXLink-Netzwerke wie FM-Funk geeignet
+🔹 Universally applicable – also suitable for other SVXLink networks such as FM radio
 
-🔹 Open Source & Community-getrieben – gemeinsam weiterentwickelbar
+🔹 Open source & community-driven – can be further developed together
+
+#### SAULink9 extends the range and flexibility of your analog radios and makes getting started with the SVXLink project particularly easy.
 
 
-#### SAULink9 erweitert die Reichweite und Flexibilität deiner analogen Funkgeräte und macht den Einstieg in das SVXLink-Projekt besonders einfach.
 
 
