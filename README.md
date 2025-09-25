@@ -1,4 +1,4 @@
-# SAULink9 – the DIY SVXLink interface for your analog TRX
+# SAULink9 - the DIY SVXLink interface for your analog TRX
 
 SAULink9 is a DIY project that integrates analog radios into the SVXLink Austria network. 
 It's ideal for amateur radio operators who want to flexibly utilize their repeaters, or similar devices – without expensive proprietary solutions.
