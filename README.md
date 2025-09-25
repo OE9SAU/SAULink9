@@ -8,6 +8,12 @@ It's ideal for amateur radio operators who want to flexibly utilize their repeat
 
 ## Highlights
 
+🔹 Status LED´s
+
+🔹 Start and Shutdoen button 
+
+🔹 all important connections on the back
+
 🔹 Compatible with mostly any analog TRX devices
 
 🔹 DIY & flexible – easy to set up and adapt to your needs
