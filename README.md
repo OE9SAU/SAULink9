@@ -9,7 +9,7 @@ It's ideal for amateur radio operators who want to flexibly utilize their repeat
 
 🔹 DIY & flexible – easy to set up and adapt to your needs
 
-🔹 Direct connection to the [SVXLink Austria Reflektor OE9XFP](http://oe9xvi.dyndns.org:46197) (Rechtsklick → „Link in neuem Tab öffnen“)
+🔹 Direct connection to the [SVXLink Austria Reflektor OE9XFP](http://oe9xvi.dyndns.org:46197)
 
 🔹 Echolink integration included
 
