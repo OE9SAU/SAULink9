@@ -1,7 +1,6 @@
 # SAULink9 – das DIY-SVXLink-Interface für Deinen analogen TRX
 
 SAULink9 ist ein DIY-Projekt, das analoge Funkgeräte ins SVXLink Austria-Netzwerk einbindet. 
-
 Ideal für Funkamateure, die ihre vorhandenen Geräte, Repeater oder ähnliches flexibel nutzen möchten – ganz ohne teure proprietäre Lösungen.
 
 ## Highlights
