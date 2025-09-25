@@ -14,6 +14,8 @@ It's ideal for amateur radio operators who want to flexibly utilize their repeat
 
 🔹 all important connections on the back
 
+🔹 1-Wire temperature sensor
+
 🔹 Compatible with mostly any analog TRX devices
 
 🔹 DIY & flexible – easy to set up and adapt to your needs
