@@ -5,7 +5,7 @@ It's ideal for amateur radio operators who want to flexibly utilize their repeat
 
 ## Highlights
 
-🔹 Compatible with many analog TRX devices
+🔹 Compatible with mostly any analog TRX devices
 
 🔹 DIY & flexible – easy to set up and adapt to your needs
 
