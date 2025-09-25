@@ -10,7 +10,7 @@ It's ideal for amateur radio operators who want to flexibly utilize their repeat
 
 🔹 Status LED´s
 
-🔹 Start and Shutdoen button 
+🔹 Start and Shutdown button 
 
 🔹 all important connections on the back
 
