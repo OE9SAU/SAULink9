@@ -5,18 +5,19 @@ Ideal für Funkamateure, die ihre vorhandenen Geräte, Repeater oder ähnliches 
 
 ## Highlights
 
-🔹 für viele analogen TRX-Geräte
+🔹 Kompatibel mit vielen analogen TRX-Geräten
 
-🔹 DIY & flexibel – einfach aufzubauen und anzupassen
+🔹 DIY & flexibel – einfach aufzubauen und an eigene Bedürfnisse anzupassen
 
-🔹 verbindet dein Gerät mit dem [SVXLink Austria Reflektor OE9XFP](http://oe9xvi.dyndns.org:46197)
+🔹 Direkte Verbindung zum [SVXLink Austria Reflektor OE9XFP](http://oe9xvi.dyndns.org:46197)
 
-🔹 Integration für Echolink inklusive
+🔹 Echolink-Integration inklusive
 
-🔹 Natürlich auch für alle anderen SVXLink Netzwerke wie FM-Funketz geeignet
+🔹 Universell einsetzbar – auch für andere SVXLink-Netzwerke wie FM-Funk geeignet
 
 🔹 Open Source & Community-getrieben – gemeinsam weiterentwickelbar
 
 
-#### SAULink9 soll die Reichweite und Flexibilität von analogen Funkgeräten erweitern und den Einstieg in das SVXLink-Projekt vereinfachen.
+#### SAULink9 erweitert die Reichweite und Flexibilität deiner analogen Funkgeräte und macht den Einstieg in das SVXLink-Projekt besonders einfach.
+
 
