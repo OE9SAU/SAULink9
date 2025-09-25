@@ -17,5 +17,5 @@ SAULink9 ist ein DIY-Projekt, das analoge Funkgeräte ins SVXLink Austria-Netzwe
 🔹 Open Source & Community-getrieben – gemeinsam weiterentwickelbar
 
 
-## SAULink9 soll die Reichweite und Flexibilität von analogen Funkgeräten in OE erweitern und den Einstieg in das SVXLink-Projekt vereinfachen.
+SAULink9 soll die Reichweite und Flexibilität von analogen Funkgeräten erweitern und den Einstieg in das SVXLink-Projekt vereinfachen.
 
