@@ -11,7 +11,7 @@ Ideal für Funkamateure, die ihre vorhandenen Geräte, Repeater oder ähnliches 
 
 🔹 verbindet dein Gerät mit dem [SVXLink Austria Reflektor OE9XFP](http://oe9xvi.dyndns.org:46197)
 
-🔹 Integration für Echolink möglich
+🔹 Integration für Echolink inklusive
 
 🔹 Natürlich auch für alle anderen SVXLink Netzwerke wie FM-Funketz geeignet
 
