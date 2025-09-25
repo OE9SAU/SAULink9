@@ -1,0 +1,29 @@
+### Missing 3D models - created on 2025-09-22 12:38
+### Printed by checking_3D_models plugin
+Board file: K:/Eigene Dateien/HAM/DIY/SVX/SAULink9_ATPI/ATPI_v2.0/SAULink9_ATPI_v2.0.kicad_pcb
+3D missing models written to:
+K:\Eigene Dateien\HAM\DIY\SVX\SAULink9_ATPI\ATPI_v2.0\SAULink9_ATPI_v2.0_missing3Dmodels.txt
+-------
+('C5', '${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl')
+('R3', '${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl')
+('R6', '${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl')
+('R2', '${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl')
+('C8', '${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl')
+('R7', '${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl')
+('C4', '${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl')
+('C2', '${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl')
+('D2', '${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl')
+('R5', '${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl')
+('C1', '${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl')
+('C9', '${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl')
+('D3', '${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl')
+('R1', '${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl')
+('C7', '${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl')
+('Y1', '${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl')
+('C6', '${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl')
+('C3', '${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl')
+('U2', '${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl')
+('D1', '${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl')
+-------
+NUM of 3D missing models:20
+checked extensions ['.stp', '.step', '.stpZ']

@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Connector_USB_PCB_Edge")(type "KiCad")(uri "${KIPRJMOD}/lib/PCB-Edge-USB-connector-KiCad-library-main/symbols/Connector_USB_PCB_Edge.kicad_sym")(options "")(descr ""))
+  (lib (name "CM108B")(type "KiCad")(uri "${KIPRJMOD}/lib/CM108B/CM108B.kicad_sym")(options "")(descr ""))
+  (lib (name "EL357N-G")(type "KiCad")(uri "${KIPRJMOD}/lib/EL357N-G-Optokoppler/EL357N-G.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-08-26_09-44-41")(type "KiCad")(uri "${KIPRJMOD}/lib/SM_LP_5001E_Übetrager/2025-08-26_09-44-41.kicad_sym")(options "")(descr ""))
+  (lib (name "S6B-PH-SM4-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/S6B-PH-SM4/S6B-PH-SM4-TB_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "480372100")(type "KiCad")(uri "${KIPRJMOD}/lib/Molex_USB_A_480372100/480372100.kicad_sym")(options "")(descr ""))
+)
