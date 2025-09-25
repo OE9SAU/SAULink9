@@ -9,7 +9,7 @@ Ideal für Funkamateure, die ihre vorhandenen Geräte, Repeater oder ähnliches 
 
 🔹 DIY & flexibel – einfach aufzubauen und an eigene Bedürfnisse anzupassen
 
-🔹 Direkte Verbindung zum <a href="http://oe9xvi.dyndns.org:46197" target="_blank">SVXLink Austria Reflektor OE9XFP</a>
+🔹 Direkte Verbindung zum [SVXLink Austria Reflektor OE9XFP](http://oe9xvi.dyndns.org:46197) (Rechtsklick → „Link in neuem Tab öffnen“)
 
 🔹 Echolink-Integration inklusive
 
