@@ -8,7 +8,7 @@ SAULink9 ist ein DIY-Projekt, das analoge Funkgeräte ins SVXLink Austria-Netzwe
 
 🔹 DIY & flexibel – einfach aufzubauen und anzupassen
 
-🔹 Integration mit SVXLink – verbindet dein Gerät mit dem SVXLink Austria Reflektor OE9XFP – oe9xvi.dyndns.org:46197
+🔹 Integration mit SVXLink – verbindet dein Gerät mit dem [SVXLink Austria Reflektor OE9XFP](https://oe9xvi.dyndns.org:46197)
 
 🔹 Integration für Echolink
 
