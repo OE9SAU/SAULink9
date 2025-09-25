@@ -2,7 +2,7 @@
 
 Front panel, back panel and base plate for aluminium housing (see partlist), fit all part´s you need to build up a SAULink9 Node for SVX- and EchoLink use.
 
-![Caseoverfront](SAULink9_over_front.png)
-![Caseoverback](SAULink9_over_back.png)
+![Caseoverfront](/Node_Case/Node_Case_back/SAULink9_back.png)
+![Caseoverback](/Node_Case/Node_Case_front/SAULink9_front.png)
 
 
