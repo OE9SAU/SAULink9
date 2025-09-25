@@ -1,0 +1,85 @@
+
+(rules PCB SVXLink_PiHat_V1
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 6)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clearance 200.0)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "unconnected-(J1-GCLK2{slash}GPIO6-Pad31)" "unconnected-(J1-GPIO19{slash}MISO1-Pad35)" "Net-(J1-MOSI0{slash}GPIO10)" "unconnected-(J1-PWM1{slash}GPIO13-Pad33)" "unconnected-(J1-GPIO26-Pad37)" "unconnected-(J1-GPIO15{slash}RXD-Pad10)" "Net-(J1-GPIO16)"
+    "Net-(J1-GPIO21{slash}SCLK1)" "unconnected-(J1-~{CE0}{slash}GPIO8-Pad24)" +5V "unconnected-(J1-GPIO27-Pad13)" "unconnected-(J1-SDA{slash}GPIO2-Pad3)" "Net-(J1-GPIO18{slash}PWM0)" "unconnected-(J1-ID_SC{slash}GPIO1-Pad28)" +3.3V
+    "unconnected-(J1-ID_SD{slash}GPIO0-Pad27)" "Net-(J1-GPIO22)" "unconnected-(J1-GCLK0{slash}GPIO4-Pad7)" "unconnected-(J1-GPIO24-Pad18)" "Net-(J1-SCL{slash}GPIO3)" "unconnected-(J1-GPIO25-Pad22)" "unconnected-(J1-~{CE1}{slash}GPIO7-Pad26)" "unconnected-(J1-GPIO14{slash}TXD-Pad8)"
+    "Net-(J1-GPIO20{slash}MOSI1)" "unconnected-(J1-SCLK0{slash}GPIO11-Pad23)" GPIO17 "unconnected-(J1-GPIO23-Pad16)" "unconnected-(J1-GCLK1{slash}GPIO5-Pad29)" "unconnected-(J1-MISO0{slash}GPIO9-Pad21)" "Net-(J1-PWM0{slash}GPIO12)" "Net-(J2-Pin_2)"
+    "Net-(J2-Pin_1)" "Net-(J4-Pin_1)" "Net-(D1-A)" "Net-(Q1-G)" "Net-(R3-Pad2)" "Net-(R4-Pad1)" "unconnected-(U1-NC-Pad3)" "unconnected-(U1-Pad6)"
+    "unconnected-(J1-GND-Pad14)" "unconnected-(J1-GND-Pad39)" "unconnected-(J1-GND-Pad9)" "unconnected-(J1-GND-Pad34)" "unconnected-(J1-GND-Pad20)" "unconnected-(J1-GND-Pad30)" "unconnected-(J1-GND-Pad25)" "unconnected-(TP3-Pad1)"
+    "unconnected-(TP4-Pad1)" "unconnected-(TP5-Pad1)" "unconnected-(TP8-Pad1)" "unconnected-(TP9-Pad1)" "unconnected-(TP10-Pad1)" "unconnected-(TP13-Pad1)" "unconnected-(TP14-Pad1)" "unconnected-(TP15-Pad1)"
+    "unconnected-(TP18-Pad1)" "unconnected-(TP19-Pad1)" "unconnected-(TP20-Pad1)" "unconnected-(TP23-Pad1)" "unconnected-(TP24-Pad1)" "unconnected-(TP25-Pad1)" "unconnected-(TP28-Pad1)" "unconnected-(TP29-Pad1)"
+    "unconnected-(TP30-Pad1)" "unconnected-(TP31-Pad1)" "unconnected-(TP32-Pad1)" "unconnected-(TP33-Pad1)" "unconnected-(TP34-Pad1)" "unconnected-(TP35-Pad1)" "unconnected-(TP36-Pad1)" "unconnected-(TP37-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
