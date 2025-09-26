@@ -10,6 +10,8 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 🔹 base is a Rpi3b+
 
+🔹 asy SD-card access
+
 🔹 power supply from 9-24VDC through built-in DC-DC converter
 
 🔹 Status LED´s
