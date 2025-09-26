@@ -10,17 +10,19 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 🔹 Base system: cost-effective Raspberry Pi 3B+
 
-🔹 Easy SD card front access for quick updates and maintenance
-
 🔹 Wide-range power input (9–24 VDC) via integrated DC-DC converter
 
-🔹 Status LEDs for system monitoring
-
-🔹 Front panel controls: start & shutdown button
-
-🔹 All key connections located on the back for neat cabling
-
-🔹 1-Wire temperature sensor to monitor TRX temperature
+🔹 Front panel
+ * Start/Shutdown button
+ * Status LEDs for system monitoring
+ * Easy SD card front access for quick updates and maintenance
+   
+🔹 All key connections located on the back panel for neat cabling
+ * DC-In
+ * TRX connection
+ * 1-Wire temperature sensor to monitor TRX temperature
+ * USB
+ * Network
 
 🔹 PiHat for Rpi3B+
   * front panel connection point
