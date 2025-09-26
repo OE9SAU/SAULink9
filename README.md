@@ -8,37 +8,37 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 ## Highlights
 
-🔹 base is a Rpi3b+
+🔹 Base system: Raspberry Pi 3B+
 
-🔹 asy SD-card access
+🔹 Easy SD card access for quick updates and maintenance
 
-🔹 power supply from 9-24VDC through built-in DC-DC converter
+🔹 Wide-range power input (9–24 VDC) via integrated DC-DC converter
 
-🔹 Status LED´s
+🔹 Status LEDs for system monitoring
 
-🔹 Start and Shutdown button inside front panel
+🔹 Front panel controls: start & shutdown button
 
-🔹 all important connections on the back
+🔹 All key connections located on the back for neat cabling
 
-🔹 1-Wire temperature sensor to read the TRX temperature
+🔹 1-Wire temperature sensor to monitor TRX temperature
 
 🔹 PiHat for Rpi3B+
   * front panel connection point
-  * easy access to 4 GPIOs for relays or other external circuits
-  * FET fan control
-  * 1-Wire port
-  * External voltage detection with optocoupler
-  * DIY space
-
+  * Convenient access to 4 GPIOs (for relays or other circuits)
+  * FET-controlled fan output
+  * Dedicated 1-Wire port
+  * External voltage detection via optocoupler
+  * Extra DIY prototyping space
+    
 🔹 Compatible with mostly any analog TRX devices
 
 🔹 DIY & flexible – easy to set up and adapt to your needs
 
 🔹 Direct connection to the [SVXLink Austria Reflektor OE9XFP](http://oe9xvi.dyndns.org:46197)
 
-🔹 Echolink integration included
+🔹 Built-in EchoLink integration
 
-🔹 Universally applicable – also suitable for other SVXLink networks such as FM-FUNKNETZ
+🔹 Works seamlessly with other SVXLink networks such as FM-FUNKNETZ
 
 🔹 Open source & community-driven – can be further developed together
 
