@@ -20,7 +20,7 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 🔹 1-Wire temperature sensor to read the TRX temperature
 
-🔹 PiHat for Rpi3B+, give space to GPIOs and is the connection point to the SAULink9 front panel
+🔹 PiHat for Rpi3B+
   * front panel connection point
   * easy access to 4 GPIOs for relays or other external circuits
   * FET fan control
