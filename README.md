@@ -8,13 +8,22 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 ## Highlights
 
+🔹 base is a Rpi3b+
+
+🔹 power supply from 9-24VDC through built-in DC-DC converter
+
 🔹 Status LED´s
 
-🔹 Start and Shutdown button 
+🔹 Start and Shutdown button inside front panel
 
 🔹 all important connections on the back
 
 🔹 1-Wire temperature sensor to read the TRX temperature
+
+🔹 PiHat for Rpi3B+, give space to GPIOs and is the connection point to the SAULink9 front panel
+  * configurable GPIOs for relays or other external circuits
+  * FET fan control
+  * External voltage detection with optocoupler
 
 🔹 Compatible with mostly any analog TRX devices
 
