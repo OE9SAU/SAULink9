@@ -8,7 +8,7 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 ## Highlights
 
-🔹 Base system: Raspberry Pi 3B+
+🔹 Base system: cost-effective Raspberry Pi 3B+
 
 🔹 Easy SD card access for quick updates and maintenance
 
