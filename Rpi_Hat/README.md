@@ -6,7 +6,7 @@ PiHat for Rpi3B+, give space to some GPIOs and connection point to the SAULink9 
   * front panel connection point
   * easy access to 4 GPIOs for relays or other external circuits
   * FET fan control
-  * 1-Wire 
+  * 1-Wire port
   * External voltage detection with optocoupler
   * DIY space
 
