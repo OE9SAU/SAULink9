@@ -25,6 +25,6 @@ Der CM108 liest beim Start, wenn vorhanden, die Konfigurationsdaten aus dem EEPR
 
 ## ⚙️ Verwendung (Konsole)
 
-1. Code mit der Arduino IDE auf den Arduino UNO laden.  
-2. Über die serielle Schnittstelle Befehle senden (z. B. via Arduino Serial Monitor oder mit der CM108 EEPROM Utility GUI
+1. Code mit z.b. der Arduino IDE auf den Arduino UNO laden.  
+2. Über die serielle Schnittstelle Befehle senden **(z. B. via Arduino Serial Monitor oder mit der CM108 EEPROM Utility GUI)**
 
