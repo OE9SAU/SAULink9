@@ -5,13 +5,16 @@ Damit lassen sich versch. Konfigurationen (z. B. Vendor-/Product-IDs, Audio-Eins
 
 ## Funktionen
 
-- **EEPROM auslesen** → Sicherung der aktuellen Konfiguration  
-- **EEPROM beschreiben** → Ändern von Parametern oder Wiederherstellen eines Backups  
-- **Dump/Restore von Binärdateien**  
-- Debugging und Analyse des 93C46-Inhalts  
+- **EEPROM Speicher auslesen** 
+- **EEPROM beschreiben**
+- **Hex-Dump**
+
+## Code
+
+Zu verwenden und getestet mit Arduno UNO.
 
 ## GUI-Version
 
-Zusätzlich zum Konsolen-Tool gibt es eine Python GUI
+Zusätzlich zum Konsolen-Tool gibt es eine Python GUI.
 Damit können EEPROM-Daten komfortabler angezeigt, bearbeitet und gespeichert werden – ohne Kommandozeilenbefehle.
 
