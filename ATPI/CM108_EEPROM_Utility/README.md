@@ -10,7 +10,8 @@ Damit lassen sich versch. Konfigurationen (z. B. Vendor-/Product-IDs, Audio-Eins
 - **Dump/Restore von Binärdateien**  
 - Debugging und Analyse des 93C46-Inhalts  
 
----
+## GUI-Version
 
-## Voraussetzungen
+Zusätzlich zum Konsolen-Tool gibt es eine Python GUI
+Damit können EEPROM-Daten komfortabler angezeigt, bearbeitet und gespeichert werden – ohne Kommandozeilenbefehle.
 
