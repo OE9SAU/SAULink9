@@ -20,7 +20,7 @@ Mainly it acts as a bridge between SAULink9 nodes and external radio hardware fo
 
 * Customizing the device name with integrated EEPROM
 
-* works with VARA Soundmodem
+* works with VARA
 
 
 ### Versions
