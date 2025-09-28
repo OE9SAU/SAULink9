@@ -1,6 +1,6 @@
 # SAULink9 ATPI
 
-This project based on a CM108 soundchip provides an Audio and PTT (Push-to-Talk) interface to connect a transceiver (TRX) with SVXLink.
+This project based on a CM108 soundchip provides an Audio and PTT (Push-to-Talk) interface to connect your analog radio.
 Mainly it acts as a bridge between SAULink9 nodes and external radio hardware for any SVXLink network or any other applications.
 
 
@@ -20,7 +20,7 @@ Mainly it acts as a bridge between SAULink9 nodes and external radio hardware fo
 
 * Customizing the device name with integrated EEPROM
 
-* works with VARA Soundmodem
+* works with VARA
 
 
 ### Versions
