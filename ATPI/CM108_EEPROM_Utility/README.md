@@ -1,20 +1,31 @@
 # CM108 EEPROM Utility (93C46)
 
-Dieses Tool dient zum Auslesen, Bearbeiten und Beschreiben des **93C46 EEPROM**, welcher auf dem SAULink9_ATPI verbaut werden kann.
-Damit lassen sich versch. Konfigurationen (z. B. Vendor-/Product-IDs, Audio-Einstellungen) anpassen.
+Dieses Tool dient zum **Auslesen, Bearbeiten und Beschreiben** des **93C46 EEPROM**, das auf dem **SAULink9_ATPI**-Board verbaut ist (oder nachgerüstet werden kann).  
+Damit lassen sich Konfigurationen (z. B. **Vendor-/Product-IDs**, **Audio-Einstellungen** u. v. m.) für den **CM108-Soundchip** ändern.  
+Der CM108 liest beim Start, wenn vorhanden, die Konfigurationsdaten aus dem EEPROM und speichert sie flüchtig intern ab.
 
-## Funktionen
+---
 
-- **EEPROM Speicher auslesen** 
-- **EEPROM beschreiben**
-- **Hex-Dump**
+## ✨ Funktionen
 
-## Code
+- **EEPROM-Produktstring auslesen**  
+- **EEPROM-Produktstring schreiben**  
+- **EEPROM löschen**  
+- **Hex-Dump** (kompletter Inhalt des 93C46)  
 
-Zu verwenden und getestet mit Arduno UNO.
+---
 
-## GUI-Version
+## 💻 Hardware / Code
 
-Zusätzlich zum Konsolen-Tool gibt es eine Python GUI.
-Damit können EEPROM-Daten komfortabler angezeigt, bearbeitet und gespeichert werden – ohne Kommandozeilenbefehle.
+- Getestet mit **Arduino UNO**  
+- Kommunikation direkt mit dem 93C46 EEPROM über SPI/Microwire  
+- Beispielcode im Ordner enthalten  
+
+---
+
+## ⚙️ Verwendung (Konsole)
+
+1. Code mit der Arduino IDE auf den Arduino UNO laden.  
+2. Über die serielle Schnittstelle Befehle senden (z. B. via Arduino Serial Monitor oder `screen`/`minicom`).  
+3. Beispiele:  
 
