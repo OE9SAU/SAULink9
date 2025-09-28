@@ -1,30 +1,31 @@
 # CM108 EEPROM Utility (93C46)
 
-Dieses Tool dient zum **Auslesen, Bearbeiten und Beschreiben** des **93C46 EEPROM**, das auf dem **SAULink9_ATPI**-Board verbaut ist.
-Damit lassen sich Konfigurationen (z. B. **Vendor-/Product-IDs**, **Audio-Einstellungen** u. v. m.) für den **CM108-Soundchip** ändern.  
-Der CM108 liest beim Start, wenn vorhanden, die Konfigurationsdaten aus dem EEPROM und speichert sie flüchtig intern ab.
+This tool is designed to **read, edit, and write** the **93C46 EEPROM** installed on the **SAULink9_ATPI** board.  
+It allows you to configure settings for the **CM108 sound chip**, such as **Vendor/Product IDs**, **audio settings**, and more.  
+When present, the CM108 reads the configuration data from the EEPROM at startup and stores it temporarily in its internal memory.
 
 ---
 
-## ✨ Funktionen
+## ✨ Features
 
-- **EEPROM-Produktstring auslesen**  
-- **EEPROM-Produktstring schreiben**  
-- **EEPROM löschen**  
-- **Hex-Dump** (kompletter Inhalt des 93C46)  
+- **Read EEPROM product string**  
+- **Write EEPROM product string**  
+- **Erase EEPROM**  
+- **Hex Dump** (complete content of the 93C46)  
 
 ---
 
 ## 💻 Hardware / Code
 
-- Getestet mit **Arduino UNO**  
-- Kommunikation direkt mit dem 93C46 EEPROM über SPI/Microwire  
-- Beispielcode im Ordner enthalten  
+- Tested with **Arduino UNO**  
+- Communicates directly with the 93C46 EEPROM via SPI/Microwire  
+- Example code is included in this folder  
 
 ---
 
-## ⚙️ Verwendung (Konsole)
+## ⚙️ Usage (Console)
 
-1. Code mit z.b. der Arduino IDE auf den Arduino UNO laden.  
-2. Über die serielle Schnittstelle Befehle senden **(z. B. via Arduino Serial Monitor oder mit der CM108 EEPROM Utility GUI)**
-
+1. Upload the code to the Arduino UNO using the **Arduino IDE**.  
+2. Send commands via the serial interface, e.g.:  
+   - **Arduino Serial Monitor**  
+   - **CM108 EEPROM Utility GUI** 
