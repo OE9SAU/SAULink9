@@ -1,6 +1,6 @@
 # CM108 EEPROM Utility (93C46)
 
-Dieses Tool dient zum **Auslesen, Bearbeiten und Beschreiben** des **93C46 EEPROM**, das auf dem **SAULink9_ATPI**-Board verbaut ist (oder nachgerüstet werden kann).  
+Dieses Tool dient zum **Auslesen, Bearbeiten und Beschreiben** des **93C46 EEPROM**, das auf dem **SAULink9_ATPI**-Board verbaut ist.
 Damit lassen sich Konfigurationen (z. B. **Vendor-/Product-IDs**, **Audio-Einstellungen** u. v. m.) für den **CM108-Soundchip** ändern.  
 Der CM108 liest beim Start, wenn vorhanden, die Konfigurationsdaten aus dem EEPROM und speichert sie flüchtig intern ab.
 
