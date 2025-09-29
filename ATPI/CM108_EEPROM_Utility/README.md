@@ -1,6 +1,6 @@
 # CM108_EEPROM_Utility
 
-A Python tool for accessing the external configuration EEPROM via the ASIC's custom HID endpoint.
+A Python tool for accessing the external configuration EEPROM via the ASIC's custom HID endpoint. by https://github.com/islandcontroller
 
 ## System requirements
 
