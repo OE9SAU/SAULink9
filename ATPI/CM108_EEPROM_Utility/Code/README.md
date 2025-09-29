@@ -1,6 +1,6 @@
-# CM108_EEPROM_Utility
+# CM108AH Configuration Tool
 
-A Python tool for accessing the external configuration EEPROM via the ASIC's custom HID endpoint.
+A Python tool for accessing the CM108AH external configuration EEPROM via the ASIC's custom HID endpoint.
 
 ## System requirements
 
@@ -44,3 +44,11 @@ To program a configuration from an existing file into the device, use:
 Each mode command now supports fields for custom Vendor-ID, Product-ID and device index:
 
     python .\cm108ah.py read --vid 0d8c --pid 013c --device 1
+
+**Retry programming, if the verification step fails.** After programming, the device needs to be power cycled, in order to apply the new configuration.
+
+The tool offers additional options for erasing and reading the configuration EEPROM. See the help message for details.
+
+## Licensing
+
+This tool is part of the [fiberaudio-108](https://github.com/islandcontroller/fiberaudio-108) project. It is licensed under the parent project's conditions.
