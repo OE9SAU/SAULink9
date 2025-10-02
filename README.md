@@ -31,6 +31,8 @@ It’s designed for amateur radio operators who want to flexibly connect their a
   * Dedicated 1-Wire port
   * External voltage detection via optocoupler
   * Extra DIY prototyping space
+
+🔹 ATPI USB-Soundinterface with CM108
     
 🔹 Compatible with mostly any analog TRX devices
 
