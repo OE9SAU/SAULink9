@@ -27,7 +27,7 @@ Before running this tool, activate the Python virtual environment using:
 
     .\.venv\Scripts\activate
 
-The tool uses a YAML configuration file to create and download an EEPROM image to the device. A blank configuration template is provided in [`config_template.yaml`](config_template.yaml). The proposed configuration for fiberaudio-108 boards is provided in [`fiberaudio-108.yaml`](fiberaudio-108.yaml).
+The tool uses a YAML configuration file to create and download an EEPROM image to the device. A blank configuration template is provided in [`config_template.yaml`](/code/config_template.yaml). The proposed configuration for fiberaudio-108 boards is provided in [`SAULink9@Rpi.yaml`](/code/SAULink9@Rpi.yaml).
 
 To display a help message, use:
 
