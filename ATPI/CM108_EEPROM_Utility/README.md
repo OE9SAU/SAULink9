@@ -43,4 +43,4 @@ To program a configuration from an existing file into the device, use:
 
 Each mode command now supports fields for custom Vendor-ID, Product-ID and device index:
 
-    python .\cm108ah.py read --vid 0d8c --pid 013c --device 1
+    python .\cm108ah.py read --vid 0d8c --pid 0012 --device 0
