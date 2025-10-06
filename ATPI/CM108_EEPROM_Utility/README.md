@@ -39,7 +39,7 @@ To list all available Cmedia devices, use: (**Note: Not all listed devices may s
 
 To program a configuration from an existing file into the device, use:
 
-    python .\cm108ah.py program SAULink9@Rpi.yaml
+    python .\cm108ah.py program XXXX.yaml
 
 Each mode command now supports fields for custom Vendor-ID, Product-ID and device index:
 
