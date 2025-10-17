@@ -6,7 +6,7 @@ A Python tool for accessing the external configuration EEPROM via the ASIC's cus
 ## Usage
 
 Start SAULink_ATPI_EEPROM_Tool_v0.6.py, the script will do the rest.
-To program a configuration use .yaml
+To program a configuration use .......Rpi.yaml
 
 ![GUI](/ATPI/CM108_EEPROM_Utility/Tool.png)
 
