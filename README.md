@@ -12,12 +12,12 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 🔹 Wide-range power input (9–24 VDC) via integrated DC-DC converter
 
-🔹 Front panel
+🔹[Front panel](https://github.com/OE9SAU/SAULink9/tree/main/Node_Case)
  * Start/Shutdown button
  * Status LEDs for system monitoring
  * Easy SD card front access for quick updates and maintenance
    
-🔹 All key connections located on the back panel for neat cabling
+🔹 All key connections located on the [Back panel](https://github.com/OE9SAU/SAULink9/tree/main/Node_Case) for neat cabling
  * DC-In
  * TRX connection
  * 1-Wire temperature sensor to monitor TRX temperature
