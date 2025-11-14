@@ -24,7 +24,7 @@ It’s designed for amateur radio operators who want to flexibly connect their a
  * USB
  * Network
 
-🔹 PiHat for Rpi3B+
+🔹 [PiHat for Rpi3B+](https://github.com/OE9SAU/SAULink9/tree/main/Rpi_Hat)
   * front panel connection point
   * Convenient access to 4 GPIOs (for relays or other circuits)
   * FET-controlled fan output
@@ -32,7 +32,7 @@ It’s designed for amateur radio operators who want to flexibly connect their a
   * External voltage detection via optocoupler
   * Extra DIY prototyping space
 
-🔹 ATPI USB-Soundinterface with CM108
+🔹[ATPI USB-Soundinterface with CM108](https://github.com/OE9SAU/SAULink9/tree/main/ATPI)
     
 🔹 Compatible with mostly any analog TRX devices
 
