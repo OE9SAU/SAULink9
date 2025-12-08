@@ -6,6 +6,7 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 ![Caseoverfront](/Node_Case/SAULink9_over_front.png)
 ![Caseoverback](/Node_Case/SAULink9_over_back.png)
 ![Inside](/Node_Case/SAULink9_inside.png)
+<img src="/Node_Case/SAULink9_inside.png" width="48">
 
 ## Highlights
 
