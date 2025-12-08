@@ -4,5 +4,7 @@ Front panel, back panel and base plate for aluminium housing (see partlist), fit
 
 ![Caseoverfront](/Node_Case/Node_Case_back/SAULink9_back.png)
 ![Caseoverback](/Node_Case/Node_Case_front/SAULink9_front.png)
+![Inside](/Node_Case/Node_Case_front/SAULink9_inside.png)
+
 
 
