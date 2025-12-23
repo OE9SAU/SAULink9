@@ -5975,7 +5975,7 @@
 		(layer "Edge.Cuts")
 		(uuid "099dabb5-40cd-4e9f-b229-993d8908feeb")
 	)
-	(gr_text "SAULink9 CONBOARD\nv1.0 12/2025\n"
+	(gr_text "SAULink9 GM340 CONBOARD\nv1.0 12/2025\n"
 		(at 99.314 65.024 0)
 		(layer "F.SilkS")
 		(uuid "b21cfb84-39f6-43d3-af1e-4c9019f43421")

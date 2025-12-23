@@ -3373,8 +3373,8 @@
 		(uuid "3458ef3c-a3c7-4c29-b7bc-c6c0fb08740c")
 	)
 	(gr_rect
-		(start 111.8 88.4)
-		(end 113.8 90.3)
+		(start 111.87 88.4)
+		(end 113.87 90.3)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -3458,8 +3458,8 @@
 		(uuid "a2f708a3-2384-414b-aa11-f95fc239babc")
 	)
 	(gr_rect
-		(start 111.75 93.35)
-		(end 113.75 95.25)
+		(start 111.88 93.35)
+		(end 113.88 95.25)
 		(stroke
 			(width 0.5)
 			(type default)
