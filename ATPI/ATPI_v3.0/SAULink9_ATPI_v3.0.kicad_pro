@@ -505,7 +505,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "SAULink9_ATPI_v3.0.dsn",
-      "step": "",
+      "step": "SAULink9_ATPI_v3.0.step",
       "svg": "",
       "vrml": ""
     },
