@@ -84,8 +84,8 @@
 	)
 	(net 0 "")
 	(gr_circle
-		(center 45.1 168.9)
-		(end 47.1 168.9)
+		(center 45.1 170)
+		(end 47.1 170)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -262,6 +262,43 @@
 		)
 	)
 	(dimension
+		(type aligned)
+		(layer "Margin")
+		(uuid "a7bd119b-6490-4877-87fe-b2ce16865510")
+		(pts
+			(xy 45.1 170) (xy 45 194)
+		)
+		(height 9.988774)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(override_value "24.0")
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "24.0 mm"
+			(at 33.911323 181.953588 89.76126897)
+			(layer "Margin")
+			(uuid "a7bd119b-6490-4877-87fe-b2ce16865510")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
 		(type orthogonal)
 		(layer "Margin")
 		(uuid "044a8a21-1c7d-4665-a433-0ee138e9809a")
@@ -327,43 +364,6 @@
 			(at 109.75 175.9 90)
 			(layer "Margin")
 			(uuid "4d0ede54-e6c6-480d-9f7c-2c34814a3bce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Margin")
-		(uuid "5c459fc6-906a-48b1-ae79-2b146983794f")
-		(pts
-			(xy 45.1 168.9) (xy 45.3 193.9)
-		)
-		(height -10.7)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 1)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "25.0"
-			(at 33.25 181.4 90)
-			(layer "Margin")
-			(uuid "5c459fc6-906a-48b1-ae79-2b146983794f")
 			(effects
 				(font
 					(size 1 1)
