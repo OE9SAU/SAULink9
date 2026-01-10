@@ -1,3 +1,6 @@
+
+![update-system](update-system.png)
+
 # update-system.sh
 
 Führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, dass Apache wieder mit PrivateTmp=false läuft.
