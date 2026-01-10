@@ -1,7 +1,7 @@
 
 ![update](update.png)
 
-# update-system.sh
+# Script für Rpi System-Update
 
 Führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, 
 
