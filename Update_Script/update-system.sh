@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# update-system.sh
+# update-system.sh OE9SAU 01/2026 v1
 #
 # Zweck:
 #   Führt ein normales Systemupdate (apt update + apt upgrade) durch und
