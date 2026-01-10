@@ -11,8 +11,9 @@ dass Apache wieder mit PrivateTmp=false läuft. Was für die Funktion von DTMF u
 
 SAULink9 mit Debian 12 "Bookworm"
 
+OS Version anzeigen
 ```
-cat /etc/os-release
+. /etc/os-release && echo "Debian $VERSION_ID.$(cut -d. -f2 /etc/debian_version) ($VERSION_CODENAME)"
 ````
 
 # Funktionsweise:
