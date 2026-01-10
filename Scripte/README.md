@@ -1,5 +1,5 @@
 
-![update-system](update-system.png)
+![update](update.png)
 
 # update-system.sh
 
