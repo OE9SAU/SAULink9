@@ -11,6 +11,13 @@ Führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt ans
 5. Status von PrivateTmp anzeigen
 
 # Verwendung:
+Script von GitHub laden
+````
+sudo curl -fsSL https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Update_Script/update-system.sh \
+  -o /usr/local/sbin/update-system.sh \
+  && sudo chmod 755 /usr/local/sbin/update-system.sh
+````
+Script ausführen
 ````
 sudo update-system.sh
 ````
