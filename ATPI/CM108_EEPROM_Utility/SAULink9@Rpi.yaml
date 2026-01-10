@@ -22,7 +22,7 @@ usb:
 
 # Serial "number" (string). Setting this field will automatically set the "use_-
 # serial_num" magic flag.
-serial: "251014_005"
+serial: "260108_010"
 
 # Manufacturer name. Setting this field will automatically set the "use_manuf_-
 # name" magic flag.
