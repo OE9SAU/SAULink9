@@ -27,7 +27,7 @@ OS und Release Version anzeigen
 # Verwendung:
 Script von GitHub laden
 ````
-sudo curl -fsSL https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Scripte/update-system.sh \
+sudo curl -fsSL https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Scripts&More/update-system.sh \
   -o /usr/local/sbin/update-system.sh \
   && sudo chmod 755 /usr/local/sbin/update-system.sh
 ````
