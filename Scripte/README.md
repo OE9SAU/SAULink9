@@ -5,6 +5,8 @@
 
 Führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, dass Apache wieder mit PrivateTmp=false läuft.
 
+Was für die Funktion von DTMF und Co benötigt wird!
+
 # Funktionsweise:
 1. Systemupdate ausführen
 2. systemd-Override für apache2 prüfen/erstellen:
