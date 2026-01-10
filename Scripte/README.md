@@ -3,9 +3,9 @@
 
 # update-system.sh
 
-Führt ein normales Systemupdate (apt update + apt upgrade) durch 
+Führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, 
 
-und stellt anschließend sicher, dass Apache wieder mit PrivateTmp=false läuft.
+dass Apache wieder mit PrivateTmp=false läuft.
 
 Was für die Funktion von DTMF und Co benötigt wird!
 
