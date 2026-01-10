@@ -20,7 +20,7 @@ Was für die Funktion von DTMF und Co benötigt wird!
 # Verwendung:
 Script von GitHub laden
 ````
-sudo curl -fsSL https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Update_Script/update-system.sh \
+sudo curl -fsSL https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Scripte/update-system.sh \
   -o /usr/local/sbin/update-system.sh \
   && sudo chmod 755 /usr/local/sbin/update-system.sh
 ````
