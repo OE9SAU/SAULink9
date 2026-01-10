@@ -3,12 +3,17 @@
 
 # update-system.sh
 
-Voraussetzung: Debian 12 "Bookworm"
 Führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, 
 
-dass Apache wieder mit PrivateTmp=false läuft.
+dass Apache wieder mit PrivateTmp=false läuft. Was für die Funktion von DTMF und Co benötigt wird!
 
-Was für die Funktion von DTMF und Co benötigt wird!
+## Voraussetzung: 
+
+SAULink9 mit Debian 12 "Bookworm"
+
+```
+cat /etc/os-release
+````
 
 # Funktionsweise:
 1. Systemupdate ausführen
