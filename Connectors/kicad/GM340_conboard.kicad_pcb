@@ -342,7 +342,7 @@
 		(property "Reference" "12"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "cc741828-eaf4-49c9-bced-86870eff04de")
+			(uuid "812cf14f-4858-4e70-bc19-c2b04f937dff")
 			(effects
 				(font
 					(size 1 1)
@@ -353,7 +353,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "67afdaf2-da16-431f-b653-5fce241c1cbc")
+			(uuid "19c7cde1-b51c-4eff-8208-62dba8594ca6")
 			(effects
 				(font
 					(size 1 1)
@@ -366,7 +366,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be19dbab-66e4-4e16-9960-03ac918902ae")
+			(uuid "571bd34c-6a52-4aa3-b579-5db6a70a4844")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -379,7 +379,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15e52444-67fb-4c6b-bfad-63ac94a98f42")
+			(uuid "dd8acc13-b6c0-4f99-982c-7d5c074e6f12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +486,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 19 "Net-(J1-Pin_7)")
@@ -503,9 +503,9 @@
 		(descr "THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm")
 		(tags "test point THT pad rectangle square")
 		(property "Reference" "19"
-			(at 0 -1.648 90)
+			(at 0 -1.648 270)
 			(layer "F.SilkS")
-			(uuid "68bdb121-57d6-479c-8d0f-58debd4a771f")
+			(uuid "b44daec2-68c5-4ac8-b877-071461177b23")
 			(effects
 				(font
 					(size 1 1)
@@ -516,7 +516,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "425fcd1d-e698-4868-beac-45b1ec8e4dd2")
+			(uuid "9c7706d1-2115-42a0-96d9-3d0bd062745c")
 			(effects
 				(font
 					(size 1 1)
@@ -529,7 +529,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "297017c6-7acf-46b8-add7-4f744a387a38")
+			(uuid "b7ec9a07-12ed-4bb9-9192-da18e4719cb3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +542,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "834b59e0-da3b-4e25-8c49-9e80717e38f5")
+			(uuid "6c375283-e5dc-44a8-b39f-967ce3d84120")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +649,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 7 "Net-(J1-Pin_20)")
@@ -668,7 +668,7 @@
 		(property "Reference" "18"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "c9aa30c5-ce6f-4145-946c-84c791b03310")
+			(uuid "0c0dbd26-110c-418a-bb8e-0618e1ecf6bd")
 			(effects
 				(font
 					(size 1 1)
@@ -679,7 +679,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "8dbc4ba0-d6a8-4cdd-b493-95910cce42e2")
+			(uuid "f010fac4-2d26-495e-b92d-d3004ae7a826")
 			(effects
 				(font
 					(size 1 1)
@@ -692,7 +692,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea4dcda6-fdbf-48d4-bffc-492e3714ba92")
+			(uuid "25021377-8fbe-4b23-a5f7-80d9fd8c7d07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +705,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57544504-b1a5-4d11-90f7-b8dde815d331")
+			(uuid "89e95c8a-595f-4a3b-bfd2-ff27535a4ffb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,7 +812,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "Net-(J1-Pin_1)")
@@ -831,7 +831,7 @@
 		(property "Reference" "15"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "96c2cb9a-6a8a-41d2-92fd-d4843b174d4c")
+			(uuid "77426b78-f036-443b-ab3f-95f746db2f9c")
 			(effects
 				(font
 					(size 1 1)
@@ -842,7 +842,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "9f8b3de8-423d-4d6f-ad1c-41aeb61ec23b")
+			(uuid "2291bbf1-a37e-4ac4-93a3-2595219b9ed0")
 			(effects
 				(font
 					(size 1 1)
@@ -855,7 +855,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "475dd6e9-3292-40a1-ae5a-214fb5644887")
+			(uuid "d4638c19-9ef4-402e-8dee-9924270b3468")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +868,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b1004a5-4553-472b-8321-c2120fc8dc17")
+			(uuid "02ed4356-1426-47b4-9595-4210140939c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +975,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 8 "Net-(J1-Pin_4)")
@@ -994,7 +994,7 @@
 		(property "Reference" "5"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "a3f5ef28-b067-4146-95cf-97b2e20f8a08")
+			(uuid "556384c5-0b79-4508-bf7d-1f9cdc399cd0")
 			(effects
 				(font
 					(size 1 1)
@@ -1005,7 +1005,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "aa761ed2-f31e-4a40-bf8e-152e8ffb5446")
+			(uuid "30b66472-b658-4b14-82df-c51173251e36")
 			(effects
 				(font
 					(size 1 1)
@@ -1018,7 +1018,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abe051ca-cfb3-4186-9d21-32d847700297")
+			(uuid "5af26b17-14da-48bb-8da4-82282f4d9d22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1031,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "deb8882b-a195-4916-b074-fab087d17e3e")
+			(uuid "de60ca7e-8748-45ba-8b20-b787f140d92b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,7 +1138,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "Net-(J1-Pin_14)")
@@ -1157,7 +1157,7 @@
 		(property "Reference" "16"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "3cf55c32-9ed2-4c8d-888b-d0c64157fa73")
+			(uuid "b73c5aca-7211-4e56-bbab-131eca8ba262")
 			(effects
 				(font
 					(size 1 1)
@@ -1168,7 +1168,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "e56a5430-466e-4eda-884f-5aae60461a70")
+			(uuid "79353e19-73f0-4c23-ac73-fd7ba04e925e")
 			(effects
 				(font
 					(size 1 1)
@@ -1181,7 +1181,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1692c3bd-d31b-4c06-850d-e40c660ab56c")
+			(uuid "135f096e-cf94-4e7e-a9cd-6bc89eb61b4f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1194,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58c96d0e-6b5f-46ae-9762-a7a7e99c03dd")
+			(uuid "d56a2bb1-0388-413d-8fa3-abc1b01d22ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1301,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "Net-(J1-Pin_3)")
@@ -1320,7 +1320,7 @@
 		(property "Reference" "10"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "13b836e5-181c-4c03-9e62-5da2b9e84c0f")
+			(uuid "a9a2a2ba-4058-47ea-8c55-c80005e5fb02")
 			(effects
 				(font
 					(size 1 1)
@@ -1331,7 +1331,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "58ea3c55-7e5b-434c-b9d0-4efaac417fb4")
+			(uuid "76905c9c-b3dd-4ee9-bb04-3e761386fa13")
 			(effects
 				(font
 					(size 1 1)
@@ -1344,7 +1344,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7482088e-d4f0-4e36-bbd9-84d9e8051d9b")
+			(uuid "4eba6b53-2960-4ee3-8f2f-55fc4ad851ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1357,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b598cda-7763-4525-a0ff-4856ef888195")
+			(uuid "bcd5565d-4545-4454-bf79-b6bc1f59ae87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1464,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "Net-(J1-Pin_9)")
@@ -1483,7 +1483,7 @@
 		(property "Reference" "6"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "3c3dbb1d-3ea4-43af-9643-483c79c3e988")
+			(uuid "aea6b8c8-d4cd-477c-a0cc-4ea8d3a0cb4e")
 			(effects
 				(font
 					(size 1 1)
@@ -1494,7 +1494,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "ade9d199-02e0-4c4b-8d8a-011d091ea679")
+			(uuid "0bb71d21-78a4-494c-94f4-6bdcc1c51c44")
 			(effects
 				(font
 					(size 1 1)
@@ -1507,7 +1507,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "095ae85d-38c7-4211-91d0-67b21f9dd211")
+			(uuid "41289451-64ef-4b8a-b12b-f9f79add717a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1520,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9b755be-f688-4bdd-b555-5f46e6b9d1ff")
+			(uuid "b20ae4f2-4ee3-45a2-b87d-49a5d069c7d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1627,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 17 "Net-(J1-Pin_13)")
@@ -2006,7 +2006,7 @@
 		(property "Reference" "17"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "08b1a3d8-46fe-4173-ba9d-4b5d7455c2ed")
+			(uuid "a7315370-6fdc-4347-819a-010902d54346")
 			(effects
 				(font
 					(size 1 1)
@@ -2017,7 +2017,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "d1129244-484a-45e1-83cd-bc574255bf6a")
+			(uuid "109eb2dc-b6d8-4c43-af5d-0ae887d79f07")
 			(effects
 				(font
 					(size 1 1)
@@ -2030,7 +2030,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce52c80a-3bb9-436c-aa37-a1d062e846ca")
+			(uuid "57fb3535-4062-47d1-84e5-c2f4209c1413")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2043,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d48a9b6-a577-4709-bdd3-b29abef8a46e")
+			(uuid "92312485-dca0-4c74-97f5-842141f76d1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,13 +2150,168 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 14 "Net-(J1-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "b5009a99-3afa-4bc7-b5cd-af6c903249fc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(layer "F.Cu")
+		(uuid "76968c02-3fcc-4aed-9977-68c4846343dd")
+		(at 110.25 82)
+		(descr "SMD rectangular pad as test Point, square 3.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**"
+			(at 0 -2.398 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dde12fe0-f84e-49d9-866e-40acd6e1856e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Pad_3.0x3.0mm"
+			(at 0 2.55 0)
+			(layer "F.Fab")
+			(uuid "4f9c5ded-7fb3-489c-b0a7-c9246587a99c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c7137df-2abc-4e2c-acb1-00eea8ae3cb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02e98937-cfc3-4437-925c-f064e0d58d7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -1.7 -1.7)
+			(end 1.7 -1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3167b9b2-e85a-42d8-a2b5-e8645336e584")
+		)
+		(fp_line
+			(start -1.7 1.7)
+			(end -1.7 -1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "42945b9e-c141-4ca6-b0d7-f08dcd1da629")
+		)
+		(fp_line
+			(start 1.7 -1.7)
+			(end 1.7 1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f642b3d9-1845-4b3b-ab48-cdb2484e502b")
+		)
+		(fp_line
+			(start 1.7 1.7)
+			(end -1.7 1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1411b33b-da5b-4659-a630-228cf962da20")
+		)
+		(fp_line
+			(start -2 -2)
+			(end -2 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "55b8f11c-1244-4ee9-aee3-c8de81f64f31")
+		)
+		(fp_line
+			(start -2 -2)
+			(end 2 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "02f09cf3-4c17-47bd-b351-b47229d29454")
+		)
+		(fp_line
+			(start 2 2)
+			(end -2 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1309b90b-024b-4704-b2d3-f929d1ea4a0d")
+		)
+		(fp_line
+			(start 2 2)
+			(end 2 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c532c18b-547a-4347-ae83-c0f9613d9afd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.4 0)
+			(layer "F.Fab")
+			(uuid "b3a34bba-c15c-4cb7-b114-f358543f5ade")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask")
+			(uuid "c3917d3f-5d8d-48a0-bfde-4b962927b040")
 		)
 		(embedded_fonts no)
 	)
@@ -2169,7 +2324,7 @@
 		(property "Reference" "11"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "ed4a7f82-33ed-42b7-a1e8-065ec3e803be")
+			(uuid "fa1d7066-8032-4f61-a274-2a518b5ab97e")
 			(effects
 				(font
 					(size 1 1)
@@ -2180,7 +2335,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "4d253cd7-f1b7-4e5a-acff-6d9b9ae66974")
+			(uuid "75eda260-7c2f-438b-b056-f7379615116d")
 			(effects
 				(font
 					(size 1 1)
@@ -2193,7 +2348,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e840c21-48da-4bc5-8685-305a0476824a")
+			(uuid "dc0935b5-067a-4104-a387-0f9712a1ee24")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2361,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0622d696-5b5a-49ec-907b-c68284df3d15")
+			(uuid "e2febc0d-7ba4-45af-809b-8894b75f4219")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2468,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 4 "Net-(J1-Pin_8)")
@@ -2332,7 +2487,7 @@
 		(property "Reference" "4"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "a0b8f7c9-ae56-4473-8772-6cbe615e4ef0")
+			(uuid "9ffadd26-4744-43a4-b7bc-52a83bbbce15")
 			(effects
 				(font
 					(size 1 1)
@@ -2343,7 +2498,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "7793672c-d150-4eb8-8f9b-32d60e4a121f")
+			(uuid "8ec6d177-0a9d-499a-a5cf-88d38f96c7b9")
 			(effects
 				(font
 					(size 1 1)
@@ -2356,7 +2511,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "904cffdb-d629-4c19-b00e-876913a0e772")
+			(uuid "39082e48-104b-40d3-8b8e-f31318f0c4ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +2524,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35529ce3-7fda-4c00-bcb2-a001bd113121")
+			(uuid "79a1d340-9e03-4ea9-892a-64fee8558a91")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2631,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 15 "Net-(J1-Pin_15)")
@@ -2495,7 +2650,7 @@
 		(property "Reference" "2"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "8c7ad660-7f8b-4c98-b03c-0ddff84f2adf")
+			(uuid "7d248643-bb34-4998-a8aa-4e9410250e27")
 			(effects
 				(font
 					(size 1 1)
@@ -2506,7 +2661,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "ceac4927-be7c-4474-b900-7816c73be118")
+			(uuid "921e064d-0e3a-4aa0-a186-07ab613bf382")
 			(effects
 				(font
 					(size 1 1)
@@ -2519,7 +2674,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "180dd48a-13b0-4dbb-b5b9-026c05743826")
+			(uuid "9b58a9be-6478-4d7c-a53c-cc10c98f596c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2687,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a230be96-86e6-49dc-9cb6-872e7206986f")
+			(uuid "4575b113-d5a9-4238-875d-cd64c2f929c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2794,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Net-(J1-Pin_17)")
@@ -2658,7 +2813,7 @@
 		(property "Reference" "3"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "8aa8b40d-1f17-48ec-af15-c1d0a0828d6e")
+			(uuid "8b6bd737-923d-43cc-ba1c-afb7089fda21")
 			(effects
 				(font
 					(size 1 1)
@@ -2669,7 +2824,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "edb19346-ee18-419a-a908-8b63b75b8770")
+			(uuid "b267b1ae-1305-439c-af32-8d9662624fd7")
 			(effects
 				(font
 					(size 1 1)
@@ -2682,7 +2837,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b24a50f-e4e2-4ae3-8f15-f624128a33ad")
+			(uuid "5d3cd636-1511-472d-978b-50ec1865a39e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2850,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbb67a95-d3e5-480b-8972-9a411911408e")
+			(uuid "a24831cf-a4fe-49a3-a27d-8f5ad663bb88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2957,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 12 "Net-(J1-Pin_16)")
@@ -2919,7 +3074,7 @@
 		(property "Reference" "7"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "37f083ef-a77b-47b9-b6d7-c50bc7193696")
+			(uuid "c7693f97-9e78-40bc-a7be-8e4e3f0081b3")
 			(effects
 				(font
 					(size 1 1)
@@ -2930,7 +3085,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "e0c15592-02d1-4308-87db-957428af0964")
+			(uuid "ab869d23-46f9-424a-82ae-c17560bce85e")
 			(effects
 				(font
 					(size 1 1)
@@ -2943,7 +3098,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15545503-7dbf-49de-902a-d1a3e29785ea")
+			(uuid "1d8c63e4-86da-4405-b476-fbba179cd51b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3111,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "964cf79b-b2ac-403a-9513-891764ee6e49")
+			(uuid "a9a556dd-ef32-46de-b504-4cb49f294118")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +3218,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 10 "Net-(J1-Pin_12)")
@@ -3180,7 +3335,7 @@
 		(property "Reference" "13"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "2f9c3b3d-6b22-456a-bc37-0a293d94cf64")
+			(uuid "4f613dd5-5d17-4384-9f9c-1c82f9132774")
 			(effects
 				(font
 					(size 1 1)
@@ -3191,7 +3346,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "b6d31819-4dc0-4816-87af-6d069e370a53")
+			(uuid "56d7c999-7992-41f0-b773-1aaf2f3c4c90")
 			(effects
 				(font
 					(size 1 1)
@@ -3204,7 +3359,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dc3536e-226c-403e-a059-a6c24702fba1")
+			(uuid "d44c77de-6215-4abc-aaa4-a568fc597d1f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3372,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "509666d8-3220-426b-b85c-4cbbbae04c68")
+			(uuid "db97cc07-1ade-4de3-914c-07d3a2f574fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3479,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "Net-(J1-Pin_6)")
@@ -4794,7 +4949,7 @@
 		(property "Reference" "8"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "8c513df4-cc8b-447a-b3dd-b61a52b5295a")
+			(uuid "2d8a7868-01a8-4379-a400-6fdc3682e89f")
 			(effects
 				(font
 					(size 1 1)
@@ -4805,7 +4960,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "424f2ad9-f969-4462-a21a-0e788fe1f0f6")
+			(uuid "9cc12e81-ced2-4345-b180-7e1f5fd78eaa")
 			(effects
 				(font
 					(size 1 1)
@@ -4818,7 +4973,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "edaa9322-504a-48c9-9b9e-7b9ce314907f")
+			(uuid "3a0e00d3-609b-459a-83b4-00e8543c6f99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4986,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf3e4e8a-c80b-455e-b410-cc6c67f3201a")
+			(uuid "d53d956c-984c-4a15-b3b5-47d20f102d1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,13 +5093,168 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "Net-(J1-Pin_11)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "22a3cee5-3c36-417c-bfaf-05af583c238c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(layer "F.Cu")
+		(uuid "cd88efe6-ef9a-4c40-8bd9-caa825a31f90")
+		(at 110.25 66)
+		(descr "SMD rectangular pad as test Point, square 3.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "REF**"
+			(at 0 -2.398 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "37efe8e9-12cc-4fa8-ad83-2ce9a4823a8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Pad_3.0x3.0mm"
+			(at 0 2.55 0)
+			(layer "F.Fab")
+			(uuid "ff50e3d4-de10-4c88-a750-8e4c23d4a5d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28d4ab5f-5e9b-4e49-913a-2ef9beaf12f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd93e1c8-bc95-465f-bedd-f33f0b0c76dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -1.7 -1.7)
+			(end 1.7 -1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "651daddf-d599-4a37-9554-94e3dbbc58a2")
+		)
+		(fp_line
+			(start -1.7 1.7)
+			(end -1.7 -1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4f0e1d1b-d087-4c38-8f19-cc4f06019a3c")
+		)
+		(fp_line
+			(start 1.7 -1.7)
+			(end 1.7 1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "71473c10-f891-4302-b4d7-07b67a9a5e6e")
+		)
+		(fp_line
+			(start 1.7 1.7)
+			(end -1.7 1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ef946bf-6dd2-4f94-9394-ac2d33fc01d9")
+		)
+		(fp_line
+			(start -2 -2)
+			(end -2 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5a520730-a42b-4a2b-a131-807e17319899")
+		)
+		(fp_line
+			(start -2 -2)
+			(end 2 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a97bd3d3-3500-41cb-8be1-d3d0d8d8e377")
+		)
+		(fp_line
+			(start 2 2)
+			(end -2 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d0d822b0-f773-4c2d-826b-0bae0c218496")
+		)
+		(fp_line
+			(start 2 2)
+			(end 2 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "45b8079a-5d12-4e04-a28d-e53980b2d601")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.4 0)
+			(layer "F.Fab")
+			(uuid "2b6a3165-6177-46dd-91b8-e8d84ac36c0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 3 3)
+			(layers "F.Cu" "F.Mask")
+			(uuid "3925b96f-de61-4d4c-bcbf-7b48d4a3e21d")
 		)
 		(embedded_fonts no)
 	)
@@ -4957,7 +5267,7 @@
 		(property "Reference" "14"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "a0299754-48d6-4faf-b920-51c762dcd334")
+			(uuid "1aa7aad8-c7be-449e-bd4f-a74f4e4b20f0")
 			(effects
 				(font
 					(size 1 1)
@@ -4968,7 +5278,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "f95b7c24-0dfe-4b47-853b-2e2369a28a0a")
+			(uuid "0308ca84-912e-490b-9097-be1d2265ce16")
 			(effects
 				(font
 					(size 1 1)
@@ -4981,7 +5291,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd03878f-c538-475b-a5ed-fa176d3bdba7")
+			(uuid "f5fc0ee9-93ee-4bc6-a214-33451f57c59b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5304,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e64b9c70-a905-47c6-badf-711bd855cfb4")
+			(uuid "ac3d7cc2-d61c-4ee8-b1bb-ccf42a341d92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +5411,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 11 "Net-(J1-Pin_5)")
@@ -5120,7 +5430,7 @@
 		(property "Reference" "20"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "0a986ef8-055f-4df6-9a50-56602ee95d25")
+			(uuid "9549acea-4b66-4946-b113-24151cd7ffd5")
 			(effects
 				(font
 					(size 1 1)
@@ -5131,7 +5441,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "383053a6-5650-4488-878a-0c5a9e7a8250")
+			(uuid "eb95ed81-2df0-4878-81f6-d26582405775")
 			(effects
 				(font
 					(size 1 1)
@@ -5144,7 +5454,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3346c880-6cf1-445c-ba42-40d5ac4efe24")
+			(uuid "7b1bd725-0439-4189-a757-895a8178eff4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +5467,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87efa37f-d60a-4910-baa1-f506c97509c4")
+			(uuid "7fe4ba8d-f606-4dcd-bd30-f68af6153276")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5574,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 5 "Net-(J1-Pin_19)")
@@ -5283,7 +5593,7 @@
 		(property "Reference" "1"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "280ae6c8-68fe-49d9-bb39-1334ea860fc8")
+			(uuid "1ebf4e57-f0c8-4625-8fb9-48b3bc65bcfb")
 			(effects
 				(font
 					(size 1 1)
@@ -5294,7 +5604,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "e7a64e54-6025-4b45-81c9-f57ec2da86d4")
+			(uuid "f22bb38d-880a-475d-beaa-a36da595cbbc")
 			(effects
 				(font
 					(size 1 1)
@@ -5307,7 +5617,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "535a7016-55bd-4ccf-a4ed-c809664af9b5")
+			(uuid "7fb43ac0-d6e7-4f02-a744-87d47243ec43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5630,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2293bf96-8297-435e-a574-e11f23cbb358")
+			(uuid "3a2aa894-9648-4987-965e-7ec3ff45544a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5737,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 20 "Net-(J1-Pin_18)")
@@ -5446,7 +5756,7 @@
 		(property "Reference" "9"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
-			(uuid "ce0c318d-96b5-4f9c-9829-fa3675e3ffa1")
+			(uuid "5efb62b2-cacb-41a9-bbb5-576f68cb910c")
 			(effects
 				(font
 					(size 1 1)
@@ -5457,7 +5767,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 90)
 			(layer "F.Fab")
-			(uuid "37e168e3-cd79-4cb9-8c67-73e07a347635")
+			(uuid "f2dc8f67-f179-4efd-a336-5e3544ded452")
 			(effects
 				(font
 					(size 1 1)
@@ -5470,7 +5780,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fae75b1b-620e-40cd-9828-658c0aec6b16")
+			(uuid "09fce723-2ec3-42d5-9d7b-867dc67805a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5793,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcf5643b-a5a2-486f-92cf-71c1880c22d5")
+			(uuid "c4595bba-51f2-465b-b6c6-ba48c5045c07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +5900,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.5 1.5)
-			(drill 0.7)
+			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 13 "Net-(J1-Pin_10)")
@@ -5975,7 +6285,7 @@
 		(layer "Edge.Cuts")
 		(uuid "099dabb5-40cd-4e9f-b229-993d8908feeb")
 	)
-	(gr_text "SAULink9 GM340 CONBOARD\nv1.1 12/2025\n"
+	(gr_text "SAULink9 GM340 CONBOARD\nv1.2 01/2026\n"
 		(at 99.314 65.024 0)
 		(layer "F.SilkS")
 		(uuid "b21cfb84-39f6-43d3-af1e-4c9019f43421")
