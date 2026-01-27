@@ -2,9 +2,9 @@
   <img width="500" height="500" src="update.png">
 </p>
 
-# Script für Update der Status LED`s im Frontpanel
+# Script für Update der Status LEDs im Frontpanel
 
-Ein Python-Script für den Raspberry Pi zur Statusanzeige von SVXLink und Reflector-Verbindungen über GPIO-LEDs.
+...dient der Anpassung der Statusanzeige von SVXLink und Reflector-Verbindungen über die beiden GPIO-LEDs im Frontpanel.
 
 ### Statusanzeige – SVXLink (STAT LED 1)
 
@@ -22,7 +22,7 @@ Ein Python-Script für den Raspberry Pi zur Statusanzeige von SVXLink und Reflec
 | UP                | Schnell blinkend     |
 | ERROR             | Dauer-AN             |
 
-
+---
 # Script für Rpi System-Update
 
 Führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, 
