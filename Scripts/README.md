@@ -18,8 +18,8 @@
 | Reflektor-Zustand | LED-Verhalten        |
 |-------------------|----------------------|
 | DOWN              | AUS                  |
-| CONNECTING        | Langsam blinkend     |
 | UP                | Blinkend (0,5 s)     |
+| CONNECTING        | Langsam blinkend     |
 | ERROR             | Dauer-AN             |
 
 ## Installation
