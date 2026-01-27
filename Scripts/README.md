@@ -22,11 +22,11 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und NEU Reflekto
 | CONNECTING        | Langsam blinkend     |
 | ERROR             | Dauer-AN             |
 
-## Installation
+## Installation:
 ```
 sudo systemctl stop svxlink_service_led.service
 ```
-### Script von GitHub laden
+### Script von GitHub laden:
 ```
 sudo cp -a /usr/local/bin/svxlink_service_led.py \
 /usr/local/bin/svxlink_service_led.py.bak 2>/dev/null || true \
@@ -34,7 +34,7 @@ sudo cp -a /usr/local/bin/svxlink_service_led.py \
 -o /usr/local/bin/svxlink_service_led.py \
 && sudo chmod 755 /usr/local/bin/svxlink_service_led.py
 ```
-### Service aktivieren
+### Service aktivieren:
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable svxlink_service_led.service
@@ -43,7 +43,7 @@ sudo systemctl start svxlink_service_led.service
 sudo systemctl status svxlink_service_led.service
 ```
 ---
-# Rpi System-Update
+# Rpi System-Update:
 
 Script führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, 
 
