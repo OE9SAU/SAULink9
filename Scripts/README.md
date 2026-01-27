@@ -26,8 +26,9 @@
 ### Script von GitHub laden
 ```
 sudo curl -fsSL https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Scripts/svxlink_service_led.py \
-  -o /usr/local/sbin/svxlink-gpio-status.py \
-  && sudo chmod 755 /usr/local/sbin/svxlink-gpio-status.py
+-o /usr/local/sbin/svxlink-gpio-status.py \
+&& sudo chmod 755 /usr/local/sbin/svxlink-gpio-status.py
+
 ```
 ### Service aktivieren
 ```
