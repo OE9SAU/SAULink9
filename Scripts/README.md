@@ -25,11 +25,11 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und NEU Reflekto
 ## Installation
 ### Script von GitHub laden
 ```
-sudo cp -a /usr/local/sbin/svxlink_service_led.py \
-/usr/local/sbin/svxlink_service_led.py.bak 2>/dev/null || true \
+sudo cp -a /usr/local/bin/svxlink_service_led.py \
+/usr/local/bin/svxlink_service_led.py.bak 2>/dev/null || true \
 && sudo curl -fsSL https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Scripts/svxlink_service_led.py \
--o /usr/local/sbin/svxlink_service_led.py \
-&& sudo chmod 755 /usr/local/sbin/svxlink_service_led.py
+-o /usr/local/bin/svxlink_service_led.py \
+&& sudo chmod 755 /usr/local/bin/svxlink_service_led.py
 ```
 ### Service aktivieren
 ```
