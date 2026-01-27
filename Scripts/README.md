@@ -8,14 +8,14 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und NEU Reflekto
 
 ### Statusanzeige – SVXLink (STAT LED 1 bestehend)
 
-| SVXLink-Zustand      | LED-Verhalten        |
+|SVXLink               | LED-Verhalten        |
 |----------------------|----------------------|
-| SVXLink läuft nicht  | AUS                  |
-| SVXLink läuft        | Blinkend (0,5 s)     |
+| Dienst läuft nicht   | AUS                  |
+| Dienst läuft         | Blinkend (0,5 s)     |
 
 ### Statusanzeige – Reflektor (STAT LED 2 Neu)
 
-| Reflektor-Zustand | LED-Verhalten        |
+|Reflektor          | LED-Verhalten        |
 |-------------------|----------------------|
 | DOWN              | AUS                  |
 | UP                | Blinkend (0,5 s)     |
