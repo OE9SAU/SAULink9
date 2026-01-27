@@ -2,9 +2,9 @@
   <img width="500" height="500" src="update.png">
 </p>
 
-# Script für Update der Status LEDs im Frontpanel
+# Update der Status LEDs im Frontpanel
 
-...dient der Anpassung der Statusanzeige von SVXLink-Dienst und Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
+Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
 
 ### Statusanzeige – SVXLink (STAT LED 1 bestehend)
 
@@ -41,9 +41,9 @@ sudo systemctl start svxlink-gpio-status.service
 
 
 ---
-# Script für Rpi System-Update
+# Rpi System-Update
 
-Führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, 
+Script führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, 
 
 dass Apache wieder mit PrivateTmp=false läuft. Was für die Funktion von DTMF und Co benötigt wird!
 
