@@ -39,6 +39,7 @@ sudo cp -a /usr/local/bin/svxlink_service_led.py \
 sudo systemctl daemon-reload
 sudo systemctl enable svxlink_service_led.service
 sudo systemctl start svxlink_service_led.service
+
 sudo systemctl status svxlink_service_led.service
 ```
 ---
