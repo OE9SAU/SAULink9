@@ -1,5 +1,6 @@
-
-![update](update.png)
+<p align="center">
+  <img width="500" height="500" src="update.png">
+</p>
 
 # Script für Rpi System-Update
 
