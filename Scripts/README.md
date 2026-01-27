@@ -34,12 +34,7 @@ sudo cp -a /usr/local/bin/svxlink_service_led.py \
 ### Service aktivieren
 ```
 sudo systemctl daemon-reload && \
-sudo systemctl enable --now svxlink-gpio-status.service
-```
-
-
-
-
+sudo systemctl enable --now svxlink_service_led.service
 ---
 # Rpi System-Update
 
