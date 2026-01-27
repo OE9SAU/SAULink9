@@ -4,7 +4,7 @@
 
 # Update der Status LEDs im Frontpanel
 
-Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
+Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und NEU Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
 
 ### Statusanzeige – SVXLink (STAT LED 1 bestehend)
 
