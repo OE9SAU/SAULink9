@@ -25,17 +25,17 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und NEU Reflekto
 ## Installation
 ### Script von GitHub laden
 ```
-sudo cp -a /usr/local/sbin/svxlink-gpio-status.py \
-/usr/local/sbin/svxlink-gpio-status.py.bak 2>/dev/null || true \
+sudo cp -a /usr/local/sbin/svxlink_service_led.py \
+/usr/local/sbin/svxlink_service_led.py.bak 2>/dev/null || true \
 && sudo curl -fsSL https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Scripts/svxlink_service_led.py \
--o /usr/local/sbin/svxlink-gpio-status.py \
-&& sudo chmod 755 /usr/local/sbin/svxlink-gpio-status.py
+-o /usr/local/sbin/svxlink_service_led.py \
+&& sudo chmod 755 /usr/local/sbin/svxlink_service_led.py
 ```
 ### Service aktivieren
 ```
 sudo systemctl daemon-reload &&
-sudo systemctl enable svxlink-gpio-status.service &&
-sudo systemctl start svxlink-gpio-status.service
+sudo systemctl enable svxlink_service_led.py &&
+sudo systemctl start svxlink_service_led.py
 ```
 
 
