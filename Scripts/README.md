@@ -19,7 +19,7 @@
 |-------------------|----------------------|
 | DOWN              | AUS                  |
 | CONNECTING        | Langsam blinkend     |
-| UP                | Schnell blinkend     |
+| UP                | Blinkend (0,5 s)     |
 | ERROR             | Dauer-AN             |
 
 ## Installation
