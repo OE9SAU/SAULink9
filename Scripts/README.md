@@ -33,8 +33,8 @@ sudo cp -a /usr/local/sbin/svxlink-gpio-status.py \
 ```
 ### Service aktivieren
 ```
-sudo systemctl daemon-reload
-sudo systemctl enable svxlink-gpio-status.service
+sudo systemctl daemon-reload &&
+sudo systemctl enable svxlink-gpio-status.service &&
 sudo systemctl start svxlink-gpio-status.service
 ```
 
