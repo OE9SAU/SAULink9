@@ -23,6 +23,9 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und NEU Reflekto
 | ERROR             | Dauer-AN             |
 
 ## Installation
+```
+sudo systemctl stop svxlink_service_led.service
+```
 ### Script von GitHub laden
 ```
 sudo cp -a /usr/local/bin/svxlink_service_led.py \
@@ -33,8 +36,11 @@ sudo cp -a /usr/local/bin/svxlink_service_led.py \
 ```
 ### Service aktivieren
 ```
-sudo systemctl daemon-reload && \
-sudo systemctl enable --now svxlink_service_led.service
+sudo systemctl daemon-reload
+sudo systemctl enable svxlink_service_led.service
+sudo systemctl start svxlink_service_led.service
+sudo systemctl status svxlink_service_led.service
+```
 ---
 # Rpi System-Update
 
