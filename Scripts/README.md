@@ -10,17 +10,16 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und NEU Reflekto
 
 |SVXLink               | LED-Verhalten        |
 |----------------------|----------------------|
-| Dienst läuft nicht   | AUS                  |
+| Dienst läuft nicht   | Dauer-AN             |
 | Dienst läuft         | Blinkend (0,5 s)     |
 
 ### Statusanzeige – Reflektor (STAT LED 2 Neu)
 
 | Reflektor Verbindung | LED-Verhalten        |
 |-------------------|----------------------|
-| DOWN              | AUS                  |
 | UP                | Blinkend (0,5 s)     |
 | CONNECTING        | Langsam blinkend     |
-| ERROR             | Dauer-AN             |
+| DOWN / ERROR      | Dauer-AN             |
 
 ## Installation:
 ```
