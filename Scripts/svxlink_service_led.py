@@ -22,8 +22,8 @@ BLINK_SVX = 0.1
 BLINK_FAST = 0.1
 BLINK_SLOW = 0.5
 
-_last_svx = 0
-_last_ref = 0
+_last_svx = 0.0
+_last_ref = 0.0
 _svx_state = False
 _ref_state = False
 
@@ -61,16 +61,28 @@ def reflector_status():
 
 def update_reflector_led(status):
     global _last_ref, _ref_state
-    now = time.time()
+    now = time.monotonic()
 
+    # ERROR → Dauer-AN
     if status == "ERROR":
+        _ref_state = True
         GPIO.output(GPIO_REFLECTOR, GPIO.HIGH)
         return
 
-    if status == "UP":
-        interval = BLINK_FAST
-    elif status == "CONNECTING":
+    # DOWN → AUS
+    if status == "DOWN":
+        _ref_state = False
+        GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
+        return
+
+    # CONNECTING → langsam blinkend
+    if status == "CONNECTING":
         interval = BLINK_SLOW
+
+    # UP → schnell blinkend
+    elif status == "UP":
+        interval = BLINK_FAST
+
     else:
         GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
         return
@@ -83,7 +95,7 @@ def update_reflector_led(status):
 
 try:
     while True:
-        now = time.time()
+        now = time.monotonic()
 
         if svxlink_running():
             if now - _last_svx >= BLINK_SVX:
@@ -95,8 +107,8 @@ try:
             update_reflector_led(status)
 
         else:
-            GPIO.output(GPIO_SVXLINK, GPIO.LOW)
-            GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
+            GPIO.output(GPIO_SVXLINK, GPIO.HIGH)
+            GPIO.output(GPIO_REFLECTOR, GPIO.HIGH)
 
         time.sleep(0.05)
 
