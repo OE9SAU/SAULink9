@@ -48,7 +48,7 @@ sudo systemctl status svxlink_service_led.service
 
 Script führt ein normales Systemupdate (apt update + apt upgrade) durch und stellt anschließend sicher, 
 
-dass Apache wieder mit PrivateTmp=false läuft. Was für die Funktion von DTMF und Co benötigt wird!
+dass der Apache Webserver wieder mit PrivateTmp=false läuft. Was für die Funktion von DTMF und Co benötigt wird!
 
 ## Voraussetzung: 
 
