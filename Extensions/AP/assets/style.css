@@ -1,0 +1,25 @@
+body{background:#111;color:#eee;font-family:sans-serif;margin:0}
+.topbar{
+  padding:12px;
+  text-align:center;
+  background:#000;
+  border-bottom:2px solid #333;
+}
+h1{margin:0;font-size:1.6em}
+
+.status{margin:1em;padding:1em}
+.status.active{background:#063}
+.status.inactive{background:#600}
+
+label{display:block;margin:0.5em 0}
+table{border-collapse:collapse;width:100%;margin-top:1em}
+th,td{border:1px solid #444;padding:6px;text-align:left}
+th{background:#222}
+
+footer{
+  margin-top:2em;
+  padding:8px;
+  text-align:center;
+  font-size:0.8em;
+  color:#aaa;
+}
