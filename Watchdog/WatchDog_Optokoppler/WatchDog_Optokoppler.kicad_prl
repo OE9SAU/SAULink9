@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "WatchDog-Opo_Trigger.kicad_prl",
+    "filename": "WatchDog_Optokoppler.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
