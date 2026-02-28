@@ -1,3 +1,6 @@
+#v1.0: service_led
+#v2.0: inkl. watchdog funktion GPIO 21 und Service/Reflektor Check nur 1x/Sekunde prüfen
+
 #!/usr/bin/env python3
 import RPi.GPIO as GPIO
 import time
@@ -6,20 +9,24 @@ import os
 
 GPIO.setmode(GPIO.BCM)
 
+GPIO_WATCHDOG = 21
 GPIO_SVXLINK = 26
 GPIO_REFLECTOR = 25
 
+
+GPIO.setup(GPIO_WATCHDOG, GPIO.OUT)
 GPIO.setup(GPIO_SVXLINK, GPIO.OUT)
 GPIO.setup(GPIO_REFLECTOR, GPIO.OUT)
 
+GPIO.output(GPIO_WATCHDOG, GPIO.LOW)
 GPIO.output(GPIO_SVXLINK, GPIO.LOW)
 GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
 
 LOGFILE = "/var/log/svxlink"
-LINES_TO_READ = 50
+LINES_TO_READ = 200
 
-BLINK_SVX = 0.1
-BLINK_FAST = 0.1
+BLINK_SVX = 0.15
+BLINK_FAST = 0.15
 BLINK_SLOW = 0.5
 
 _last_svx = 0.0
@@ -27,45 +34,44 @@ _last_ref = 0.0
 _svx_state = False
 _ref_state = False
 
+CHECK_INTERVAL = 1.0          # Service nur 1x/s prüfen
+_last_check = 0
+service_ok = False
+
+REFLECTOR_CHECK_INTERVAL = 1.0
+_last_reflector_check = 0
+reflector_state = "DOWN"
+
 
 def svxlink_running():
     return subprocess.run(
         ["systemctl", "is-active", "--quiet", "svxlink"]
     ).returncode == 0
 
-_reflector_state = "UNKNOWN"
 
 def reflector_status():
-    global _reflector_state
-
     if not os.path.isfile(LOGFILE):
-        return _reflector_state
+        return "DOWN"
 
     try:
         with open(LOGFILE, "r", errors="ignore") as f:
             lines = f.readlines()[-LINES_TO_READ:]
     except Exception:
-        return _reflector_state
+        return "DOWN"
 
     for line in reversed(lines):
-
         if "Authentication OK" in line:
-            _reflector_state = "UP"
-            break
-
+            return "UP"
         if "Connection established" in line:
-            _reflector_state = "CONNECTING"
-            break
-
+            return "CONNECTING"
         if (
             "Heartbeat timeout" in line
             or "Access denied" in line
             or "Disconnected from" in line
         ):
-            _reflector_state = "ERROR"
-            break
+            return "ERROR"
 
-    return _reflector_state
+    return "DOWN"
 
 
 def update_reflector_led(status):
@@ -74,11 +80,13 @@ def update_reflector_led(status):
 
     # ERROR → Dauer-AN
     if status == "ERROR":
+        _ref_state = True
         GPIO.output(GPIO_REFLECTOR, GPIO.HIGH)
         return
 
-    # UNKNOWN → AUS (Startzustand)
-    if status == "UNKNOWN":
+    # DOWN → AUS
+    if status == "DOWN":
+        _ref_state = False
         GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
         return
 
@@ -91,6 +99,7 @@ def update_reflector_led(status):
         interval = BLINK_FAST
 
     else:
+        GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
         return
 
     if now - _last_ref >= interval:
@@ -103,16 +112,35 @@ try:
     while True:
         now = time.monotonic()
 
-        if svxlink_running():
+        # --- Service Check 1x/s ---
+        if now - _last_check >= CHECK_INTERVAL:
+            new_state = svxlink_running()
+
+            if new_state and not service_ok:
+                _last_svx = 0
+                _svx_state = False
+
+            service_ok = new_state
+            _last_check = now
+
+        # --- Reflector Check 1x/s ---
+        if now - _last_reflector_check >= REFLECTOR_CHECK_INTERVAL:
+            reflector_state = reflector_status()
+            _last_reflector_check = now
+
+        # --- LED + Watchdog 50ms Loop ---
+        if service_ok:
             if now - _last_svx >= BLINK_SVX:
                 _svx_state = not _svx_state
+                GPIO.output(GPIO_WATCHDOG, _svx_state)
                 GPIO.output(GPIO_SVXLINK, _svx_state)
                 _last_svx = now
 
-            status = reflector_status()
-            update_reflector_led(status)
+            update_reflector_led(reflector_state)
 
         else:
+            _svx_state = False
+            GPIO.output(GPIO_WATCHDOG, GPIO.HIGH)
             GPIO.output(GPIO_SVXLINK, GPIO.HIGH)
             GPIO.output(GPIO_REFLECTOR, GPIO.HIGH)
 

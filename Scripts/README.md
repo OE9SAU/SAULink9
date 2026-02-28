@@ -3,6 +3,8 @@
 </p>
 
 # Update der Status LEDs im Frontpanel
+v2.0 GPIO 21 hinzugefügt für Watchdog-Anwendung
+	-Watchdog Schaltung unter 
 
 Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und NEU Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
 
