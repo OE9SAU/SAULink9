@@ -3,9 +3,9 @@
 </p>
 
 # Update der Status LEDs im Frontpanel
-### v2.1 GPIO21 auch als Trigger bei fehlender Reflektorverbindung für Watchdog-Anwendung hinzugefügt
+** v2.1 GPIO21 auch als Trigger bei fehlender Reflektorverbindung für Watchdog-Anwendung hinzugefügt
 
-### v2.0 GPIO21 als Trigger für gestoppten SVXLink Dienst für Watchdog-Anwendung hinzugefügt, sowie Service/Reflektor Check nur 1x/Sekunde prüfen
+** v2.0 GPIO21 als Trigger für gestoppten SVXLink Dienst für Watchdog-Anwendung hinzugefügt, sowie Service/Reflektor Check nur 1x/Sekunde prüfen
 
 Watchdog Schaltung unter SAULink9/Watchdog
 
