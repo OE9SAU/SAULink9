@@ -143,6 +143,7 @@ try:
         update_reflector_led(reflector_state)
 
         # --- Watchdog Logik ---
+        # --- Watchdog Logik ---
         if TEST_MODE:
             # Service wird ignoriert
             if reflector_state in ("UP", "CONNECTING"):
@@ -152,16 +153,16 @@ try:
 
         else:
             # Produktionsbetrieb
-            if service_ok and reflector_state in ("UP", "CONNECTING"):
-                GPIO.output(GPIO_WATCHDOG, _ref_state)
+            if service_ok:
+                if reflector_state in ("UP", "CONNECTING"):
+                    GPIO.output(GPIO_WATCHDOG, _ref_state)
+                else:
+                    GPIO.output(GPIO_WATCHDOG, GPIO.HIGH)
             else:
+                # Service down → alles Fehler
                 GPIO.output(GPIO_WATCHDOG, GPIO.HIGH)
-
-        else:
-            # Service down → alles Fehler
-            GPIO.output(GPIO_WATCHDOG, GPIO.HIGH)
-            GPIO.output(GPIO_SVXLINK, GPIO.HIGH)
-            GPIO.output(GPIO_REFLECTOR, GPIO.HIGH)
+                GPIO.output(GPIO_SVXLINK, GPIO.HIGH)
+                GPIO.output(GPIO_REFLECTOR, GPIO.HIGH)
 
         time.sleep(0.05)
 
