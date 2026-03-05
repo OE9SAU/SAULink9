@@ -1,3 +1,5 @@
+#v1.0: service_led
+
 #!/usr/bin/env python3
 import RPi.GPIO as GPIO
 import time
@@ -16,7 +18,7 @@ GPIO.output(GPIO_SVXLINK, GPIO.LOW)
 GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
 
 LOGFILE = "/var/log/svxlink"
-LINES_TO_READ = 200
+LINES_TO_READ = 50
 
 BLINK_SVX = 0.1
 BLINK_FAST = 0.1
@@ -33,30 +35,39 @@ def svxlink_running():
         ["systemctl", "is-active", "--quiet", "svxlink"]
     ).returncode == 0
 
+_reflector_state = "UNKNOWN"
 
 def reflector_status():
+    global _reflector_state
+
     if not os.path.isfile(LOGFILE):
-        return "DOWN"
+        return _reflector_state
 
     try:
         with open(LOGFILE, "r", errors="ignore") as f:
             lines = f.readlines()[-LINES_TO_READ:]
     except Exception:
-        return "DOWN"
+        return _reflector_state
 
     for line in reversed(lines):
+
         if "Authentication OK" in line:
-            return "UP"
+            _reflector_state = "UP"
+            break
+
         if "Connection established" in line:
-            return "CONNECTING"
+            _reflector_state = "CONNECTING"
+            break
+
         if (
             "Heartbeat timeout" in line
             or "Access denied" in line
             or "Disconnected from" in line
         ):
-            return "ERROR"
+            _reflector_state = "ERROR"
+            break
 
-    return "DOWN"
+    return _reflector_state
 
 
 def update_reflector_led(status):
@@ -65,13 +76,11 @@ def update_reflector_led(status):
 
     # ERROR → Dauer-AN
     if status == "ERROR":
-        _ref_state = True
         GPIO.output(GPIO_REFLECTOR, GPIO.HIGH)
         return
 
-    # DOWN → AUS
-    if status == "DOWN":
-        _ref_state = False
+    # UNKNOWN → AUS (Startzustand)
+    if status == "UNKNOWN":
         GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
         return
 
@@ -84,7 +93,6 @@ def update_reflector_led(status):
         interval = BLINK_FAST
 
     else:
-        GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
         return
 
     if now - _last_ref >= interval:

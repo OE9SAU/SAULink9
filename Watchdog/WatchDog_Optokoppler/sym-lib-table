@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EL357N-G")(type "KiCad")(uri "${KIPRJMOD}/lib/EL357N-G-Optokoppler/EL357N-G.kicad_sym")(options "")(descr ""))
+)

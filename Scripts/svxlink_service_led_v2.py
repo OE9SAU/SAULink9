@@ -1,6 +1,5 @@
 #v1.0: service_led
 #v2.0: inkl. watchdog funktion GPIO 21 und Service/Reflektor Check nur 1x/Sekunde prüfen
-#v2.1: Watchdog aktiv bei fehlender Reflektorverbidung
 
 #!/usr/bin/env python3
 import RPi.GPIO as GPIO
@@ -42,8 +41,6 @@ service_ok = False
 REFLECTOR_CHECK_INTERVAL = 1.0
 _last_reflector_check = 0
 reflector_state = "DOWN"
-
-TEST_MODE = False   # True = SVXLink Service ignorieren (nur mit Reflektor verbindung testen)
 
 
 def svxlink_running():
@@ -132,33 +129,17 @@ try:
             _last_reflector_check = now
 
         # --- LED + Watchdog 50ms Loop ---
+        if service_ok:
+            if now - _last_svx >= BLINK_SVX:
+                _svx_state = not _svx_state
+                GPIO.output(GPIO_WATCHDOG, _svx_state)
+                GPIO.output(GPIO_SVXLINK, _svx_state)
+                _last_svx = now
 
-        # SVXLink LED blinkt immer (nur optisch)
-        if now - _last_svx >= BLINK_SVX:
-            _svx_state = not _svx_state
-            GPIO.output(GPIO_SVXLINK, _svx_state)
-            _last_svx = now
-
-        # Reflektor LED aktualisieren
-        update_reflector_led(reflector_state)
-
-        # --- Watchdog Logik ---
-        if TEST_MODE:
-            # Service wird ignoriert
-            if reflector_state in ("UP", "CONNECTING"):
-                GPIO.output(GPIO_WATCHDOG, _ref_state)
-            else:
-                GPIO.output(GPIO_WATCHDOG, GPIO.HIGH)
+            update_reflector_led(reflector_state)
 
         else:
-            # Produktionsbetrieb
-            if service_ok and reflector_state in ("UP", "CONNECTING"):
-                GPIO.output(GPIO_WATCHDOG, _ref_state)
-            else:
-                GPIO.output(GPIO_WATCHDOG, GPIO.HIGH)
-
-        else:
-            # Service down → alles Fehler
+            _svx_state = False
             GPIO.output(GPIO_WATCHDOG, GPIO.HIGH)
             GPIO.output(GPIO_SVXLINK, GPIO.HIGH)
             GPIO.output(GPIO_REFLECTOR, GPIO.HIGH)

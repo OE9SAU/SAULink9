@@ -3,8 +3,13 @@
 </p>
 
 # Update der Status LEDs im Frontpanel
+### v2.1 GPIO21 auch als Trigger bei fehlender Reflektorverbindung für Watchdog-Anwendung hinzugefügt
 
-Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und NEU Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
+v2.0 GPIO21 als Trigger für gestoppten SVXLink Dienst für Watchdog-Anwendung hinzugefügt, sowie Service/Reflektor Check nur 1x/Sekunde prüfen
+
+Watchdog Schaltung unter SAULink9/Watchdog
+
+Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
 
 ### Statusanzeige – SVXLink (STAT LED 1 bestehend)
 
