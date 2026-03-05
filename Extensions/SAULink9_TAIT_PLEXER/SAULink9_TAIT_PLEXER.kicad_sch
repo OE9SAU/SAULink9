@@ -1467,131 +1467,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1716,10 +1591,10 @@
 		)
 		(uuid "3485ccb1-839c-4f00-a48c-271674de062d")
 	)
-	(text_box "SAULink9\n\nGND\n\nRX_IN\n\nPTT\n\nTX_OUT\n\nPLEX_OFF (HIGH)"
+	(text_box "SAULink9\n\nGND\n\nRX_IN\n\nPTT\n\nTX_OUT\n\nPLEX_OFF (HIGH)\n\nSVXLink RUN"
 		(exclude_from_sim no)
 		(at 245.11 93.98 0)
-		(size 19.05 25.4)
+		(size 19.05 29.21)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1785,6 +1660,12 @@
 		(uuid "2821e1b6-917f-4679-97a8-2e55406e84fd")
 	)
 	(junction
+		(at 208.28 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b345b70-41ad-4e8e-9cee-ae1ad6b09a81")
+	)
+	(junction
 		(at 184.15 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1797,6 +1678,12 @@
 		(uuid "598cc5c2-6133-43d0-a10d-56279fdba203")
 	)
 	(junction
+		(at 208.28 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6abde587-b1a1-471e-8ab4-780170f55cb4")
+	)
+	(junction
 		(at 96.52 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1807,6 +1694,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac2b976-c1a3-4e5e-8f9f-7a744871e101")
+	)
+	(junction
+		(at 74.93 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cd249de-5d33-4656-86b4-e427b7a8cb15")
 	)
 	(junction
 		(at 127 66.04)
@@ -1827,10 +1720,22 @@
 		(uuid "ae02e8c3-2cbf-473b-bc0b-752781fc9495")
 	)
 	(junction
+		(at 208.28 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1b3416b-9fa0-488b-b2cc-80dd0df0dcd0")
+	)
+	(junction
 		(at 101.6 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdf6dfe2-efa5-4996-84b2-0ca51140796d")
+	)
+	(junction
+		(at 74.93 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9770e4c-6b0b-4302-95a0-c34674eec34a")
 	)
 	(junction
 		(at 139.7 73.66)
@@ -1870,6 +1775,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 50.8) (xy 86.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dcdfbc1-b64b-4452-85dd-3a5517a27156")
+	)
+	(wire
+		(pts
 			(xy 64.77 55.88) (xy 86.36 55.88)
 		)
 		(stroke
@@ -1887,6 +1802,16 @@
 			(type default)
 		)
 		(uuid "12585826-70b2-42ce-b327-942861804b58")
+	)
+	(wire
+		(pts
+			(xy 208.28 53.34) (xy 196.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127a4027-5c77-4d7b-90de-78931985d4d0")
 	)
 	(wire
 		(pts
@@ -1960,6 +1885,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 120.65) (xy 74.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20606f0d-12b0-42d1-85b4-0387de5f2070")
+	)
+	(wire
+		(pts
 			(xy 139.7 107.95) (xy 240.03 107.95)
 		)
 		(stroke
@@ -2007,6 +1942,16 @@
 			(type default)
 		)
 		(uuid "27da2ee7-7088-42e4-885c-ca435a379a1a")
+	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 196.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db553c9-fdab-44bd-a8d7-d7952b61c8fa")
 	)
 	(wire
 		(pts
@@ -2090,6 +2035,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 48.26) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfe83df-f15a-463e-83fb-a13aba2559e5")
+	)
+	(wire
+		(pts
 			(xy 80.01 33.02) (xy 80.01 30.48)
 		)
 		(stroke
@@ -2110,6 +2065,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 48.26) (xy 208.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51445f6a-3a95-4e1d-9aed-36ed2b9493c4")
+	)
+	(wire
+		(pts
 			(xy 118.11 58.42) (xy 118.11 111.76)
 		)
 		(stroke
@@ -2117,6 +2082,16 @@
 			(type default)
 		)
 		(uuid "5504ea38-5435-47af-aa99-3a60c89e3fd9")
+	)
+	(wire
+		(pts
+			(xy 101.6 22.86) (xy 101.6 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f929af-9232-42a6-b2a7-86f992d7af31")
 	)
 	(wire
 		(pts
@@ -2200,6 +2175,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 120.65) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727baec4-bb65-4349-91b4-6e039977cd36")
+	)
+	(wire
+		(pts
 			(xy 123.19 66.04) (xy 127 66.04)
 		)
 		(stroke
@@ -2227,16 +2212,6 @@
 			(type default)
 		)
 		(uuid "7694e572-a396-4518-bffc-4ee1246a932d")
-	)
-	(wire
-		(pts
-			(xy 101.6 25.4) (xy 101.6 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa93c0d-2b6a-4e52-810e-7d62ea863a14")
 	)
 	(wire
 		(pts
@@ -2380,6 +2355,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 48.26) (xy 74.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35ed149-d416-4f06-98fc-52e71a53b42e")
+	)
+	(wire
+		(pts
 			(xy 210.82 82.55) (xy 210.82 100.33)
 		)
 		(stroke
@@ -2397,6 +2382,16 @@
 			(type default)
 		)
 		(uuid "abb942cc-1b15-4508-8b54-bee4093331d1")
+	)
+	(wire
+		(pts
+			(xy 74.93 50.8) (xy 74.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdbf6ed-ebc4-4bc2-968a-61fd9ac92814")
 	)
 	(wire
 		(pts
@@ -2490,6 +2485,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 50.8) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5f4e82-644d-4a62-b6ea-29f1eaf3e60f")
+	)
+	(wire
+		(pts
 			(xy 215.9 74.93) (xy 218.44 74.93)
 		)
 		(stroke
@@ -2580,6 +2585,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 120.65) (xy 208.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df24b4d0-82ea-4766-b7ed-e8557abcd03b")
+	)
+	(wire
+		(pts
 			(xy 111.76 58.42) (xy 118.11 58.42)
 		)
 		(stroke
@@ -2600,6 +2615,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 53.34) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13740c0-c4f0-4af9-b24d-0f5d3b9a2a7e")
+	)
+	(wire
+		(pts
 			(xy 118.11 50.8) (xy 129.54 50.8)
 		)
 		(stroke
@@ -2610,6 +2635,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 48.26) (xy 208.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb24ce97-0330-4107-a04d-2387d86ceb0f")
+	)
+	(wire
+		(pts
 			(xy 157.48 66.04) (xy 157.48 82.55)
 		)
 		(stroke
@@ -2617,6 +2652,16 @@
 			(type default)
 		)
 		(uuid "f015ae86-57c5-4c7f-b058-4727a61fefd1")
+	)
+	(wire
+		(pts
+			(xy 74.93 120.65) (xy 74.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37ea454-64e6-42fc-94a8-5ca04b41957e")
 	)
 	(wire
 		(pts
@@ -2688,7 +2733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02e484b8-0aa1-4a3a-a953-1cc162119557")
-		(property "Reference" "RX_GND"
+		(property "Reference" "RX_GND1"
 			(at 61.468 62.23 90)
 			(effects
 				(font
@@ -2706,7 +2751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 64.77 62.23 0)
 			(effects
 				(font
@@ -2739,7 +2784,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "RX_GND")
+					(reference "RX_GND1")
 					(unit 1)
 				)
 			)
@@ -2755,7 +2800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19127513-07f1-450a-871a-4677ec87d5d2")
-		(property "Reference" "RX_OUT"
+		(property "Reference" "RX_OUT1"
 			(at 61.468 50.8 90)
 			(effects
 				(font
@@ -2773,7 +2818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -2806,7 +2851,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "RX_OUT")
+					(reference "RX_OUT1")
 					(unit 1)
 				)
 			)
@@ -2823,7 +2868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a7545c9-de41-449d-b28c-66b4d8d9d9b7")
-		(property "Reference" "TX_PTT"
+		(property "Reference" "TX_PTT1"
 			(at 221.742 66.04 90)
 			(effects
 				(font
@@ -2841,7 +2886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 218.44 66.04 0)
 			(effects
 				(font
@@ -2874,7 +2919,75 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "TX_PTT")
+					(reference "TX_PTT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 22.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21ed322d-cf29-4f30-98db-0ead8a7fc849")
+		(property "Reference" "GND1"
+			(at 99.06 19.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 101.6 19.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 99.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f105822e-318d-4446-9434-4e525bc7a19f")
+		)
+		(instances
+			(project "SAULink9_TAIT_PLEXER"
+				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -2994,6 +3107,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 104.14 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "290abafe-74f6-4f91-a8cb-b519c472f8fc")
+		(property "Reference" "#PWR01"
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a665aa8-a323-4922-9b1e-a86888358361")
+		)
+		(instances
+			(project "SAULink9_TAIT_PLEXER"
+				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 133.35 50.8 90)
 		(unit 1)
@@ -3070,7 +3249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3535debc-8d3b-4a55-a4aa-7ff5a5208f1e")
-		(property "Reference" "RX_PTT"
+		(property "Reference" "RX_PTT1"
 			(at 61.468 66.04 90)
 			(effects
 				(font
@@ -3088,7 +3267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 64.77 66.04 0)
 			(effects
 				(font
@@ -3121,7 +3300,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "RX_PTT")
+					(reference "RX_PTT1")
 					(unit 1)
 				)
 			)
@@ -3209,7 +3388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "406e6bbf-67ce-4997-b971-6a0c35f12979")
-		(property "Reference" "SVX_HI_OFF"
+		(property "Reference" "SVX_HI_OFF1"
 			(at 243.332 111.76 90)
 			(effects
 				(font
@@ -3227,7 +3406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 240.03 111.76 0)
 			(effects
 				(font
@@ -3260,7 +3439,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "SVX_HI_OFF")
+					(reference "SVX_HI_OFF1")
 					(unit 1)
 				)
 			)
@@ -3459,7 +3638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "513b2676-df2d-4964-b3be-c4db10606358")
-		(property "Reference" "TX_GND"
+		(property "Reference" "TX_GND1"
 			(at 221.742 62.23 90)
 			(effects
 				(font
@@ -3477,7 +3656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 218.44 62.23 0)
 			(effects
 				(font
@@ -3510,7 +3689,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "TX_GND")
+					(reference "TX_GND1")
 					(unit 1)
 				)
 			)
@@ -3526,7 +3705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "514a172a-faf2-46a2-8e8d-b96a321b9939")
-		(property "Reference" "RX_BUSY"
+		(property "Reference" "RX_BUSY1"
 			(at 61.468 69.85 90)
 			(effects
 				(font
@@ -3544,7 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 64.77 69.85 0)
 			(effects
 				(font
@@ -3577,7 +3756,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "RX_BUSY")
+					(reference "RX_BUSY1")
 					(unit 1)
 				)
 			)
@@ -3594,7 +3773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f040958-cc9a-4e35-9548-b2cf2bdc395b")
-		(property "Reference" "SVX_RX_IN"
+		(property "Reference" "SVX_RX_IN1"
 			(at 243.332 99.06 90)
 			(effects
 				(font
@@ -3612,7 +3791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 240.03 99.06 0)
 			(effects
 				(font
@@ -3645,7 +3824,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "SVX_RX_IN")
+					(reference "SVX_RX_IN1")
 					(unit 1)
 				)
 			)
@@ -3679,7 +3858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 59.69 90)
 			(effects
 				(font
@@ -3749,7 +3928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.922 59.69 90)
 			(effects
 				(font
@@ -3792,72 +3971,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 101.6 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80da765c-f2f4-4e3c-9929-f26972efd47c")
-		(property "Reference" "#PWR01"
-			(at 101.6 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 101.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 101.6 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0f9baea-7395-4021-9082-a698e83286cf")
-		)
-		(instances
-			(project ""
-				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 240.03 107.95 270)
 		(mirror x)
@@ -3868,7 +3981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8981371c-ff90-4eb4-82f6-cf07e6b8148e")
-		(property "Reference" "SVX_PTT"
+		(property "Reference" "SVX_PTT1"
 			(at 243.332 102.87 90)
 			(effects
 				(font
@@ -3886,7 +3999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 240.03 102.87 0)
 			(effects
 				(font
@@ -3919,7 +4032,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "SVX_PTT")
+					(reference "SVX_PTT1")
 					(unit 1)
 				)
 			)
@@ -3936,7 +4049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc4ff47b-82c4-41e4-94af-74dbe10a94c7")
-		(property "Reference" "SVX_GND"
+		(property "Reference" "SVX_GND1"
 			(at 243.332 95.25 90)
 			(effects
 				(font
@@ -3954,7 +4067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 240.03 95.25 0)
 			(effects
 				(font
@@ -3987,7 +4100,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "SVX_GND")
+					(reference "SVX_GND1")
 					(unit 1)
 				)
 			)
@@ -4004,7 +4117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2e14e7-db43-4f1b-bf9c-7d4081ce82db")
-		(property "Reference" "TX_OUT"
+		(property "Reference" "TX_OUT1"
 			(at 221.742 50.8 90)
 			(effects
 				(font
@@ -4022,7 +4135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 218.44 50.8 0)
 			(effects
 				(font
@@ -4055,7 +4168,75 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "TX_OUT")
+					(reference "TX_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 120.65 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c67d735c-ac44-4380-a754-d226f2e7c401")
+		(property "Reference" "SVX_RUN1"
+			(at 243.332 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.332 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 240.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56bd7d50-bc3d-421b-9dec-d2be7018635c")
+		)
+		(instances
+			(project "SAULink9_TAIT_PLEXER"
+				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
+					(reference "SVX_RUN1")
 					(unit 1)
 				)
 			)
@@ -4138,7 +4319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0c214e-1393-40a5-a1a8-8bfa11703b8b")
-		(property "Reference" "RX_IN"
+		(property "Reference" "RX_IN1"
 			(at 61.468 44.45 90)
 			(effects
 				(font
@@ -4156,7 +4337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 64.77 44.45 0)
 			(effects
 				(font
@@ -4189,7 +4370,7 @@
 		(instances
 			(project ""
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "RX_IN")
+					(reference "RX_IN1")
 					(unit 1)
 				)
 			)
@@ -4206,7 +4387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfcc11a3-db8c-41fb-95e0-541d01656efb")
-		(property "Reference" "SVX_TX_OUT"
+		(property "Reference" "SVX_TX_OUT1"
 			(at 243.332 106.68 90)
 			(effects
 				(font
@@ -4224,7 +4405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 240.03 106.68 0)
 			(effects
 				(font
@@ -4257,7 +4438,75 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "SVX_TX_OUT")
+					(reference "SVX_TX_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 22.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e64fa79c-858b-4947-a89c-82601875de6a")
+		(property "Reference" "Vcc1"
+			(at 96.52 19.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 99.06 19.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+			(at 96.52 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "941d00f7-3d4e-4c17-8d85-911fc30d9749")
+		)
+		(instances
+			(project "SAULink9_TAIT_PLEXER"
+				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
+					(reference "Vcc1")
 					(unit 1)
 				)
 			)
@@ -4274,7 +4523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e848fa82-9540-4624-ba13-93040090d084")
-		(property "Reference" "TX_IN"
+		(property "Reference" "TX_IN1"
 			(at 221.742 44.45 90)
 			(effects
 				(font
@@ -4292,7 +4541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4325,7 +4574,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "TX_IN")
+					(reference "TX_IN1")
 					(unit 1)
 				)
 			)
@@ -4342,7 +4591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ece70fa2-98c3-48fa-a663-dfcdd4262bb3")
-		(property "Reference" "TX_BUSY"
+		(property "Reference" "TX_BUSY1"
 			(at 221.742 69.85 90)
 			(effects
 				(font
@@ -4360,7 +4609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
 			(at 218.44 69.85 0)
 			(effects
 				(font
@@ -4393,7 +4642,7 @@
 		(instances
 			(project "SAULink9_TAIT_PLEXER"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "TX_BUSY")
+					(reference "TX_BUSY1")
 					(unit 1)
 				)
 			)
