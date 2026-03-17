@@ -24,6 +24,10 @@
       (path pcb 0  215000 -116000  123000 -116000  123000 -64000  215000 -64000
             215000 -116000)
     )
+    (plane GND (polygon F.Cu 0  124003 -64770  214808 -64770  214808 -114935  124003 -114935
+            124003 -64770))
+    (plane GND (polygon B.Cu 0  123825 -64770  214630 -64770  214630 -114935  123825 -114935
+            123825 -64770))
     (via "Via[0-1]_600:300_um")
     (rule
       (width 200)
@@ -32,12 +36,6 @@
     )
   )
   (placement
-    (component Resistor_SMD:R_0805_2012Metric
-      (place R3 179982.500000 -73660.000000 front 0.000000 (PN R))
-    )
-    (component LED_SMD:LED_0805_2012Metric
-      (place D1 183847.500000 -73660.000000 front 0.000000 (PN LED_Small))
-    )
     (component Capacitor_SMD:C_0805_2012Metric
       (place C3 184470.000000 -99695.000000 front 180.000000 (PN 100nF))
       (place C4 150180.000000 -99695.000000 front 180.000000 (PN 100nF))
@@ -46,7 +44,14 @@
       (place U1 152475.000000 -92075.000000 front 0.000000 (PN CD4053B))
       (place U2 186765.000000 -92075.000000 front 0.000000 (PN CD4053B))
     )
-    (component Resistor_SMD:R_0805_2012Metric::1
+    (component LED_SMD:LED_0805_2012Metric
+      (place D1 183847.500000 -73660.000000 front 0.000000 (PN LED_Small))
+    )
+    (component LOGO
+      (place G2 155752.800000 -109931.200000 front 0.000000 (PN LOGO))
+      (place G1 182425.262000 -109907.844000 back 0.000000 (PN LOGO))
+    )
+    (component Resistor_SMD:R_0805_2012Metric
       (place R1 162560.000000 -97832.500000 front -90.000000 (PN 600R))
       (place R2 175260.000000 -93622.500000 front -90.000000 (PN 600R))
     )
@@ -62,32 +67,14 @@
     (component "Connector_Dsub:DSUB-9_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
       (place J1 162735.000000 -73660.000000 front 180.000000 (PN DE9_Pins))
     )
+    (component Resistor_SMD:R_0805_2012Metric::1
+      (place R3 179982.500000 -73660.000000 front 0.000000 (PN R))
+    )
     (component "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm::1"
       (place J3 205105.000000 -79895.000000 front 90.000000 (PN DA15_Pins_MountingHoles))
     )
   )
   (library
-    (image Resistor_SMD:R_0805_2012Metric
-      (outline (path signal 120  -227.064 735  227.064 735))
-      (outline (path signal 120  -227.064 -735  227.064 -735))
-      (outline (path signal 50  -1680 950  1680 950  1680 -950  -1680 -950  -1680 950))
-      (outline (path signal 100  -1000 625  1000 625  1000 -625  -1000 -625  -1000 625))
-      (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 1 -912.5 0)
-      (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 2 912.5 0)
-    )
-    (image LED_SMD:LED_0805_2012Metric
-      (outline (path signal 100  1000 -600  1000 600))
-      (outline (path signal 100  1000 600  -700 600))
-      (outline (path signal 100  -700 600  -1000 300))
-      (outline (path signal 100  -1000 -600  1000 -600))
-      (outline (path signal 100  -1000 300  -1000 -600))
-      (outline (path signal 50  -1680 950  1680 950  1680 -950  -1680 -950  -1680 950))
-      (outline (path signal 120  1000 960  -1685 960))
-      (outline (path signal 120  -1685 -960  1000 -960))
-      (outline (path signal 120  -1685 960  -1685 -960))
-      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 2 937.5 0)
-      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 1 -937.5 0)
-    )
     (image Capacitor_SMD:C_0805_2012Metric
       (outline (path signal 120  -261.252 -735  261.252 -735))
       (outline (path signal 120  -261.252 735  261.252 735))
@@ -132,7 +119,22 @@
       (pin RoundRect[T]Pad_1600.000000x600.000000_150.571000_um_0.000000_0 15 3250 3175)
       (pin RoundRect[T]Pad_1600.000000x600.000000_150.571000_um_0.000000_0 16 3250 4445)
     )
-    (image Resistor_SMD:R_0805_2012Metric::1
+    (image LED_SMD:LED_0805_2012Metric
+      (outline (path signal 120  -1685 960  -1685 -960))
+      (outline (path signal 120  -1685 -960  1000 -960))
+      (outline (path signal 120  1000 960  -1685 960))
+      (outline (path signal 50  -1680 950  1680 950  1680 -950  -1680 -950  -1680 950))
+      (outline (path signal 100  -1000 300  -1000 -600))
+      (outline (path signal 100  -1000 -600  1000 -600))
+      (outline (path signal 100  -700 600  -1000 300))
+      (outline (path signal 100  1000 600  -700 600))
+      (outline (path signal 100  1000 -600  1000 600))
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 1 -937.5 0)
+      (pin RoundRect[T]Pad_975.000000x1400.000000_244.678000_um_0.000000_0 2 937.5 0)
+    )
+    (image LOGO
+    )
+    (image Resistor_SMD:R_0805_2012Metric
       (outline (path signal 120  -227.064 -735  227.064 -735))
       (outline (path signal 120  -227.064 735  227.064 735))
       (outline (path signal 50  -1680 950  -1680 -950  1680 -950  1680 950  -1680 950))
@@ -318,6 +320,14 @@
       (pin Round[A]Pad_1600.000000_um 8 -6925 -2540)
       (pin Round[A]Pad_1600.000000_um 9 -9695 -2540)
     )
+    (image Resistor_SMD:R_0805_2012Metric::1
+      (outline (path signal 120  -227.064 735  227.064 735))
+      (outline (path signal 120  -227.064 -735  227.064 -735))
+      (outline (path signal 50  -1680 950  1680 950  1680 -950  -1680 -950  -1680 950))
+      (outline (path signal 100  -1000 625  1000 625  1000 -625  -1000 -625  -1000 625))
+      (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 1 -912.5 0)
+      (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 2 912.5 0)
+    )
     (image "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm::1"
       (outline (path signal 120  250 1754.34  0 1321.33))
       (outline (path signal 120  -250 1754.34  250 1754.34))
@@ -477,16 +487,16 @@
       (pins U1-2 C2-1 R2-1)
     )
     (net GND
-      (pins D1-1 C3-2 U1-7 U1-8 R1-2 U2-7 U2-8 J2-15 C4-2 J1-1 J3-15 R2-2)
+      (pins C3-2 U1-7 U1-8 D1-1 R1-2 U2-7 U2-8 J2-15 C4-2 J1-1 J3-15 R2-2)
     )
-    (net "Net-(U1-B)"
-      (pins U1-15 J2-7)
+    (net "Net-(U1-B1)"
+      (pins U1-1 J1-9)
     )
     (net "Net-(U1-INH)"
       (pins U1-6 U2-6 J1-6)
     )
     (net "Net-(U1-C1)"
-      (pins U1-3 U2-3 J1-2)
+      (pins U1-3 J1-4)
     )
     (net "Net-(U1-S1)"
       (pins U1-9 U1-10 U1-11 U2-9 U2-10 U2-11 J1-8)
@@ -494,35 +504,32 @@
     (net "Net-(U2-B1)"
       (pins U2-1 J1-7)
     )
-    (net "Net-(U1-A1)"
-      (pins U1-13 J1-9)
+    (net "Net-(U1-A)"
+      (pins U1-14 J2-7)
     )
     (net "Net-(U2-B)"
       (pins U2-15 J3-7)
     )
-    (net "Net-(U1-C0)"
-      (pins U1-5 U2-5)
+    (net "Net-(U2-C1)"
+      (pins U2-3 J1-2)
     )
-    (net "unconnected-(U1-B1-Pad1)"
-      (pins U1-1)
+    (net "unconnected-(J3-P12-Pad12)"
+      (pins J3-12)
     )
     (net "unconnected-(U2-A1-Pad13)"
       (pins U2-13)
     )
     (net +12V
-      (pins R3-1 C3-1 U1-16 U2-16 C4-1 J1-5)
+      (pins C3-1 U1-16 U2-16 C4-1 J1-5 R3-1)
     )
-    (net "Net-(J1-Pad4)"
-      (pins J2-2 J1-4 J3-2)
-    )
-    (net "Net-(J2-P12)"
-      (pins U1-4 J2-12)
+    (net "unconnected-(J2-Pad2)"
+      (pins J2-2)
     )
     (net "Net-(J2-P13)"
-      (pins U1-14 J2-13)
+      (pins U1-15 J2-13)
     )
-    (net "Net-(J3-P12)"
-      (pins U2-4 J3-12)
+    (net "Net-(U2-C)"
+      (pins U2-4 J3-2)
     )
     (net "Net-(J3-P13)"
       (pins U2-14 J3-13)
@@ -591,20 +598,30 @@
       (pins J3-14)
     )
     (net "Net-(D1-A)"
-      (pins R3-2 D1-2)
+      (pins D1-2 R3-2)
     )
-    (class kicad_default +12V GND "Net-(D1-A)" "Net-(J1-Pad4)" "Net-(J2-P12)"
-      "Net-(J2-P13)" "Net-(J3-P12)" "Net-(J3-P13)" "Net-(U1-A0)" "Net-(U1-A1)"
-      "Net-(U1-B)" "Net-(U1-B0)" "Net-(U1-C0)" "Net-(U1-C1)" "Net-(U1-INH)"
-      "Net-(U1-S1)" "Net-(U2-A0)" "Net-(U2-B)" "Net-(U2-B0)" "Net-(U2-B1)"
+    (net "unconnected-(U1-A1-Pad13)"
+      (pins U1-13)
+    )
+    (net "Net-(U1-C0)"
+      (pins U1-5 U2-5)
+    )
+    (net "Net-(J2-P12)"
+      (pins U1-4 J2-12)
+    )
+    (class kicad_default +12V GND "Net-(D1-A)" "Net-(J2-P12)" "Net-(J2-P13)"
+      "Net-(J3-P13)" "Net-(U1-A)" "Net-(U1-A0)" "Net-(U1-B0)" "Net-(U1-B1)"
+      "Net-(U1-C0)" "Net-(U1-C1)" "Net-(U1-INH)" "Net-(U1-S1)" "Net-(U2-A0)"
+      "Net-(U2-B)" "Net-(U2-B0)" "Net-(U2-B1)" "Net-(U2-C)" "Net-(U2-C1)"
       "unconnected-(J1-Pad3)" "unconnected-(J2-P10-Pad10)" "unconnected-(J2-P111-Pad11)"
       "unconnected-(J2-P14-Pad14)" "unconnected-(J2-P9-Pad9)" "unconnected-(J2-Pad1)"
-      "unconnected-(J2-Pad3)" "unconnected-(J2-Pad4)" "unconnected-(J2-Pad5)"
-      "unconnected-(J2-Pad6)" "unconnected-(J2-Pad8)" "unconnected-(J3-P10-Pad10)"
-      "unconnected-(J3-P111-Pad11)" "unconnected-(J3-P14-Pad14)" "unconnected-(J3-P9-Pad9)"
-      "unconnected-(J3-Pad1)" "unconnected-(J3-Pad3)" "unconnected-(J3-Pad4)"
-      "unconnected-(J3-Pad5)" "unconnected-(J3-Pad6)" "unconnected-(J3-Pad8)"
-      "unconnected-(U1-B1-Pad1)" "unconnected-(U2-A1-Pad13)"
+      "unconnected-(J2-Pad2)" "unconnected-(J2-Pad3)" "unconnected-(J2-Pad4)"
+      "unconnected-(J2-Pad5)" "unconnected-(J2-Pad6)" "unconnected-(J2-Pad8)"
+      "unconnected-(J3-P10-Pad10)" "unconnected-(J3-P111-Pad11)" "unconnected-(J3-P12-Pad12)"
+      "unconnected-(J3-P14-Pad14)" "unconnected-(J3-P9-Pad9)" "unconnected-(J3-Pad1)"
+      "unconnected-(J3-Pad3)" "unconnected-(J3-Pad4)" "unconnected-(J3-Pad5)"
+      "unconnected-(J3-Pad6)" "unconnected-(J3-Pad8)" "unconnected-(U1-A1-Pad13)"
+      "unconnected-(U2-A1-Pad13)"
       (circuit
         (use_via "Via[0-1]_600:300_um")
       )

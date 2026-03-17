@@ -64,12 +64,12 @@
     )
   )
   (class "kicad_default"
-    "Net-(U1-A0)" "Net-(U2-A0)" "Net-(U2-B0)" "Net-(U1-B0)" GND "Net-(U1-B)" "Net-(U1-INH)" "Net-(U1-C1)"
-    "Net-(U1-S1)" "Net-(U2-B1)" "Net-(U1-A1)" "Net-(U2-B)" "Net-(U1-C0)" "unconnected-(U1-B1-Pad1)" "unconnected-(U2-A1-Pad13)" +12V
-    "Net-(J1-Pad4)" "Net-(J2-P12)" "Net-(J2-P13)" "Net-(J3-P12)" "Net-(J3-P13)" "unconnected-(J1-Pad3)" "unconnected-(J2-P9-Pad9)" "unconnected-(J2-Pad1)"
-    "unconnected-(J2-P10-Pad10)" "unconnected-(J2-Pad4)" "unconnected-(J2-Pad6)" "unconnected-(J2-P14-Pad14)" "unconnected-(J2-Pad3)" "unconnected-(J2-Pad8)" "unconnected-(J2-P111-Pad11)" "unconnected-(J2-Pad5)"
-    "unconnected-(J3-Pad6)" "unconnected-(J3-Pad8)" "unconnected-(J3-P111-Pad11)" "unconnected-(J3-Pad5)" "unconnected-(J3-Pad1)" "unconnected-(J3-P9-Pad9)" "unconnected-(J3-P10-Pad10)" "unconnected-(J3-Pad4)"
-    "unconnected-(J3-Pad3)" "unconnected-(J3-P14-Pad14)" "Net-(D1-A)"
+    GND "Net-(U1-A0)" "Net-(U2-A0)" "Net-(U2-B0)" "Net-(U1-B0)" "Net-(U1-B1)" "Net-(U1-INH)" "Net-(U1-C1)"
+    "Net-(U1-S1)" "Net-(U2-B1)" "Net-(U1-A)" "Net-(U2-B)" "Net-(U2-C1)" "unconnected-(J3-P12-Pad12)" "unconnected-(U2-A1-Pad13)" +12V
+    "unconnected-(J2-Pad2)" "Net-(J2-P13)" "Net-(U2-C)" "Net-(J3-P13)" "unconnected-(J1-Pad3)" "unconnected-(J2-P9-Pad9)" "unconnected-(J2-Pad1)" "unconnected-(J2-P10-Pad10)"
+    "unconnected-(J2-Pad4)" "unconnected-(J2-Pad6)" "unconnected-(J2-P14-Pad14)" "unconnected-(J2-Pad3)" "unconnected-(J2-Pad8)" "unconnected-(J2-P111-Pad11)" "unconnected-(J2-Pad5)" "unconnected-(J3-Pad6)"
+    "unconnected-(J3-Pad8)" "unconnected-(J3-P111-Pad11)" "unconnected-(J3-Pad5)" "unconnected-(J3-Pad1)" "unconnected-(J3-P9-Pad9)" "unconnected-(J3-P10-Pad10)" "unconnected-(J3-Pad4)" "unconnected-(J3-Pad3)"
+    "unconnected-(J3-P14-Pad14)" "Net-(D1-A)" "unconnected-(U1-A1-Pad13)" "Net-(U1-C0)" "Net-(J2-P12)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
