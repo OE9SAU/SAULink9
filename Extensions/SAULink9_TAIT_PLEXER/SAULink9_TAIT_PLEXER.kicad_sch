@@ -1817,7 +1817,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:DE9_Pins"
+		(symbol "Connector:DE9_Pins_MountingHoles"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1826,15 +1826,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 13.97 0)
+				(at 0 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "DE9_Pins"
-				(at 0 -14.605 0)
+			(property "Value" "DE9_Pins_MountingHoles"
+				(at 0 14.605 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1859,7 +1859,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "9-pin D-SUB connector, pins (male)"
+			(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1886,7 +1886,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DE9_Pins_0_1"
+			(symbol "DE9_Pins_MountingHoles_0_1"
 				(polyline
 					(pts
 						(xy -3.81 10.16) (xy -2.54 10.16)
@@ -2107,7 +2107,7 @@
 					)
 				)
 			)
-			(symbol "DE9_Pins_1_1"
+			(symbol "DE9_Pins_MountingHoles_1_1"
 				(pin passive line
 					(at -7.62 10.16 0)
 					(length 3.81)
@@ -2263,6 +2263,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4445,6 +4463,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 238.76 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b1e564f-55c0-4fa9-bf78-89b665415a33")
+		(property "Reference" "#PWR05"
+			(at 245.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcbd827a-3133-444d-95dc-8e22b6df3aa2")
+		)
+		(instances
+			(project "SAULink9_TAIT_PLEXER"
+				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 78.74 49.53 0)
 		(mirror y)
@@ -4726,7 +4811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
+		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 238.76 73.66 0)
 			(effects
 				(font
@@ -4908,7 +4993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
+		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 49.53 83.82 0)
 			(effects
 				(font
@@ -5063,6 +5148,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 238.76 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82204c5b-4525-4928-a239-1f870e396383")
+		(property "Reference" "#PWR07"
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a77dc667-cd42-44c0-a609-257cad5bd890")
+		)
+		(instances
+			(project "SAULink9_TAIT_PLEXER"
+				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 121.92 35.56 180)
 		(unit 1)
@@ -5206,7 +5358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DE9_Pins")
+		(lib_id "Connector:DE9_Pins_MountingHoles")
 		(at 238.76 120.65 0)
 		(mirror x)
 		(unit 1)
@@ -5234,7 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 238.76 120.65 0)
 			(effects
 				(font
@@ -5252,7 +5404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "9-pin D-SUB connector, pins (male)"
+		(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
 			(at 238.76 120.65 0)
 			(effects
 				(font
@@ -5288,10 +5440,79 @@
 		(pin "1"
 			(uuid "0dfd07c8-ff7d-4489-b2da-3f38f062fdbd")
 		)
+		(pin "0"
+			(uuid "e15073df-8d9e-4a0a-9fa4-8e43a9b72834")
+		)
 		(instances
 			(project ""
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb0b4d86-08f7-481f-97bb-7b2cdec3c242")
+		(property "Reference" "#PWR06"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a0e6cc2-a701-435b-8b73-d80cb248e99c")
+		)
+		(instances
+			(project "SAULink9_TAIT_PLEXER"
+				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
