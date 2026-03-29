@@ -25,7 +25,7 @@ SCRIPT_NAME = os.path.join(BASE_DIR, "cm108ah.py")
 # Fensterbasis
 # -------------------------------------------------------
 root = tk.Tk()
-root.title("v0.6 – Dark Gradient Edition")
+root.title("v0.7 – Dark Gradient Edition")
 root.geometry("780x750")
 root.resizable(False, False)
 root.configure(bg="#14141a")
