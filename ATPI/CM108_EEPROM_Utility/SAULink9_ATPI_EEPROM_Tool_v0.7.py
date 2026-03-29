@@ -8,11 +8,18 @@ import threading
 # -------------------------------------------------------
 # Konfiguration
 # -------------------------------------------------------
-VENV_DIR = ".venv"
-PYTHON_EXE = os.path.join(VENV_DIR, "Scripts", "pythonw.exe") if os.name == "nt" else os.path.join(VENV_DIR, "bin", "python")
-PIP_EXE = os.path.join(VENV_DIR, "Scripts", "pip.exe") if os.name == "nt" else os.path.join(VENV_DIR, "bin", "pip")
-REQUIREMENTS = "requirements.txt"
-SCRIPT_NAME = "cm108ah.py"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+VENV_DIR = os.path.join(BASE_DIR, ".venv")
+
+if os.name == "nt":
+    PYTHON_EXE = os.path.join(VENV_DIR, "Scripts", "pythonw.exe")
+    PIP_EXE = os.path.join(VENV_DIR, "Scripts", "pip.exe")
+else:
+    PYTHON_EXE = os.path.join(VENV_DIR, "bin", "python")
+    PIP_EXE = os.path.join(VENV_DIR, "bin", "pip")
+
+REQUIREMENTS = os.path.join(BASE_DIR, "requirements.txt")
+SCRIPT_NAME = os.path.join(BASE_DIR, "cm108ah.py")
 
 # -------------------------------------------------------
 # Fensterbasis
