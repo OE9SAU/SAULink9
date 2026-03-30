@@ -10,7 +10,7 @@
 # Copyright © 2021 islandcontroller_ and contributors
 # Licensed under CERN Open Hardware Licence Version 2 - Permissive
 #-------------------------------------------------------------------------------
-# modified for SAULink9_ATPI v3.0 09/2025
+# modified for SAULink9_ATPI v3.0 03/2026 with more audio and mic power, marked serial with X
 #-------------------------------------------------------------------------------
 
 # USB vendor and product ID configuration.
@@ -22,7 +22,7 @@ usb:
 
 # Serial "number" (string). Setting this field will automatically set the "use_-
 # serial_num" magic flag.
-serial: "260108_010"
+serial: "260108_010X"
 
 # Manufacturer name. Setting this field will automatically set the "use_manuf_-
 # name" magic flag.
@@ -35,8 +35,8 @@ product: "SAULINK9_ATPI v3.0"
 # Volume presets for ADC and DAC stages, in EEPROM notation (see CM108AH data-
 # sheet for valid range).
 presets:
-  adc: 0x08   # initial ADC volume (~8 dB default)
-  dac: 0x16   # initial DAC volume (~-10 dB default)
+  adc: 0x02   # initial ADC volume 
+  dac: 0x02   # initial DAC volume
 
 # Configuration bits. 
 # Setting this field will automatically set the "cfg_bits_-valid" magic flag. 
@@ -46,12 +46,12 @@ presets:
 # "--enable-hid-bit 1" parameter to be set in read_yaml().
 config:
   SHDN_DAC: false          # DAC analog circuits active
-  TOTAL_PWR_CTL: false     # Total power control disabled
-  MIC_HP: true             # MIC High Pass Filter enabled
-  ADC_SYNC: false          # ADC sync disabled
-  MIC_BOOST: false         # MIC Boost enabled
-  DAC_OUT_HP: false        # Output terminal = speaker
-  HID_EN: true             # HID interface enabled
+  TOTAL_PWR_CTL: false     # Total power control 
+  MIC_HP: true             # MIC High Pass Filter 
+  ADC_SYNC: false          # ADC sync 
+  MIC_BOOST: true          # MIC Boost 
+  DAC_OUT_HP: true         # Output terminal = speaker
+  HID_EN: true             # HID interface MUST BE TRUE // ALWAYS
   REMOTE_WKUP_EN: false    # Remote wakeup disabled
   DAC_MAXMIN_VALID: true   # Enable DAC max/min volume
   ADC_MAXMIN_VALID: false  # Enable ADC max/min volume
