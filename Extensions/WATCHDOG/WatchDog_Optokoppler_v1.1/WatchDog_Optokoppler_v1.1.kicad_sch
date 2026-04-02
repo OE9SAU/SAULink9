@@ -2239,12 +2239,6 @@
 		(uuid "0d65bb5b-f82d-4d31-8a14-82dc00825907")
 	)
 	(junction
-		(at 129.54 114.554)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23c524fb-65ee-4dd3-b869-67b87a4eee1e")
-	)
-	(junction
 		(at 144.78 100.076)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2441,16 +2435,6 @@
 			(type default)
 		)
 		(uuid "3da13a4d-ffe2-4f0a-8ad9-57b079d29e28")
-	)
-	(wire
-		(pts
-			(xy 129.54 116.332) (xy 129.54 114.554)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "492c82aa-8343-42ba-a3f8-e2af445ed2b3")
 	)
 	(wire
 		(pts
@@ -3006,7 +2990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.9"
 			(at 145.7452 111.506 0)
 			(effects
 				(font
@@ -3521,16 +3505,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 199.898 67.564 180)
+		(at 199.898 65.024 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81206d46-afff-4836-8823-c589234afac1")
 		(property "Reference" "J3"
-			(at 200.66 65.0239 0)
+			(at 201.422 67.5641 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3523,7 @@
 			)
 		)
 		(property "Value" "REMOTE-CONTACT"
-			(at 200.66 67.5639 0)
+			(at 201.422 65.0241 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3532,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 199.898 67.564 0)
+			(at 199.898 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.898 67.564 0)
+			(at 199.898 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3550,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 199.898 67.564 0)
+			(at 199.898 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
