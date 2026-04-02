@@ -4423,7 +4423,7 @@
 		(uuid "8168ea38-48d1-4a9a-bb7b-9179bb98c7e8")
 	)
 	(gr_text "TRIG\n"
-		(at 130.0988 61.8236 90)
+		(at 130.0988 61.9 90)
 		(layer "F.SilkS")
 		(uuid "5505927c-20cf-46d3-a13d-cfa816f7dba6")
 		(effects
@@ -4488,7 +4488,7 @@
 		)
 	)
 	(gr_text "WD v1.1"
-		(at 126.0856 63.1444 0)
+		(at 126.1 63.7 0)
 		(layer "F.SilkS")
 		(uuid "cba2e800-41b0-4dec-b882-45e84c3df6fb")
 		(effects
