@@ -490,7 +490,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "SAULink9_TAIT_PLEXER.dsn",
-      "step": "",
+      "step": "SAULink9_TAIT_PLEXER.step",
       "svg": "",
       "vrml": ""
     },
