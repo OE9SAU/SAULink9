@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SAULink9_TAIT_PLEXER.kicad_pro",
+    "filename": "SAULink9_TAIT_PLEXER_v1.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -489,8 +489,8 @@
       "netlist": "",
       "plot": "gerber/",
       "pos_files": "",
-      "specctra_dsn": "SAULink9_TAIT_PLEXER.dsn",
-      "step": "SAULink9_TAIT_PLEXER.step",
+      "specctra_dsn": "SAULink9_TAIT_PLEXER_v1.0.dsn",
+      "step": "SAULink9_TAIT_PLEXER_v1.0.step",
       "svg": "",
       "vrml": ""
     },
