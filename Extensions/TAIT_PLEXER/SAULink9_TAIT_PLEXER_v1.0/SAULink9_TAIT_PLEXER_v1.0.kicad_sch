@@ -4412,7 +4412,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 127.254 61.976 90)
 			(effects
 				(font
@@ -4914,7 +4914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600R"
+		(property "Value" "2k2"
 			(at 128.27 73.6599 0)
 			(effects
 				(font
@@ -5096,7 +5096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600R"
+		(property "Value" "2k2"
 			(at 140.97 73.6599 0)
 			(effects
 				(font
@@ -5601,7 +5601,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 149.352 71.882 90)
 			(effects
 				(font

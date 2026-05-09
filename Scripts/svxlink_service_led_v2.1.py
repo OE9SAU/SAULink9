@@ -1,7 +1,6 @@
 #v1.0: service_led
 #v2.0: inkl. watchdog funktion GPIO 21 und Service/Reflektor Check nur 1x/Sekunde prüfen
 #v2.1: Watchdog aktiv bei fehlender Reflektorverbidung
-#v2.2: GPIO_WATCHDOG = 21 / Neu: GIPO12
 
 #!/usr/bin/env python3
 import RPi.GPIO as GPIO
@@ -11,7 +10,7 @@ import os
 
 GPIO.setmode(GPIO.BCM)
 
-GPIO_WATCHDOG = 12
+GPIO_WATCHDOG = 21
 GPIO_SVXLINK = 26
 GPIO_REFLECTOR = 25
 

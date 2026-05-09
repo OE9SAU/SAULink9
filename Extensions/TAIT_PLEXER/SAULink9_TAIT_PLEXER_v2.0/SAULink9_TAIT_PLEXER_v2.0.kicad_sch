@@ -5,6 +5,208 @@
 	(uuid "b7dd3e65-f502-4ae8-a4f7-58575558e64f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2026-05-08_16-54-05:B0505S-1WR3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "B0505S-1WR3"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SIP4_B_S-1WR3_MNS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "B0505S-1WR3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "B0505S-1WR3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SIP4_B_S-1WR3_MNS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B0505S-1WR3_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -7.62) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at 0 0 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "+VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "0V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Analog_Switch:CD4053B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2291,208 +2493,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Converter_DCDC:TMA-0505S"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TMA-0505S"
-				(at 2.54 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMA-05xxS_12xxS_Single_THT"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tracopower.com/products/tma.pdf"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 1.0kVDC isolation, SIP-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Traco isolated dc-dc not-regulated non-regulated single"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Converter*DCDC*TRACO*TMA*05xx*Single*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TMA-0505S_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TMA-0505S_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "+Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "-Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "+Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "-Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3495,10 +3495,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "SAULink9\n\n1 GND\n2 PTT\n4 CTCSS /SQL\n5 12V\n9 RX Audio\n7 TX Audio\n\n6 PLEX_OFF (HIGH)\n8 SVXLink ON"
+	(text_box "SAULink9\n\n1 GND\n2 PTT\n4 CTCSS /SQL\n5 12V\n9 RX Audio\n7 TX Audio\n\n6 PLEX_OFF (HIGH)\n8 LOW TAIT-Modus\n  /HIGH SVX-Modus"
 		(exclude_from_sim no)
-		(at 256.54 113.03 0)
-		(size 24.13 25.4)
+		(at 256.794 109.474 0)
+		(size 23.114 28.448)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3517,7 +3517,7 @@
 		)
 		(uuid "38e6954c-3e00-4e2a-9b69-e1437d58918d")
 	)
-	(text_box "RX TAIT\n\n7  AUDIO TAP IN\n13 AUDIO TAP OUT\n15 GND\n9 BUSY\n12  PTT"
+	(text_box "RX TAIT\n\n7  AUDIO TAP IN\n13 AUDIO TAP OUT\n15 GND\n9  BUSY\n"
 		(exclude_from_sim no)
 		(at 20.32 78.74 0)
 		(size 20.32 17.78)
@@ -3539,7 +3539,7 @@
 		)
 		(uuid "75049419-8d1b-44e6-b9e3-9261f627b742")
 	)
-	(text_box "TX TAIT\n\n7  AUDIO TAP IN\n13 AUDIO TAP OUT\n15 GND\n9  BUSY\n12 PTT"
+	(text_box "TX TAIT\n\n7  AUDIO TAP IN\n13 AUDIO TAP OUT\n15 GND\n12 PTT"
 		(exclude_from_sim no)
 		(at 256.54 67.31 0)
 		(size 20.32 17.78)
@@ -3586,12 +3586,6 @@
 		(uuid "19e78e6d-ecd4-4e1c-aed2-ccf36386b815")
 	)
 	(junction
-		(at 105.41 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a4e4215-41b2-421c-b5d8-84bc6a2dcad5")
-	)
-	(junction
 		(at 210.82 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3610,10 +3604,10 @@
 		(uuid "598cc5c2-6133-43d0-a10d-56279fdba203")
 	)
 	(junction
-		(at 69.596 162.56)
+		(at 89.916 165.608)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5fe748d8-e174-453c-9ea6-a14a76d9138e")
+		(uuid "8316d611-b940-4efc-8867-1e40581aef4a")
 	)
 	(junction
 		(at 129.54 82.55)
@@ -3622,10 +3616,10 @@
 		(uuid "8383e933-f9be-4541-b3cf-4c431109d08a")
 	)
 	(junction
-		(at 37.846 162.56)
+		(at 41.656 165.608)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "851f98ab-9a6f-45cf-ae3c-1df4b0711761")
+		(uuid "8e6a22cc-932b-45d1-8a95-15d5d9bb6851")
 	)
 	(junction
 		(at 129.54 71.12)
@@ -3652,7 +3646,7 @@
 		(uuid "9fcee141-e716-4846-aae3-3ff3923daa85")
 	)
 	(junction
-		(at 37.846 173.99)
+		(at 37.846 176.022)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab606bdb-07ad-4180-b476-58335b6099bf")
@@ -3676,7 +3670,7 @@
 		(uuid "b1b3416b-9fa0-488b-b2cc-80dd0df0dcd0")
 	)
 	(junction
-		(at 41.656 151.13)
+		(at 41.656 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b739ed03-e36f-4a93-b89e-5cf4ac635d26")
@@ -3686,6 +3680,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdf6dfe2-efa5-4996-84b2-0ca51140796d")
+	)
+	(junction
+		(at 101.6 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "becc9b34-24f6-4130-b13b-01125809121f")
+	)
+	(junction
+		(at 101.6 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca246595-79b4-41b6-b392-69b054ac8313")
 	)
 	(junction
 		(at 210.82 127)
@@ -3725,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 151.13) (xy 37.846 148.59)
+			(xy 37.846 153.67) (xy 37.846 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3765,16 +3771,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 95.25) (xy 105.41 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a0776c-3380-4a93-8bb0-ce078717fc93")
-	)
-	(wire
-		(pts
 			(xy 104.14 46.99) (xy 104.14 59.69)
 		)
 		(stroke
@@ -3795,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.676 173.99) (xy 65.786 173.99)
+			(xy 94.996 176.022) (xy 86.106 176.022)
 		)
 		(stroke
 			(width 0)
@@ -3945,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 173.99) (xy 37.846 176.53)
+			(xy 37.846 176.022) (xy 37.846 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4055,16 +4051,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 95.25) (xy 186.69 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e0b06e-0359-4381-a684-69aa4e33eda2")
-	)
-	(wire
-		(pts
 			(xy 60.96 100.33) (xy 68.58 100.33)
 		)
 		(stroke
@@ -4085,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 102.87) (xy 125.73 102.87)
+			(xy 82.55 102.87) (xy 101.6 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.466 173.99) (xy 37.846 173.99)
+			(xy 45.466 176.022) (xy 37.846 176.022)
 		)
 		(stroke
 			(width 0)
@@ -4175,13 +4161,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 95.25) (xy 105.41 95.25)
+			(xy 101.6 95.25) (xy 186.69 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5ad35125-24fe-49a6-8b5b-b01362a326d1")
+	)
+	(wire
+		(pts
+			(xy 41.656 165.608) (xy 89.916 165.608)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cdccd7b-ca90-48ee-9155-7155be476e10")
 	)
 	(wire
 		(pts
@@ -4195,7 +4191,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.596 162.56) (xy 69.596 168.91)
+			(xy 89.916 165.608) (xy 89.916 173.482)
 		)
 		(stroke
 			(width 0)
@@ -4225,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.676 151.13) (xy 65.786 151.13)
+			(xy 94.996 153.67) (xy 86.106 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4245,6 +4241,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 102.87) (xy 125.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6870cb35-719e-45e3-8c79-23759657cf9b")
+	)
+	(wire
+		(pts
 			(xy 120.65 72.39) (xy 120.65 67.31)
 		)
 		(stroke
@@ -4252,16 +4258,6 @@
 			(type default)
 		)
 		(uuid "70da9db1-b3e7-4933-9c52-53e94fb5f990")
-	)
-	(wire
-		(pts
-			(xy 41.656 151.13) (xy 41.656 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f44f68-637d-40fc-a277-c4598ca8c4ab")
 	)
 	(wire
 		(pts
@@ -4275,7 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.786 168.91) (xy 69.596 168.91)
+			(xy 86.106 173.482) (xy 89.916 173.482)
 		)
 		(stroke
 			(width 0)
@@ -4295,7 +4291,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 151.13) (xy 41.656 151.13)
+			(xy 37.846 153.67) (xy 41.656 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4312,16 +4308,6 @@
 			(type default)
 		)
 		(uuid "7d2baa63-343b-4155-9802-1b72b39e1599")
-	)
-	(wire
-		(pts
-			(xy 37.846 162.56) (xy 37.846 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80287f10-9bab-4219-8b98-f05cfe1ca9fa")
 	)
 	(wire
 		(pts
@@ -4345,6 +4331,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.656 153.67) (xy 41.656 165.608)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847206ec-a155-4ba9-84e1-29b46a04048d")
+	)
+	(wire
+		(pts
 			(xy 184.15 59.69) (xy 184.15 46.99)
 		)
 		(stroke
@@ -4355,7 +4351,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.656 168.91) (xy 45.466 168.91)
+			(xy 41.656 173.482) (xy 45.466 173.482)
 		)
 		(stroke
 			(width 0)
@@ -4372,16 +4368,6 @@
 			(type default)
 		)
 		(uuid "899ef405-b90d-4cf8-b57c-e379bc92b9f5")
-	)
-	(wire
-		(pts
-			(xy 37.846 156.21) (xy 45.466 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f2bb7c-3f95-47e0-a2cf-5559048b9f11")
 	)
 	(wire
 		(pts
@@ -4505,6 +4491,16 @@
 	)
 	(wire
 		(pts
+			(xy 37.846 156.21) (xy 37.846 176.022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42e359a-a945-4a9c-8c75-7fd9fa665e2a")
+	)
+	(wire
+		(pts
 			(xy 218.44 62.23) (xy 218.44 100.33)
 		)
 		(stroke
@@ -4515,13 +4511,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.596 156.21) (xy 69.596 162.56)
+			(xy 89.916 156.21) (xy 89.916 165.608)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a48701ff-9715-415c-8c58-afa8417b7d32")
+	)
+	(wire
+		(pts
+			(xy 37.846 156.21) (xy 45.466 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a941a91c-079f-49af-b7e0-eee911218316")
 	)
 	(wire
 		(pts
@@ -4532,16 +4538,6 @@
 			(type default)
 		)
 		(uuid "abb942cc-1b15-4508-8b54-bee4093331d1")
-	)
-	(wire
-		(pts
-			(xy 69.596 162.56) (xy 37.846 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b068b505-3fa3-4e52-aa9c-3698e834bd24")
 	)
 	(wire
 		(pts
@@ -4575,7 +4571,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.786 156.21) (xy 69.596 156.21)
+			(xy 86.106 156.21) (xy 89.916 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4635,7 +4631,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.466 151.13) (xy 41.656 151.13)
+			(xy 45.466 153.67) (xy 41.656 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4662,6 +4658,16 @@
 			(type default)
 		)
 		(uuid "c5a3ad88-308c-4c11-bfec-82475f05a1fd")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ee987c-18cb-487b-b8b9-dc166f4d4175")
 	)
 	(wire
 		(pts
@@ -4765,7 +4771,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.676 162.56) (xy 69.596 162.56)
+			(xy 94.742 165.608) (xy 89.916 165.608)
 		)
 		(stroke
 			(width 0)
@@ -4782,6 +4788,16 @@
 			(type default)
 		)
 		(uuid "e13740c0-c4f0-4af9-b24d-0f5d3b9a2a7e")
+	)
+	(wire
+		(pts
+			(xy 41.656 165.608) (xy 41.656 173.482)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44b2900-737a-470b-abb4-288f7097c696")
 	)
 	(wire
 		(pts
@@ -4912,16 +4928,6 @@
 			(type default)
 		)
 		(uuid "f8644218-0d23-4d79-8102-1209a7cb6c49")
-	)
-	(wire
-		(pts
-			(xy 37.846 156.21) (xy 37.846 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d99ed8-7283-45ff-8dda-4f69b2d2e32f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5187,7 +5193,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 131.064 65.786 90)
 			(effects
 				(font
@@ -5238,74 +5244,76 @@
 		)
 	)
 	(symbol
-		(lib_id "Converter_DCDC:TMA-0505S")
-		(at 55.626 171.45 0)
+		(lib_id "2026-05-08_16-54-05:B0505S-1WR3")
+		(at 45.466 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3057a1ec-a463-46f0-b354-8e5422775bdb")
-		(property "Reference" "U4"
-			(at 55.626 161.29 0)
+		(uuid "312f8e82-422e-4ada-b209-f3ff924f50aa")
+		(property "Reference" "U3"
+			(at 65.786 143.51 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "TMA-0505S"
-			(at 55.626 163.83 0)
+		(property "Value" "B0505S-1WR3"
+			(at 65.786 146.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMA-05xxS_12xxS_Single_THT"
-			(at 55.626 180.34 0)
+		(property "Footprint" "SIP4_B_S-1WR3_MNS"
+			(at 45.466 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "B0505S-1WR3"
+			(at 45.466 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.466 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://www.tracopower.com/products/tma.pdf"
-			(at 55.626 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 1.0kVDC isolation, SIP-7"
-			(at 55.626 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20f8d56e-1854-4ec5-ba17-5bc6bb0d4c03")
 		)
 		(pin "4"
-			(uuid "742b51e9-1a96-4037-83b6-2b5c70cc7cfb")
+			(uuid "6c12b514-6866-4a01-8592-62ae48cc314b")
 		)
-		(pin "6"
-			(uuid "d3ca0db8-f139-45ab-8832-ff78b91c9f38")
+		(pin "1"
+			(uuid "ed943a75-a741-4096-a1bf-75526a7153ac")
 		)
 		(pin "2"
-			(uuid "de372014-c94e-4662-b6aa-612175f0b75a")
+			(uuid "ace9c867-e9f0-4ae8-a6c6-bd9a3fb8da90")
+		)
+		(pin "3"
+			(uuid "c6b498c2-719f-46e5-81b7-58f95380b7ca")
 		)
 		(instances
-			(project "SAULink9_TAIT_PLEXER_v2.0"
+			(project ""
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5451,7 +5459,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 74.676 151.13 270)
+		(at 94.996 153.67 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5461,7 +5469,7 @@
 		(fields_autoplaced yes)
 		(uuid "42d680f9-1790-425b-a560-faac1f9d8ebc")
 		(property "Reference" "#PWR01"
-			(at 70.866 151.13 0)
+			(at 91.186 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5478,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 78.486 151.1299 90)
+			(at 98.806 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.676 151.13 0)
+			(at 94.996 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.676 151.13 0)
+			(at 94.996 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 74.676 151.13 0)
+			(at 94.996 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5709,7 @@
 	)
 	(symbol
 		(lib_id "power:-5VA")
-		(at 74.676 173.99 270)
+		(at 94.996 176.022 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5711,7 +5719,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b7d730a-3b09-45e2-9d75-fe7aad27e4db")
 		(property "Reference" "#PWR09"
-			(at 70.866 173.99 0)
+			(at 91.186 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +5728,7 @@
 			)
 		)
 		(property "Value" "-5VA"
-			(at 78.486 173.9899 90)
+			(at 98.806 176.0219 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.676 173.99 0)
+			(at 94.996 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.676 173.99 0)
+			(at 94.996 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5VA\""
-			(at 74.676 173.99 0)
+			(at 94.996 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +5890,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 74.676 162.56 90)
+		(at 94.742 165.608 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5892,7 +5900,7 @@
 		(fields_autoplaced yes)
 		(uuid "6021a9f6-3e06-4c00-9356-aef3d0cc5ba9")
 		(property "Reference" "#PWR012"
-			(at 81.026 162.56 0)
+			(at 101.092 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +5909,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 78.486 162.5599 90)
+			(at 98.552 165.6079 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +5918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.676 162.56 0)
+			(at 94.742 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,7 +5927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.676 162.56 0)
+			(at 94.742 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +5936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 74.676 162.56 0)
+			(at 94.742 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,73 +5951,6 @@
 			(project ""
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 105.41 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "669e0b99-79ed-4ecd-929b-24571e62205d")
-		(property "Reference" "#PWR013"
-			(at 105.41 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 105.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "000286e9-52cf-4123-b178-526e51710293")
-		)
-		(instances
-			(project "SAULink9_TAIT_PLEXER_v2.0"
-				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6034,7 +5975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600R"
+		(property "Value" "2k2"
 			(at 132.08 77.4699 0)
 			(effects
 				(font
@@ -6282,7 +6223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600R"
+		(property "Value" "2k2"
 			(at 144.78 77.4699 0)
 			(effects
 				(font
@@ -6479,7 +6420,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 37.846 148.59 0)
+		(at 37.846 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6488,7 +6429,7 @@
 		(fields_autoplaced yes)
 		(uuid "89a3128f-ae43-4b7f-aa68-ec432538db61")
 		(property "Reference" "#PWR03"
-			(at 37.846 152.4 0)
+			(at 37.846 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,15 +6438,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 37.846 143.51 0)
+			(at 40.386 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 37.846 148.59 0)
+			(at 37.846 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 37.846 148.59 0)
+			(at 37.846 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 37.846 148.59 0)
+			(at 37.846 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6487,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 37.846 176.53 0)
+		(at 37.846 151.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6554,7 +6496,7 @@
 		(fields_autoplaced yes)
 		(uuid "92511647-2f7a-4df7-bad8-5771b2112c28")
 		(property "Reference" "#PWR010"
-			(at 37.846 182.88 0)
+			(at 37.846 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,15 +6505,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 37.846 181.61 0)
+			(at 40.132 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 37.846 176.53 0)
+			(at 37.846 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 37.846 176.53 0)
+			(at 37.846 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +6532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 37.846 176.53 0)
+			(at 37.846 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,6 +6547,81 @@
 			(project "SAULink9_TAIT_PLEXER_v2.0"
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-05-08_16-54-05:B0505S-1WR3")
+		(at 45.466 173.482 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5f28a74-fc17-4e38-9a8a-a7dd12bb23ef")
+		(property "Reference" "U4"
+			(at 65.532 183.388 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "B0505S-1WR3"
+			(at 65.532 185.928 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SIP4_B_S-1WR3_MNS"
+			(at 45.466 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "B0505S-1WR3"
+			(at 45.466 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.466 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0d56ba98-28fc-44bb-855a-bed0e6979ac3")
+		)
+		(pin "1"
+			(uuid "01ce144c-5de6-4ba2-b52a-59ef202593df")
+		)
+		(pin "2"
+			(uuid "ccc561f5-f47a-430d-bd8f-507f00cde7ca")
+		)
+		(pin "3"
+			(uuid "ae366053-4547-4408-a146-49f5ec18946c")
+		)
+		(instances
+			(project "SAULink9_TAIT_PLEXER_v2.0"
+				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6919,7 +6937,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 153.162 75.692 90)
 			(effects
 				(font
@@ -7030,80 +7048,6 @@
 			(project ""
 				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Converter_DCDC:TMA-0505S")
-		(at 55.626 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9660541-3bf0-484f-ad06-554508c47b22")
-		(property "Reference" "U3"
-			(at 55.626 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TMA-0505S"
-			(at 55.626 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMA-05xxS_12xxS_Single_THT"
-			(at 55.626 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tracopower.com/products/tma.pdf"
-			(at 55.626 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 1.0kVDC isolation, SIP-7"
-			(at 55.626 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e17c2b2-f2d5-4a58-9a49-b8ac3334ad81")
-		)
-		(pin "4"
-			(uuid "5ac963a0-6741-41f1-ba8e-626e0f24f5eb")
-		)
-		(pin "6"
-			(uuid "ed1f77fd-5913-4663-8ddd-c960fc1c6881")
-		)
-		(pin "2"
-			(uuid "0b0a12fd-5f2c-4372-9248-6d5fc92a58f1")
-		)
-		(instances
-			(project ""
-				(path "/b7dd3e65-f502-4ae8-a4f7-58575558e64f"
-					(reference "U3")
 					(unit 1)
 				)
 			)
