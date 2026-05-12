@@ -5,9 +5,6 @@ In case of problems like no reflector connection or SAULink9 down, SAULink9 Watc
 to LOW and both TAIT device are acting as local fm-repeater
 
 
-v2.0 testboard with +5V/-5V supply
-
-
 v1.1 changed pinout and running version
 
 
