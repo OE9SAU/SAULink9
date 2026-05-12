@@ -1,4 +1,4 @@
-## TAIT-PLEXER
+## SAULink9 TAIT-PLEXER
 
 In case of problems like no reflector connection or SAULink9 down, SAULink9 Watchdog (Extensions/WATCHDOG) sets the TAIT-PLEXER 
 
