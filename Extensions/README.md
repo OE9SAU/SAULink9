@@ -16,9 +16,12 @@ to LOW and both TAIT device are acting as local fm-repeater
 
 v1.0 
 
-v2.0 testbaord with +5V/-5V supply
+
+v2.0 testboard with +5V/-5V supply
+
 
 v1.1 changed pinout and running version
+
 
 <img src="/Extensions/TAIT_PLEXER/SAULink9_TAIT_PLEXER_v1.1/SAULink9_TAIT_PLEXER_v1.1.png" width="500">
 
