@@ -9,10 +9,14 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 ### use two Tait Device for Repeater with and without SAULink9 Fallback solution
 
-In case of problems like no reflector connection or SAULink9 down, watchdog sets PLEXER to LOW and both TAIT device are acting as local fm-repeater
+In case of problems like no reflector connection or SAULink9 down, SAULink9 Watchdog sets the TAIT-PLEXER 
+
+to LOW and both TAIT device are acting as local fm-repeater
+
+
 v1.0 
-v1.1 changed pinout
 v2.0 testbaord with +5V/-5V supply
+v1.1 changed pinout and running version
 
 ## AP
 
