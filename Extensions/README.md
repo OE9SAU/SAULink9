@@ -5,26 +5,15 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 <img src="/Node_Case/SAULink9_over_front.png" width="100"> <img src="/Node_Case/SAULink9_over_back.png" width="100">
 
-## TAIT-PLEXER
+## WATCDOG
+
+### can be used to monitor the SVX service 
 
 ### use two Tait Device for Repeater with and without SAULink9 Fallback solution
 
-In case of problems like no reflector connection or SAULink9 down, SAULink9 Watchdog (Extensions/WATCHDOG) sets the TAIT-PLEXER 
+## TAIT-PLEXER
 
-to LOW and both TAIT device are acting as local fm-repeater
-
-
-v1.0 
-
-
-v2.0 testboard with +5V/-5V supply
-
-
-v1.1 changed pinout and running version
-
-
-<img src="/Extensions/TAIT_PLEXER/SAULink9_TAIT_PLEXER_v1.1/SAULink9_TAIT_PLEXER_v1.1.png" width="500">
-
+### use two Tait Device for Repeater with and without SAULink9 Fallback solution
 
 ## AP
 
