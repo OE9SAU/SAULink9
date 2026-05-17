@@ -7,7 +7,7 @@
 # Script herunterladen
 ```
 wget -O /tmp/lh_update.sh \
-https://raw.githubusercontent.com/OE9SAU/SAULink9/3d10a2b1882fa016141af158421157c2e75bfdbe/Scripts/files/lh_update.sh
+https://github.com/OE9SAU/SAULink9/blob/07f9c5f188f1221422e70b5b54ef246bc3c55f1a/Scripts/lh_update.sh
 ```
 
 # Rechte setzen
