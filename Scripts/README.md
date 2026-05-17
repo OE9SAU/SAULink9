@@ -18,7 +18,7 @@ sudo chmod +x /tmp/lh_update.sh
 ```
 sudo /tmp/lh_update.sh
 ```
-
+---
 # Update der Status LEDs im Frontpanel
 ### v2.1 GPIO21 auch als Trigger bei fehlender Reflektorverbindung für Watchdog-Anwendung hinzugefügt
 
