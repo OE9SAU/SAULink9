@@ -14,6 +14,10 @@ cd "$DIR" || exit
 cp lh.php lh.php_back
 cp lh_small.php lh_small.php_back
 
+# Dateien löschen
+rm -f lh.php
+rm -f lh_small.php
+
 echo "Backup erstellt."
 
 # Neue Dateien laden
