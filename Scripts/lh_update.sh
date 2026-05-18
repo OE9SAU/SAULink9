@@ -16,6 +16,12 @@ cp lh_small.php lh_small.php_back
 
 echo "Backup erstellt."
 
+# Alte Dateien löschen
+rm -f lh.php
+rm -f lh_small.php
+
+echo "Alte Dateien gelöscht."
+
 # Neue Dateien laden
 wget -q -O lh.php \
 https://github.com/OE9SAU/SAULink9/blob/main/Scripts/files/lh.php
