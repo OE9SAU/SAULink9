@@ -2,6 +2,23 @@
   <img width="500" height="500" src="update.png">
 </p>
 
+# Update SvxLink Dashboard Ver 2.1
+### Verbesserte aktualisierung der SVXReflector Activity Tabelle mit LastHeard, Callsign und TG-Daten
+# Script herunterladen
+```
+wget -O /tmp/lh_update.sh \
+https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Scripts/lh_update.sh
+```
+
+# Rechte setzen
+```
+sudo chmod +x /tmp/lh_update.sh
+```
+# Script ausführen
+```
+sudo /tmp/lh_update.sh
+```
+---
 # Update der Status LEDs im Frontpanel
 ### v2.1 GPIO21 auch als Trigger bei fehlender Reflektorverbindung für Watchdog-Anwendung hinzugefügt
 
