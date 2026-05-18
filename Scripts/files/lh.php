@@ -34,8 +34,8 @@ usort($lastHeard, function($a, $b) {
     if ($a[3] == "ON" && $b[3] != "ON") return -1;
     if ($a[3] != "ON" && $b[3] == "ON") return 1;
 
-    // Neueste oben
-    return strcmp($b[0], $a[0]);
+    // Zeit korrekt vergleichen
+    return strtotime($b[0]) - strtotime($a[0]);
 });
 
 for ($i = 0;  ($i <= 20); $i++) { //Last 20 calls
