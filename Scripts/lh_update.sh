@@ -22,9 +22,9 @@ echo "Backup erstellt."
 
 # Neue Dateien laden
 wget -q -O lh.php \
-https://raw.githubusercontent.com/OE9SAU/SAULink9/3d10a2b1882fa016141af158421157c2e75bfdbe/Scripts/files/lh.php
+https://github.com/OE9SAU/SAULink9/blob/main/Scripts/files/lh.php
 
 wget -q -O lh_small.php \
-https://raw.githubusercontent.com/OE9SAU/SAULink9/3d10a2b1882fa016141af158421157c2e75bfdbe/Scripts/files/lh_small.php
+https://github.com/OE9SAU/SAULink9/blob/main/Scripts/files/lh_small.php
 
 echo "Dateien ersetzt. 73."
