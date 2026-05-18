@@ -11,8 +11,8 @@ DIR="/var/www/html/include"
 cd "$DIR" || exit
 
 # Backup erstellen
-cp lh.php lh.php.bak
-cp lh_small.php lh_small.php.bak
+cp lh.php lh.php_bak
+cp lh_small.php lh_small.php_bak
 
 echo "Backup erstellt."
 
