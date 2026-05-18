@@ -2,7 +2,7 @@
   <img width="500" height="500" src="update.png">
 </p>
 
-# Update SvxLink Dashboard Ver 2.1
+# Update SvxLink Dashboard Ver 2.1 / in Arbeit !!
 ### Verbesserte aktualisierung der SVXReflector Activity Tabelle mit LastHeard, Callsign und TG-Daten
 # Script herunterladen
 ```
