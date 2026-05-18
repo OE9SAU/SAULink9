@@ -27,17 +27,27 @@ include_once "tgdb.php";
     </tr>
 <?php
 $i = 0;
+
+usort($lastHeard, function($a, $b) {
+
+    // ONLINE zuerst
+    if ($a[3] == "ON" && $b[3] != "ON") return -1;
+    if ($a[3] != "ON" && $b[3] == "ON") return 1;
+
+    // Neueste oben
+    return strcmp($b[0], $a[0]);
+});
+
 for ($i = 0;  ($i <= 20); $i++) { //Last 20 calls
 	if (isset($lastHeard[$i])) {
 		$listElem = $lastHeard[$i];
 		if ( $listElem[1] ) {
       if (isset($svxconfig['GLOBAL']['TIMESTAMP_FORMAT'])) {
-
         $local_time = substr($listElem[0],-8); }
         else {
         $local_time = substr($listElem[0],-8); }
         //$local_time = date("%e F Y", strtotime('2010-01-08'))
-    echo"<tr height=24px style=\"font-size:12.5px;>\">";
+    echo"<tr height=24px style=\"font-size:12.5px;\">";
 		echo"<td align=\"left\">&nbsp; $local_time </td>";
                 if ($listElem[3] == "OFF" ) {$bgcolor=""; $tximg="";}
                 if ($listElem[3] == "ON" ) {$bgcolor=""; $tximg="<img src=images/tx.gif height=21 alt='TXing' title='TXing' style=\"vertical-align: middle;\">";}
