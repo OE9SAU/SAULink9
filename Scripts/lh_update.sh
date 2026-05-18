@@ -24,9 +24,9 @@ echo "Alte Dateien gelöscht."
 
 # Neue Dateien laden
 wget -q -O lh.php \
-https://github.com/OE9SAU/SAULink9/blob/main/Scripts/files/lh.php
+https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Scripts/files/lh.php
 
 wget -q -O lh_small.php \
-https://github.com/OE9SAU/SAULink9/blob/main/Scripts/files/lh_small.php
+https://raw.githubusercontent.com/OE9SAU/SAULink9/refs/heads/main/Scripts/files/lh_small.php
 
 echo "Dateien ersetzt. 73."
