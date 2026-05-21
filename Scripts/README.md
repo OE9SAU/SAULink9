@@ -3,7 +3,11 @@
 </p>
 
 # Update SvxLink Dashboard Ver 2.1 / in Arbeit !!
-### Verbesserte aktualisierung der SVXReflector Activity Tabelle mit LastHeard, Callsign und TG-Daten
+### Verbesserte aktualisierung der SVXReflector Activity Tabelle
+
+Sortierung angepasst inkl. wird neu das Datum mit angezeigt
+
+
 # Script herunterladen
 ```
 wget -O /tmp/lh_update.sh \
