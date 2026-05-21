@@ -38,14 +38,16 @@ usort($lastHeard, function($a, $b) {
     return strtotime($b[0]) - strtotime($a[0]);
 });
 
-for ($i = 0;  ($i <= 20); $i++) { //Last 20 calls
+for ($i = 0;  ($i <= 23); $i++) { //Last 23 calls
 	if (isset($lastHeard[$i])) {
 		$listElem = $lastHeard[$i];
 		if ( $listElem[1] ) {
       if (isset($svxconfig['GLOBAL']['TIMESTAMP_FORMAT'])) {
-        $local_time = substr($listElem[0],-8); }
+        //$local_time = substr($listElem[0],-8); }
+        $local_time = substr($listElem[0],4);}
         else {
-        $local_time = substr($listElem[0],-8); }
+        $local_time = substr($listElem[0],4);}
+        //$local_time = substr($listElem[0],-8); }
         //$local_time = date("%e F Y", strtotime('2010-01-08'))
     echo"<tr height=24px style=\"font-size:12.5px;\">";
 		echo"<td align=\"left\">&nbsp; $local_time </td>";
