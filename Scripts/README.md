@@ -5,7 +5,11 @@
 # Update SvxLink Dashboard Ver 2.1 / in Arbeit !!
 ### Verbesserte aktualisierung der SVXReflector Activity Tabelle
 
-Sortierung angepasst inkl. wird neu das Datum mit angezeigt
+-Sortierung verbessert
+
+-Datum wird mitangezeigt
+
+-Anzeige auf 23 Einträge erweitert
 
 
 # Script herunterladen
