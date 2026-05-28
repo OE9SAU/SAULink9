@@ -1,37 +1,36 @@
 namespace eval Logic {
 
-    variable is_network 0
+    #
+    # Eigenes Reflector-Call
+    #
+    variable local_call "OE9XVI-R"
 
-    proc squelch_open {rx_id is_open} {
+    #
+    # Talker Ende
+    #
+    proc talker_stop {tg callsign} {
 
-        variable is_network
+        variable local_call
 
         #
-        # Lokale HF beendet
+        # Lokal
         #
-        if {!$is_open} {
-
-            set is_network 0
-        }
-    }
-
-    proc send_rgr_sound {} {
-
-        variable is_network
-
-        if {$is_network} {
-
-            puts "=====>>>>> RGR Netzwerk <<<<<====="
-
-            playTone 500 300 150
-
-        } else {
-
-            puts "=====>>>>> RGR Lokal <<<<<====="
+        if {$callsign eq $local_call} {
 
             playTone 1000 300 50
             playSilence 80
             playTone 1209 300 50
+
+            puts "=====>>>>> RGR Lokal <<<<<====="
+
+        } else {
+
+            #
+            # Netzwerk
+            #
+            playTone 500 300 150
+
+            puts "=====>>>>> RGR Netzwerk <<<<<====="
         }
     }
 }
