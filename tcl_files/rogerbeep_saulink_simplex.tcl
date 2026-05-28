@@ -1,9 +1,12 @@
+# Rogerbeep.tcl für SimplexLogic
+# by OE9SAU v1.0
+
 namespace eval Logic {
 
     #
     # Eigenes Reflector-Call
     #
-    variable local_call "OE9XVI-R"
+    variable local_call "OEXXXX-X"
 
     #
     # Talker Ende
