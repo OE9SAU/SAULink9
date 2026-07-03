@@ -1,3 +1,6 @@
+# Rogerbeep.tcl für RepeaterLogic
+# by OE9SAU v1.0
+
 namespace eval Logic {
 
     variable is_rf 0
