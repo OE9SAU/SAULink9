@@ -1,0 +1,28 @@
+proc talker_stop {tg callsign} {
+
+  variable ::Logic::CFG_CALLSIGN
+
+  puts "### Talker stop on TG #$tg: $callsign"
+
+  #
+  # Lokal
+  #
+  if {$callsign eq $::Logic::CFG_CALLSIGN} {
+
+    #
+    # Doppelton lokal
+    #
+    playTone 1000 300 50
+    playSilence 80
+    playTone 1209 300 50
+    puts "=====>>>>> RGR Lokal <<<<<====="
+
+  } else {
+
+    #
+    # Einfachton Netzwerk
+    #
+    playTone 500 300 150
+    puts "=====>>>>> RGR Netzwerk <<<<<====="
+  }
+}
