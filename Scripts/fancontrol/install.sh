@@ -5,7 +5,7 @@ set -e
 REPO="https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/fancontrol"
 
 echo "======================================="
-echo " SAULink9 Fan Control Installer"
+echo " SAULink9 - Lüftersteuerung mit pigpio "
 echo "======================================="
 
 # Root prüfen

@@ -1,5 +1,5 @@
 #!/bin/bash
-# SAULin9 - Lüftersteuerung mit pigpio
+# SAULink9 - Lüftersteuerung mit pigpio
 # GPIO 18 EIN bei >65°C
 # GPIO 18 AUS bei <50°C
 #

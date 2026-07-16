@@ -1,5 +1,5 @@
 [Unit]
-Description=SAULInk9 Lüftersteuerung
+Description=SAULink9 - Lüftersteuerung mit pigpio
 Requires=pigpiod.service
 After=pigpiod.service
 
