@@ -4,6 +4,8 @@
 
 # FanControl
 Temperaturgesteuerte Lüftersteuerung für den SAULink mit **pigpio**.
+Für den Lüftereinbau muss der Gehäusedeckel modifiziert werden.
+Verwendeter Lüfter: https://www.amazon.de/dp/B0DKJP347L?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_2
 
 ## Funktionen
 
