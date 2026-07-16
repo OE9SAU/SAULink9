@@ -15,11 +15,8 @@ Temperaturgesteuerte Lüftersteuerung für den SAULink mit **pigpio**.
 
 ## Installation
 
-```bash
-git clone https://github.com/<USERNAME>/rpi-fancontrol.git
-cd rpi-fancontrol
-sudo chmod +x install.sh
-sudo ./install.sh
+```
+wget -qO install.sh https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/fancontrol/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
 
 ## Standardwerte
@@ -35,19 +32,19 @@ sudo ./install.sh
 
 Status anzeigen:
 
-```bash
+```
 systemctl status fancontrol
 ```
 
 Neustarten:
 
-```bash
+```
 sudo systemctl restart fancontrol
 ```
 
 Stoppen:
 
-```bash
+```
 sudo systemctl stop fancontrol
 ```
 ---
