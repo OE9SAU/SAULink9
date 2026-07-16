@@ -14,7 +14,6 @@ Temperaturgesteuerte Lüftersteuerung für den SAULink mit **pigpio**.
 - Startet automatisch beim Booten über systemd
 
 ## Installation
-
 ```
 wget -qO install.sh https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/fancontrol/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
