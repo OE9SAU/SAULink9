@@ -50,11 +50,6 @@ Stoppen:
 ```bash
 sudo systemctl stop fancontrol
 ```
-
-## Lizenz
-
-MITystemctl start fancontrol
-```
 ---
 
 # Update SvxLink Dashboard Ver 2.1
