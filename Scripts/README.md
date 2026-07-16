@@ -11,7 +11,7 @@ Verwendeter Lüfter: https://www.amazon.de/dp/B0DKJP347L?ref_=ppx_hzsearch_conn_
 
 ## Funktionen
 
-- GPIO 18 schaltet einen Lüfter mittels MOSFET (
+- GPIO 18 schaltet einen Lüfter über den MosFet auf dem Rpi_Hat
 - Lüfter EIN ab 65 °C
 - Lüfter AUS unter 50 °C
 - Hysterese verhindert Flattern
