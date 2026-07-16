@@ -1,0 +1,13 @@
+[Unit]
+Description=SAULInk9 Lüftersteuerung
+Requires=pigpiod.service
+After=pigpiod.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/fancontrol.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -2,6 +2,61 @@
   <img width="500" height="500" src="update.png">
 </p>
 
+# FanControl
+Temperaturgesteuerte Lüftersteuerung für den SAULink mit **pigpio**.
+
+## Funktionen
+
+- GPIO 18 schaltet einen Lüfter
+- Lüfter EIN ab 65 °C
+- Lüfter AUS unter 50 °C
+- Hysterese verhindert Flattern
+- Startet automatisch beim Booten über systemd
+
+## Installation
+
+```bash
+git clone https://github.com/<USERNAME>/rpi-fancontrol.git
+cd rpi-fancontrol
+sudo chmod +x install.sh
+sudo ./install.sh
+```
+
+## Standardwerte
+
+| Parameter | Wert |
+|-----------|------|
+| GPIO | 18 |
+| Einschalten | 65 °C |
+| Ausschalten | 50 °C |
+| Prüfintervall | 5 Sekunden |
+
+## Dienst
+
+Status anzeigen:
+
+```bash
+systemctl status fancontrol
+```
+
+Neustarten:
+
+```bash
+sudo systemctl restart fancontrol
+```
+
+Stoppen:
+
+```bash
+sudo systemctl stop fancontrol
+```
+
+## Lizenz
+
+MITystemctl start fancontrol
+```
+---
+
 # Update SvxLink Dashboard Ver 2.1
 ### Verbesserte aktualisierung der SVXReflector Activity Tabelle
 
