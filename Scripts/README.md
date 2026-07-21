@@ -93,7 +93,7 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflekto
 | 0 | ❌ Gestoppt | ➖ – | ⚫ Aus | ⚫ Aus | SVXLink-Service ist nicht aktiv. |
 | 1 | ✅ Aktiv | ⛔ DOWN | 🔴 blinkend| ⚫ Aus | SVXLink aktiv, keine Verbindung zum SVXReflector. |
 | 2 | ✅ Aktiv | 🔄 CONNECTING | 🔴 blinkend | 🔴 Langsam blinkend | Verbindung zum SVXReflector wird aufgebaut. |
-| 3 | ✅ Aktiv | ✅ UP | 🔴 blinkend | 🔴 Schnell blinkend | Verbindung zum SVXReflector erfolgreich hergestellt. |
+| 3 | ✅ Aktiv | ✅ UP | 🔴 blinkend | 🔴 blinkend | Verbindung zum SVXReflector erfolgreich hergestellt. |
 | 4 | ✅ Aktiv | ❌ ERROR | 🔴 blinkend | 🔴 Dauerlicht | Fehler der Reflektorverbindung (Heartbeat Timeout, Access denied oder Disconnect). |
 
 ## Installation:
