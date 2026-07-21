@@ -88,7 +88,7 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflekto
 
 ## Zustandsdefinition (STAT1 / STAT2)
 
-| Zustand | SVXLink Service | Reflektorstatus | STAT1 🔴 | STAT2 🔴 | Beschreibung |
+| Zustand | SVXLink Service | Reflektorstatus | STAT1  | STAT2  | Beschreibung |
 |----------|-----------------|-----------------|:--------:|:--------:|--------------|
 | 0 | ❌ Gestoppt | ➖ – | ⚫ Aus | ⚫ Aus | SVXLink-Service läuft nicht. |
 | 1 | ✅ Aktiv | ⛔ DOWN | 🔴 Ein | ⚫ Aus | SVXLink läuft, keine Verbindung zum Reflektor. |
