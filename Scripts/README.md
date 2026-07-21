@@ -96,6 +96,26 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflekto
 | 3 | ✅ Aktiv | UP | HIGH | Schnell blinkend | Reflektor erfolgreich verbunden. |
 | 4 | ✅ Aktiv | ERROR | HIGH | HIGH | Fehler bei der Reflektorverbindung (z.B. Heartbeat Timeout, Access denied oder Disconnect). |
 
+## Zustandsdefinition (STAT1 / STAT2)
+
+| Zustand | SVXLink Service | Reflektorstatus | STAT1 | STAT2 | Beschreibung |
+|----------|-----------------|-----------------|:-----:|:-----:|--------------|
+| 0 | 🔴 Gestoppt | ⚫ – | ⚫ LOW | ⚫ LOW | SVXLink-Service läuft nicht. |
+| 1 | 🟢 Aktiv | ⚫ DOWN | 🟢 HIGH | ⚫ LOW | SVXLink läuft, keine Verbindung zum Reflektor. |
+| 2 | 🟢 Aktiv | 🟡 CONNECTING | 🟢 HIGH | 🟡 Langsam blinkend | Verbindung zum Reflektor wird aufgebaut. |
+| 3 | 🟢 Aktiv | 🟢 UP | 🟢 HIGH | 🟢 Schnell blinkend | Reflektor erfolgreich verbunden. |
+| 4 | 🟢 Aktiv | 🔴 ERROR | 🟢 HIGH | 🔴 HIGH | Fehler bei der Reflektorverbindung (z.B. Heartbeat Timeout, Access denied oder Disconnect). |
+
+### Signaldefinition
+
+| Signal | Zustand | Bedeutung |
+|---------|---------|-----------|
+| **STAT1** | ⚫ LOW | SVXLink-Service gestoppt |
+| | 🟢 HIGH | SVXLink-Service aktiv |
+| **STAT2** | ⚫ LOW | Keine Reflektorverbindung |
+| | 🟡 Langsam blinkend | Verbindung wird aufgebaut |
+| | 🟢 Schnell blinkend | Reflektor erfolgreich verbunden |
+| | 🔴 HIGH | Reflektorfehler |
 
 ## Installation:
 ```
