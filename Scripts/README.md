@@ -96,19 +96,6 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflekto
 | 3 | ✅ Aktiv | ✅ UP | 🔴 Ein | 🔴 Schnell blinkend | Die Verbindung zum SVXReflector wurde erfolgreich hergestellt und ist aktiv. |
 | 4 | ✅ Aktiv | ❌ ERROR | 🔴 Ein | 🔴 Dauerlicht | Während der Reflektorverbindung ist ein Fehler aufgetreten (z. B. **Heartbeat Timeout**, **Access denied** oder **Disconnected from**). |
 
-### LED-Bedeutung
-
-### Signaldefinition
-
-| LED | Zustand | Bedeutung |
-|-----|----------|-----------|
-| **STAT1 🔴** | ⚫ Aus | SVXLink-Service gestoppt |
-| | 🔴 Ein | SVXLink-Service aktiv |
-| **STAT2 🔴** | ⚫ Aus | Keine Reflektorverbindung |
-| | 🔴 Langsam blinkend | Verbindung wird aufgebaut |
-| | 🔴 Schnell blinkend | Reflektor verbunden |
-| | 🔴 Dauerlicht | Reflektorfehler |
-
 ## Installation:
 ```
 sudo systemctl stop svxlink_service_led.service
