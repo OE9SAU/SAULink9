@@ -90,11 +90,11 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflekto
 
 | Zustand | SVXLink | Reflektor | STAT1 🔴 | STAT2 🔴 | Beschreibung |
 |:-------:|:-------:|:---------:|:--------:|:--------:|--------------|
-| 0 | ❌ Gestoppt | ➖ – | ⚫ Aus | ⚫ Aus | SVXLink gestoppt, keine Reflektorverbindung möglich. |
+| 0 | ❌ Gestoppt | ➖ – | ⚫ Aus | ⚫ Aus | SVXLink-Service ist nicht aktiv. |
 | 1 | ✅ Aktiv | ⛔ DOWN | 🔴 Ein | ⚫ Aus | SVXLink aktiv, keine Verbindung zum SVXReflector. |
 | 2 | ✅ Aktiv | 🔄 CONNECTING | 🔴 Ein | 🔴 Langsam blinkend | Verbindung zum SVXReflector wird aufgebaut. |
-| 3 | ✅ Aktiv | ✅ UP | 🔴 Ein | 🔴 Schnell blinkend | Verbindung zum SVXReflector aktiv. |
-| 4 | ✅ Aktiv | ❌ ERROR | 🔴 Ein | 🔴 Dauerlicht | Fehler der Reflektorverbindung (Timeout, Access denied, Disconnect). |
+| 3 | ✅ Aktiv | ✅ UP | 🔴 Ein | 🔴 Schnell blinkend | Verbindung zum SVXReflector erfolgreich hergestellt. |
+| 4 | ✅ Aktiv | ❌ ERROR | 🔴 Ein | 🔴 Dauerlicht | Fehler der Reflektorverbindung (Heartbeat Timeout, Access denied oder Disconnect). |
 
 ## Installation:
 ```
