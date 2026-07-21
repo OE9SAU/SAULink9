@@ -88,13 +88,13 @@ Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflekto
 
 ## Zustandsdefinition (STAT1 / STAT2)
 
-| Zustand | SVXLink Service | Reflektorstatus | STAT1 🔴 | STAT2 🔴 | Beschreibung |
-|----------|-----------------|-----------------|:--------:|:--------:|--------------|
-| 0 | ❌ Gestoppt | ➖ – | ⚫ Aus | ⚫ Aus | Der SVXLink-Dienst ist nicht aktiv. Eine Verbindung zum Reflektor ist daher nicht möglich. |
-| 1 | ✅ Aktiv | ⛔ DOWN | 🔴 Ein | ⚫ Aus | SVXLink läuft ordnungsgemäß, es besteht jedoch aktuell keine Verbindung zu einem SVXReflector. |
-| 2 | ✅ Aktiv | 🔄 CONNECTING | 🔴 Ein | 🔴 Langsam blinkend | SVXLink baut derzeit eine Verbindung zum SVXReflector auf oder versucht eine erneute Verbindung herzustellen. |
-| 3 | ✅ Aktiv | ✅ UP | 🔴 Ein | 🔴 Schnell blinkend | Die Verbindung zum SVXReflector wurde erfolgreich hergestellt und ist aktiv. |
-| 4 | ✅ Aktiv | ❌ ERROR | 🔴 Ein | 🔴 Dauerlicht | Während der Reflektorverbindung ist ein Fehler aufgetreten (z. B. **Heartbeat Timeout**, **Access denied** oder **Disconnected from**). |
+| Zustand | SVXLink | Reflektor | STAT1 🔴 | STAT2 🔴 | Beschreibung |
+|:-------:|:-------:|:---------:|:--------:|:--------:|--------------|
+| 0 | ❌ Gestoppt | ➖ – | ⚫ Aus | ⚫ Aus | SVXLink gestoppt, keine Reflektorverbindung möglich. |
+| 1 | ✅ Aktiv | ⛔ DOWN | 🔴 Ein | ⚫ Aus | SVXLink aktiv, keine Verbindung zum SVXReflector. |
+| 2 | ✅ Aktiv | 🔄 CONNECTING | 🔴 Ein | 🔴 Langsam blinkend | Verbindung zum SVXReflector wird aufgebaut. |
+| 3 | ✅ Aktiv | ✅ UP | 🔴 Ein | 🔴 Schnell blinkend | Verbindung zum SVXReflector aktiv. |
+| 4 | ✅ Aktiv | ❌ ERROR | 🔴 Ein | 🔴 Dauerlicht | Fehler der Reflektorverbindung (Timeout, Access denied, Disconnect). |
 
 ## Installation:
 ```
