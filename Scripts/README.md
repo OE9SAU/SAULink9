@@ -86,22 +86,7 @@ Watchdog Schaltung unter SAULink9/Watchdog
 
 Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
 
-### Statusanzeige – SVXLink (STAT LED 1 bestehend)
-
-|SVXLink               | LED-Verhalten        |
-|----------------------|----------------------|
-| Dienst läuft nicht   | Dauer-AN             |
-| Dienst läuft         | Blinkend (0,5 s)     |
-
-### Statusanzeige – Reflektor (STAT LED 2 Neu)
-
-| Reflektor Verbindung | LED-Verhalten        |
-|-------------------|----------------------|
-| UP                | Blinkend (0,5 s)     |
-| CONNECTING        | Langsam blinkend     |
-| DOWN / ERROR      | Dauer-AN             |
-
-## Zustandsdefinition (STAT1 / STAT2)
+## Statusanzeige (STAT1 / STAT2)
 
 | Zustand | SVXLink Service | Reflektorstatus | STAT1 | STAT2 | Beschreibung |
 |----------|-----------------|-----------------|:-----:|:-----:|--------------|
