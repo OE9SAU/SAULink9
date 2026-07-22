@@ -2,7 +2,6 @@
 #v2.0: inkl. watchdog funktion GPIO 21 und Service/Reflektor Check nur 1x/Sekunde prüfen
 #v2.1: Watchdog aktiv bei fehlender Reflektorverbidung
 #v2.2: GPIO_WATCHDOG = 21 / Neu: GIPO12
-#v2.3: LINES_TO_READ = 200 auf 500, für besseres Erkennen der Zustände vom Reflektor
 
 #!/usr/bin/env python3
 import RPi.GPIO as GPIO
@@ -26,7 +25,7 @@ GPIO.output(GPIO_SVXLINK, GPIO.LOW)
 GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
 
 LOGFILE = "/var/log/svxlink"
-LINES_TO_READ = 500
+LINES_TO_READ = 200
 
 BLINK_SVX = 0.15
 BLINK_FAST = 0.15
