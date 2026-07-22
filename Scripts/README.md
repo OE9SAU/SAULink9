@@ -79,7 +79,7 @@ sudo /tmp/lh_update.sh
 ---
 # Update der Status LEDs im Frontpanel
 
-###v2.3: LINES_TO_READ = 200 auf 500, für besseres Erkennen der Zustände vom Reflektor
+v2.3: LINES_TO_READ = 200 auf 500, für besseres Erkennen der Zustände vom Reflektor
 
 v2.2: GPIO_WATCHDOG = 21 / Neu: GIPO12
 
