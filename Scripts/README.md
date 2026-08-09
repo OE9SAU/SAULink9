@@ -77,11 +77,11 @@ sudo chmod +x /tmp/lh_update.sh
 sudo /tmp/lh_update.sh
 ```
 ---
-# Update der Status LEDs im Frontpanel
+# Update der Status LEDs im Frontpanel inkl.Watchdog Funktion, Schaltung unter SAULink9/Watchdog
 
 v2.4: Statusprüfung angepasst, erkannte Authentication OK-Verbindung UP bleibt, bis tatsächlich eine Trennung/Fehlermeldung kommt
 
-Watchdog Schaltung unter SAULink9/Watchdog
+
 
 Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
 
