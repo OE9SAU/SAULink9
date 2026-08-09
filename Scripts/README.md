@@ -81,9 +81,7 @@ sudo /tmp/lh_update.sh
 
 v2.4: Statusprüfung angepasst, erkannte Authentication OK-Verbindung UP bleibt, bis tatsächlich eine Trennung/Fehlermeldung kommt
 
-
-
-Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
+Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel inkl. GPIO für Watchdog
 
 ### Statusanzeige – SVXLink (STAT LED 1 bestehend)
 
