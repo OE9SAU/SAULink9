@@ -3,6 +3,7 @@
 #v2.1: Watchdog aktiv bei fehlender Reflektorverbidung
 #v2.2: GPIO_WATCHDOG = 21 / Neu: GIPO12
 #v2.3: LINES_TO_READ = 200 auf 500, für besseres Erkennen der Zustände vom Reflektor
+#v2.4: Statusprüfung angepasst, erkannte Authentication OK-Verbindung UP bleibt, bis tatsächlich eine Trennung/Fehlermeldung kommt
 
 #!/usr/bin/env python3
 import RPi.GPIO as GPIO
@@ -26,7 +27,6 @@ GPIO.output(GPIO_SVXLINK, GPIO.LOW)
 GPIO.output(GPIO_REFLECTOR, GPIO.LOW)
 
 LOGFILE = "/var/log/svxlink"
-LINES_TO_READ = 500
 
 BLINK_SVX = 0.15
 BLINK_FAST = 0.15
@@ -47,6 +47,10 @@ reflector_state = "DOWN"
 
 TEST_MODE = False   # True = SVXLink Service ignorieren (nur mit Reflektor verbindung testen)
 
+#v2.4
+_log_position = 0
+_reflector_known_state = "DOWN"
+
 
 def svxlink_running():
     return subprocess.run(
@@ -55,28 +59,70 @@ def svxlink_running():
 
 
 def reflector_status():
+    global _log_position, _reflector_known_state
+
     if not os.path.isfile(LOGFILE):
-        return "DOWN"
+        _log_position = 0
+        _reflector_known_state = "DOWN"
+        return _reflector_known_state
 
     try:
+        file_size = os.path.getsize(LOGFILE)
+
+        # Log wurde rotiert/geleert
+        if file_size < _log_position:
+            _log_position = 0
+            _reflector_known_state = "DOWN"
+
         with open(LOGFILE, "r", errors="ignore") as f:
-            lines = f.readlines()[-LINES_TO_READ:]
+
+            # Beim ersten Start letzten bekannten Zustand ermitteln
+            if _log_position == 0:
+                lines = f.readlines()
+
+                for line in reversed(lines):
+                    if "Authentication OK" in line:
+                        _reflector_known_state = "UP"
+                        break
+
+                    if "Connection established" in line:
+                        _reflector_known_state = "CONNECTING"
+                        break
+
+                    if (
+                        "Heartbeat timeout" in line
+                        or "Access denied" in line
+                        or "Disconnected from" in line
+                    ):
+                        _reflector_known_state = "ERROR"
+                        break
+
+                _log_position = f.tell()
+
+            else:
+                # Danach nur neue Logzeilen lesen
+                f.seek(_log_position)
+
+                for line in f:
+                    if "Authentication OK" in line:
+                        _reflector_known_state = "UP"
+
+                    elif "Connection established" in line:
+                        _reflector_known_state = "CONNECTING"
+
+                    elif (
+                        "Heartbeat timeout" in line
+                        or "Access denied" in line
+                        or "Disconnected from" in line
+                    ):
+                        _reflector_known_state = "ERROR"
+
+                _log_position = f.tell()
+
     except Exception:
-        return "DOWN"
+        return _reflector_known_state
 
-    for line in reversed(lines):
-        if "Authentication OK" in line:
-            return "UP"
-        if "Connection established" in line:
-            return "CONNECTING"
-        if (
-            "Heartbeat timeout" in line
-            or "Access denied" in line
-            or "Disconnected from" in line
-        ):
-            return "ERROR"
-
-    return "DOWN"
+    return _reflector_known_state
 
 
 def update_reflector_led(status):
@@ -131,6 +177,7 @@ try:
         # --- Reflector Check 1x/s ---
         if now - _last_reflector_check >= REFLECTOR_CHECK_INTERVAL:
             reflector_state = reflector_status()
+            print(f"Reflector Status: {reflector_state}", flush=True)
             _last_reflector_check = now
 
         # --- LED + Watchdog 50ms Loop ---
