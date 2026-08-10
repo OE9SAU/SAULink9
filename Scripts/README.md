@@ -77,19 +77,11 @@ sudo chmod +x /tmp/lh_update.sh
 sudo /tmp/lh_update.sh
 ```
 ---
-# Update der Status LEDs im Frontpanel
+# Update der Status LEDs im Frontpanel inkl.Watchdog Funktion, Schaltung unter SAULink9/Watchdog
 
-v2.3: LINES_TO_READ = 200 auf 500, für besseres Erkennen der Zustände vom Reflektor
+v2.4: Statusprüfung angepasst, erkannte Authentication OK-Verbindung UP bleibt, bis tatsächlich eine Trennung/Fehlermeldung kommt
 
-v2.2: GPIO_WATCHDOG = 21 / Neu: GIPO12
-
-v2.1 GPIO21 auch als Trigger bei fehlender Reflektorverbindung für Watchdog-Anwendung hinzugefügt
-
-v2.0 GPIO21 als Trigger für gestoppten SVXLink Dienst für Watchdog-Anwendung hinzugefügt, sowie Service/Reflektor Check nur 1x/Sekunde prüfen
-
-Watchdog Schaltung unter SAULink9/Watchdog
-
-Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel.
+Script dient der Anpassung der Statusanzeige von SVXLink-Dienst und der Reflektor-Verbindungen über die beiden roten GPIO-LEDs im Frontpanel inkl. GPIO für Watchdog
 
 ### Statusanzeige – SVXLink (STAT LED 1 bestehend)
 
