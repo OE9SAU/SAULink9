@@ -4,3 +4,4 @@ The watchdog timer is repeatedly started by a trigger. If the trigger is missing
 
 <img src="/Extensions/WATCHDOG/wd_v1.1.png" width="500">
 
+v1.1: Add R7 & R8 to define PULLUP or PULLDOWN, without R7 & R8 acting potentialfree
