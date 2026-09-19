@@ -3,8 +3,8 @@
 </p>
 
 # Erweiterung eSM Server Monitor
-Die Erweiterung ist im eSM Dashboard über **Hardware Info** erreichbar.
-Das Script im Ordner /eSM erweitert das bestehende eSM Server Monitor Dashboard um einen Temperaturgraphen zur Darstellung der CPU-Temperatur im zeitlichen Verlauf.
+Das eSM Dashboard ist über **Hardware Info** erreichbar.
+Das Script im Ordner /eSM erweitert das bestehende eSM Dashboard um einen Temperaturgraphen zur Darstellung der CPU-Temperatur im zeitlichen Verlauf.
 In Verbindung mit der FanControl lässt sich damit gut beobachten, wie sich die CPU-Temperatur entwickelt und wann die temperaturgesteuerte Lüftersteuerung ein- bzw. ausschaltet.
 
 ## Installation
