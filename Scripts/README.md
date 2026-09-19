@@ -9,7 +9,7 @@ In Verbindung mit der FanControl lässt sich damit gut beobachten, wie sich die 
 
 ## Installation
 ```
-wget -qO install.sh https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/eSM/install-tempgraph.sh && chmod +x install-tempgraph.sh && sudo ./install-tempgraph.sh
+wget -qO install-tempgraph.sh https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/eSM/install-tempgraph.sh && chmod +x install-tempgraph.sh && sudo ./install-tempgraph.sh
 ```
 
 # FanControl
