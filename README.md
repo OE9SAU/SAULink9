@@ -7,9 +7,6 @@ It’s designed for amateur radio operators who want to flexibly connect their a
 
 <img src="/Node_Case/SAULink9_inside.png" width="380">
 
-## NEWS
-neue Scipts verfügbar!
-
 ## Highlights
 
 🔹 Base system: cost-effective Raspberry Pi 3B+
