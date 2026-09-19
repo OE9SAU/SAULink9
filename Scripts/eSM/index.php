@@ -1,4 +1,25 @@
 <?php
+/*
+ * ================================================================
+ * eZ Server Monitor - Custom Dashboard
+ * ================================================================
+ *
+ * Anpassungen by OE9SAU
+ *
+ * - CPU-Temperaturanzeige
+ * - CPU-Temperaturverlauf (60 Minuten)
+ * - Chart.js Temperaturgraph
+ * - 15-Minuten-Zeitraster
+ * - Fanstatus GPIO18
+ * - Fan OFF = grün / ON = rot
+ * - Temperaturdaten unter /var/log/esm (Log2RAM)
+ *
+ * Version: 1.0
+ * Stand:   09/2026
+ *
+ * ================================================================
+ */
+ 
 require 'autoload.php';
 $Config = new Config();
 $update = $Config->checkUpdate();
