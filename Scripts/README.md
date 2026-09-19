@@ -2,8 +2,21 @@
   <img width="500" height="500" src="update.png">
 </p>
 
+# Erweiterung eSM Server Monitor
+Die Erweiterung ist im eSM Dashboard über **Hardware Info** erreichbar.
+Das Script im Ordner /eSM erweitert das bestehende eSM Server Monitor Dashboard um einen Temperaturgraphen zur Darstellung der CPU-Temperatur im zeitlichen Verlauf.
+In Verbindung mit der FanControl lässt sich damit gut beobachten, wie sich die CPU-Temperatur entwickelt und wann die temperaturgesteuerte Lüftersteuerung ein- bzw. ausschaltet.
+
+## Installation
+```
+wget -qO install.sh https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/eSM/install-tempgraph.sh && chmod +x install-tempgraph.sh && sudo ./install-tempgraph.sh
+```
+
 # FanControl
-Temperaturgesteuerte Lüftersteuerung für den SAULink mit **pigpio**.
+
+Temperaturgesteuerte Lüftersteuerung für SAULink auf Basis von **pigpio**.
+Die FanControl überwacht die CPU-Temperatur des Raspberry Pi und steuert den angeschlossenen Lüfter automatisch anhand der festgelegten Temperaturschwellen.
+Zusammen mit dem Temperaturgraphen im eSM Dashboard lässt sich das Verhalten der Lüftersteuerung einfach überwachen und nachvollziehen.
 
 Für den Lüftereinbau muss der Gehäusedeckel modifiziert werden.
 
