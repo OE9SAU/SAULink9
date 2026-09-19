@@ -3,7 +3,7 @@
 </p>
 
 # Erweiterung eSM Server Monitor
-Das eSM Dashboard ist über **Hardware Info** erreichbar.
+Das eSM Dashboard ist im SAULink Dashboard mit einem Klick auf **Hardware Info** erreichbar.
 Das Script im Ordner /eSM erweitert das bestehende eSM Dashboard um einen Temperaturgraphen zur Darstellung der CPU-Temperatur im zeitlichen Verlauf.
 In Verbindung mit der FanControl lässt sich damit gut beobachten, wie sich die CPU-Temperatur entwickelt und wann die temperaturgesteuerte Lüftersteuerung ein- bzw. ausschaltet.
 
