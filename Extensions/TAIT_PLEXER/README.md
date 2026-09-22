@@ -5,7 +5,9 @@ In case of problems like no reflector connection or SAULink9 down, SAULink9 Watc
 to LOW and both TAIT device are acting as local fm-repeater
 
 v1.0 Testdesign
-v1.1 changed pinout by handwiring for current TAIT pinout config
+
+v1.1 changed pinout v1.o by handwiring for current TAIT pinout config
+
 v2.0 changed pinout
 
 
