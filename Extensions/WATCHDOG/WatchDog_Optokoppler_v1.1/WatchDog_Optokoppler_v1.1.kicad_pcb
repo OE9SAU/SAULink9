@@ -4421,7 +4421,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "OE9SAU-WATCHDOG\nv1.1 04/2026"
+	(gr_text "OE9SAU-WATCHDOG\nv1.1 10/2026"
 		(at 148.59 53.4924 0)
 		(layer "B.SilkS")
 		(uuid "46fe4a93-40da-44b5-afd9-54b519d7e976")
