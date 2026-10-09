@@ -82,8 +82,8 @@
 		(center 102 121)
 		(end 127 121)
 		(stroke
-			(width 0.05)
-			(type solid)
+			(width 0.2)
+			(type dash)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -148,13 +148,13 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "144"
-			(at 48.85 133 90)
+			(at 46.8 133 90)
 			(layer "Margin")
 			(uuid "240bc5c2-ac1c-47c6-9216-ea02fd6eaae4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 3 3)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -173,6 +173,7 @@
 			(units 3)
 			(units_format 0)
 			(precision 4)
+			(override_value "56.0")
 			(suppress_zeroes yes)
 		)
 		(style
@@ -184,14 +185,14 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "60"
-			(at 100.85 91 90)
+		(gr_text "56.0"
+			(at 98.8 91 90)
 			(layer "Margin")
 			(uuid "2c2558df-325a-434c-b3bb-2f1dc8a76964")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 3 3)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -210,6 +211,7 @@
 			(units 3)
 			(units_format 0)
 			(precision 4)
+			(override_value "40.0")
 			(suppress_zeroes yes)
 		)
 		(style
@@ -221,14 +223,14 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "42.5"
-			(at 129.85 82.048438 90)
+		(gr_text "40.0"
+			(at 127.8 82.048438 90)
 			(layer "Margin")
 			(uuid "3f10e8ae-6873-4993-abb5-8a6a91f79c1f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 3 3)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -259,13 +261,13 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "150"
-			(at 135 50.85 0)
+			(at 135 48.8 0)
 			(layer "Margin")
 			(uuid "88987fb4-a11a-4dcc-ab6e-8584df278f8c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 3 3)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -296,13 +298,13 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "12.5"
-			(at 66.25 137.35 0)
+			(at 66.25 135.3 0)
 			(layer "Margin")
 			(uuid "93c3b5cc-cb6a-414b-a3b2-8185fe2416f7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 3 3)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -321,25 +323,26 @@
 			(units 3)
 			(units_format 0)
 			(precision 4)
+			(override_value "72.5")
 			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "77.5"
-			(at 71.35 99.75 90)
+		(gr_text "72.5"
+			(at 69.5 95.5 90)
 			(layer "Margin")
 			(uuid "a06af582-1e54-4b75-a91c-e4e91db220cd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 3 3)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -370,13 +373,13 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "25"
-			(at 91.31 127.58 36.86989765)
+			(at 90.08 125.94 36.86989765)
 			(layer "Margin")
 			(uuid "a2b2a826-ecba-4c18-a421-a1daadf0916e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 3 3)
+					(thickness 0.2)
 				)
 			)
 		)
@@ -395,6 +398,7 @@
 			(units 3)
 			(units_format 0)
 			(precision 4)
+			(override_value "72.0")
 			(suppress_zeroes yes)
 		)
 		(style
@@ -406,14 +410,53 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "71"
-			(at 95.5 102.148438 0)
+		(gr_text "72.0"
+			(at 95.5 100.098438 0)
 			(layer "Margin")
 			(uuid "fbc8b3cf-fc80-4179-9cc2-34a5bd8d27ff")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 3 3)
+					(thickness 0.2)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Margin")
+		(uuid "b6ca946e-60d6-4234-8e79-b7a11bacd8bd")
+		(pts
+			(xy 60 121) (xy 102 121)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(override_value "42.0")
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "42.0"
+			(at 81 117.8 0)
+			(layer "Margin")
+			(uuid "b6ca946e-60d6-4234-8e79-b7a11bacd8bd")
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.2)
 				)
 			)
 		)
