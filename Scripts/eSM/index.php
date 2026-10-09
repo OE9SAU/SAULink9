@@ -670,6 +670,3 @@ setInterval(
 
 </body>
 </html>
-
-</body>
-</html>
