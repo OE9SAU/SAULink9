@@ -35,7 +35,7 @@ Verwendeter Lüfter: https://www.amazon.de/dp/B0DKJP347L?ref_=ppx_hzsearch_conn_
 
 ## Installation
 ```
-wget -qO install.sh https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/fancontrol/install.sh && chmod +x install.sh && sudo ./install.sh
+sudo wget -qO install.sh https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/fancontrol/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
 
 ## Standardwerte
