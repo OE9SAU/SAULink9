@@ -299,10 +299,10 @@ block = """
             cell.textContent = data.status;
 
             if (data.state === 1) {
-                cell.style.backgroundColor = '#b8edb8';
+                cell.style.backgroundColor = '#f5b5b5';
                 cell.style.color = '#145214';
             } else if (data.state === 0) {
-                cell.style.backgroundColor = '#f5b5b5';
+                cell.style.backgroundColor = '#b8edb8';
                 cell.style.color = '#751818';
             } else {
                 cell.style.backgroundColor = '#dddddd';
