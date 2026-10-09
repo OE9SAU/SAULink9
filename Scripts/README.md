@@ -9,10 +9,7 @@ In Verbindung mit der **FanControl** lässt sich damit gut beobachten, wie sich 
 
 ## Installation
 ```
-sudo cp /var/www/html/esm/index.php /var/www/html/esm/index.php.bak && \
-sudo wget -qO /var/www/html/esm/index.php \
-https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/eSM/index.php && \
-wget -qO install-tempgraph.sh \
+sudo wget -qO install-tempgraph.sh \
 https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/eSM/install-tempgraph.sh && \
 chmod +x install-tempgraph.sh && \
 sudo ./install-tempgraph.sh
