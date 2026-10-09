@@ -20,7 +20,7 @@
  * ================================================================
  */
  
-require 'autoload.php';
+ require 'autoload.php';
 $Config = new Config();
 $update = $Config->checkUpdate();
 ?>
@@ -39,7 +39,7 @@ $update = $Config->checkUpdate();
     <script src="js/plugins/jquery-2.1.0.min.js" type="text/javascript"></script>
     <script src="js/plugins/jquery.knob.js" type="text/javascript"></script>
     <script src="js/esm.js" type="text/javascript"></script>
-    <script src="js/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
     $(function(){
         $('.gauge').knob({
@@ -325,7 +325,8 @@ $update = $Config->checkUpdate();
             <canvas id="cpuTempChart"></canvas>
         </div>
     </td>
-</tr>			 
+</tr>
+
                 </tbody>
             </table>
         </div>
@@ -403,7 +404,34 @@ $update = $Config->checkUpdate();
 
 </div>
 
+</div>
 
+<script>
+/* Fan GPIO18 farblich anzeigen */
+function colorFanStatus() {
+    const fan = document.getElementById('cpu-gpio18');
+    if (!fan) return;
+
+    const status = fan.textContent.trim().toUpperCase();
+
+    fan.style.display = 'inline-block';
+    fan.style.padding = '2px 8px';
+    fan.style.borderRadius = '0';
+    fan.style.fontWeight = 'normal';
+    fan.style.color = '#444';
+    fan.style.minWidth = '30px';
+    fan.style.textAlign = 'center';
+
+    if (status === 'ON') {
+        fan.style.backgroundColor = '#e57373';  // hellrot
+    } else if (status === 'OFF') {
+        fan.style.backgroundColor = '#7ed36d';  // hellgrün
+    }
+}
+
+/* ESM lädt den GPIO-Status dynamisch */
+setInterval(colorFanStatus, 1000);
+</script>
 
 <script>
 /* OE9SAU_TEMPGRAPH_JS */
@@ -639,6 +667,9 @@ setInterval(
 
 </script>
 
+
+</body>
+</html>
 
 </body>
 </html>
