@@ -204,7 +204,7 @@ function loadCpuTempChart() {
                                 color: function(context) {
                                     const index = context.index;
                                     if (index === undefined || !labels[index]) return 'transparent';
-                                    return /:(00|15|30|45)$/.test(labels[index]) ? 'rgba(0,0,0,0.1)' : 'transparent';
+                                    return /:(00|15|30|45)$/.test(labels[index]) ? 'rgba(100,100,100,0.2)' : 'transparent';
                                 }
                             }
                         }
