@@ -15,8 +15,9 @@ LOGGER=/usr/local/bin/esm-temp-logger.py
 if (( EUID != 0 )); then echo 'Bitte mit sudo ausführen.' >&2; exit 1; fi
 if [[ ! -f "$INDEX" ]]; then echo "FEHLER: $INDEX nicht gefunden." >&2; exit 1; fi
 
-apt-get update
-apt-get install -y curl python3
+# apt-get update
+# apt-get install -y curl python3
+
 mkdir -p "$ESM_DIR/js" "$DATA_DIR"
 chmod 755 "$DATA_DIR"
 if [[ ! -s "$ESM_DIR/js/chart.umd.min.js" ]]; then
