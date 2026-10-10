@@ -11,7 +11,7 @@ In Verbindung mit der **FanControl** lässt sich damit gut beobachten, wie sich 
 ```
 sudo wget -qO install-tempgraph.sh \
 https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/eSM/install-tempgraph.sh && \
-chmod +x install-tempgraph.sh && \
+sudo chmod +x install-tempgraph.sh && \
 sudo ./install-tempgraph.sh
 ```
 
@@ -37,7 +37,7 @@ Verwendeter Lüfter: https://www.amazon.de/dp/B0DKJP347L?ref_=ppx_hzsearch_conn_
 ```
 sudo wget -qO install.sh \
 https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/fancontrol/install.sh && \
-chmod +x install.sh && \
+sudo chmod +x install.sh && \
 sudo ./install.sh
 ```
 
