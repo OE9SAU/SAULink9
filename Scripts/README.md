@@ -9,12 +9,9 @@ In Verbindung mit der **FanControl** lässt sich damit gut beobachten, wie sich 
 
 ## Installation
 ```
-sudo cp /var/www/html/esm/index.php /var/www/html/esm/index.php.bak && \
-sudo wget -qO /var/www/html/esm/index.php \
-https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/eSM/index.php && \
-wget -qO install-tempgraph.sh \
+sudo wget -qO install-tempgraph.sh \
 https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/eSM/install-tempgraph.sh && \
-chmod +x install-tempgraph.sh && \
+sudo chmod +x install-tempgraph.sh && \
 sudo ./install-tempgraph.sh
 ```
 
@@ -38,7 +35,10 @@ Verwendeter Lüfter: https://www.amazon.de/dp/B0DKJP347L?ref_=ppx_hzsearch_conn_
 
 ## Installation
 ```
-wget -qO install.sh https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/fancontrol/install.sh && chmod +x install.sh && sudo ./install.sh
+sudo wget -qO install-fancontrol.sh \
+https://raw.githubusercontent.com/OE9SAU/SAULink9/main/Scripts/fancontrol/install-fancontrol.sh && \
+sudo chmod +x install-fancontrol.sh && \
+sudo ./install-fancontrol.sh
 ```
 
 ## Standardwerte

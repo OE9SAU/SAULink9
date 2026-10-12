@@ -1,25 +1,4 @@
 <?php
-/*
- * ================================================================================
- * eZ Server Monitor - Custom Dashboard nur in Verbindung mit install-tempgraph.sh
- * ================================================================================
- *
- * Anpassungen by OE9SAU
- *
- * - CPU-Temperaturanzeige
- * - CPU-Temperaturverlauf (60 Minuten)
- * - Chart.js Temperaturgraph
- * - 15-Minuten-Zeitraster
- * - Fanstatus GPIO18
- * - Fan OFF = grün / ON = rot
- * - Temperaturdaten unter /var/log/esm (Log2RAM)
- *
- * Version: 1.0
- * Stand:   09/2026
- *
- * ================================================================
- */
- 
 require 'autoload.php';
 $Config = new Config();
 $update = $Config->checkUpdate();
@@ -39,7 +18,6 @@ $update = $Config->checkUpdate();
     <script src="js/plugins/jquery-2.1.0.min.js" type="text/javascript"></script>
     <script src="js/plugins/jquery.knob.js" type="text/javascript"></script>
     <script src="js/esm.js" type="text/javascript"></script>
-    <script src="js/chart.umd.min.js"></script>
     <script>
     $(function(){
         $('.gauge').knob({
@@ -313,11 +291,6 @@ $update = $Config->checkUpdate();
                             <td id="cpu-temp"></td>
                         </tr>
                     <?php endif; ?>
-<tr>
-    <td>Fan GPIO18</td>
-    <td id="cpu-gpio18"></td>
-</tr>
-
                 </tbody>
             </table>
         </div>
@@ -394,6 +367,7 @@ $update = $Config->checkUpdate();
     <div class="cls"></div>
 
 </div>
+
 
 
 </body>
