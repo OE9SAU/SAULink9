@@ -3471,7 +3471,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 1.2875 1.65 180)
+			(at 1.2875 1.65 0)
 			(layer "F.SilkS")
 			(uuid "fd0a353c-affe-40d7-98a5-9b2d4a6ebd0d")
 			(effects
@@ -3520,7 +3520,7 @@
 		(path "/b1837453-ad34-4c53-9b7b-47fc2e792e6c")
 		(sheetname "/")
 		(sheetfile "WatchDog_Optokoppler_v1.1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -3860,7 +3860,7 @@
 		(path "/7d447a27-7a0f-48f7-928b-b3cf42e13816")
 		(sheetname "/")
 		(sheetfile "WatchDog_Optokoppler_v1.1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
