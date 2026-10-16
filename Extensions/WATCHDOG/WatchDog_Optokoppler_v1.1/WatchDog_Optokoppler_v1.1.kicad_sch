@@ -2327,7 +2327,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "R2 = 300 kΩ\nC3 = 100 µF\nT≈1.1×300k×100µF≈33sec"
+	(text_box "R2 = 270kΩ\nC3 = 100µF\nT≈1.1×270k×100µF≈30sec"
 		(exclude_from_sim no)
 		(at 131.826 123.19 0)
 		(size 25.146 7.874)
@@ -2349,13 +2349,13 @@
 		)
 		(uuid "1ec5bcd1-2e96-43c2-a5df-8f63e1dd83db")
 	)
-	(text_box "R7 JUMP, R8 10k,  -> J3/1 schaltet nach GND\nR7 10k, R8 JUMP   -> J3/2 schaltet nach VCC\nR7, R8 DNP -> potentialfreier Kontakt\n"
+	(text_box "R7=0R / R8=10k	-> J2/1 wird bei Akivierung LOW\nR7=10k / R8=0R	-> J2/2 wird bei Akivierung HIGH\nR7 / R8 DNP		-> potentialfreier Kontakt\n"
 		(exclude_from_sim no)
-		(at 182.88 37.084 0)
+		(at 210.566 43.18 0)
 		(size 59.182 7.366)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0)
+			(width 0.0254)
 			(type solid)
 		)
 		(fill
@@ -2364,6 +2364,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left top)
 		)
@@ -3757,7 +3759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d447a27-7a0f-48f7-928b-b3cf42e13816")
-		(property "Reference" "R7_DNP1"
+		(property "Reference" "R7_or_DNP"
 			(at 194.31 84.5819 0)
 			(effects
 				(font
@@ -3811,7 +3813,7 @@
 		(instances
 			(project "WatchDog_Optokoppler_v1.1"
 				(path "/29f198fb-0cdf-4a4e-aa2c-b6e602c824aa"
-					(reference "R7_DNP1")
+					(reference "R7_or_DNP")
 					(unit 1)
 				)
 			)
@@ -4035,7 +4037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1837453-ad34-4c53-9b7b-47fc2e792e6c")
-		(property "Reference" "R8_DNP1"
+		(property "Reference" "R8_or_DNP"
 			(at 194.31 54.8639 0)
 			(effects
 				(font
@@ -4089,7 +4091,7 @@
 		(instances
 			(project "WatchDog_Optokoppler_v1.1"
 				(path "/29f198fb-0cdf-4a4e-aa2c-b6e602c824aa"
-					(reference "R8_DNP1")
+					(reference "R8_or_DNP")
 					(unit 1)
 				)
 			)
